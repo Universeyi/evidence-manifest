@@ -1,0 +1,25 @@
+The files in results/ are statistics computed from repeated runs that other
+parties have published. No source dataset is redistributed here except where
+noted; the adapters read each source from its original location. Sources and
+their licences, as stated by each source on 2026-10-03:
+
+- tau2-bench baselines and leaderboard submissions
+  https://github.com/sierra-research/tau2-bench  (MIT)
+- tau-bench v1 historical trajectories
+  https://github.com/sierra-research/tau-bench  (MIT)
+- Terminal-Bench 2.0 leaderboard trajectories, as scraped in
+  https://huggingface.co/datasets/yoonholee/terminalbench-trajectories  (Apache-2.0)
+- MCPMark v1 logs
+  https://huggingface.co/datasets/Jakumetsu/mcpmark-trajectory-log  (MIT)
+- METR time-horizon run records
+  https://github.com/METR/eval-analysis-public  (no licence file; only derived
+  statistics are published here)
+- ASSERT-KTH "On Randomness in Agentic Evals" artefacts
+  https://huggingface.co/datasets/ASSERT-KTH/agentic-evals-artifacts  (CC-BY-4.0)
+- MobileWorld stability audit: examples/mobileworld-audit/ are the audit's own
+  run records (https://github.com/Universeyi/instrument-moves, CC BY 4.0). Task
+  names and verifier reasons in them come from MobileWorld
+  (https://github.com/Tongyi-MAI/MobileWorld, Apache-2.0).
+
+results/repeats_survey.md is a source-by-source survey with links; it copies no
+data.

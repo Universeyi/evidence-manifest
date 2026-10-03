@@ -1,0 +1,64 @@
+{
+ "source": "MobileWorld stability audit, data/analysis.json, arm A_temp0, rounds 4-10, seed 20260824, 10000 resamples",
+ "settings": {
+  "rounds": "4-10",
+  "strata": "tests/mobileworld-audit.strata.json",
+  "seed": 20260824,
+  "resamples": 10000
+ },
+ "expected": {
+  "per_round_scores": [
+   31.0345,
+   31.0345,
+   39.1304,
+   34.4828,
+   37.931,
+   37.931,
+   34.4828
+  ],
+  "observed_range_pp": 8.0959,
+  "n_flipped": 8,
+  "flipped_task_ids": [
+   "CVEmailTask",
+   "DownloadSendReceiptTask",
+   "MastodonImportMutedUsersTask",
+   "MattermostBudgetApprovalPipelineTask",
+   "MattermostEmailTask",
+   "ScheduleLunchViaSmsTask",
+   "SendFormsTask",
+   "TakeSelfieTask"
+  ],
+  "mean_flip_rate": 0.1215,
+  "rerun_plugin_sd": 4.1878,
+  "rerun_posterior_sd": 5.8651,
+  "bootstrap_sd": 1.6544,
+  "fixed_taskset_sd": 3.1271,
+  "fixed_taskset_ci95_width": 12.8205,
+  "resampled_tasks_sd": 3.6476,
+  "mdd95_pp": 8.6364,
+  "mdd95_power80_pp": 12.3449,
+  "loo_mdd_min": 7.9069,
+  "loo_mdd_max": 8.9563,
+  "loo_n_flipped": [
+   8,
+   8,
+   7,
+   7,
+   7,
+   8,
+   8
+  ]
+ },
+ "changes": [
+  {
+   "date": "2026-10-03",
+   "fields": {
+    "mdd95_pp": 8.6677,
+    "mdd95_power80_pp": 12.3897,
+    "loo_mdd_min": 8.0213,
+    "loo_mdd_max": 9.005
+   },
+   "why": "Threshold now uses the exact Bernoulli SD instead of the 10,000-draw simulated SD, as in the camera-ready version of the paper (rounds 4-10 with round 6: 8.64; leave-one-round-out 7.91-8.96)."
+  }
+ ]
+}

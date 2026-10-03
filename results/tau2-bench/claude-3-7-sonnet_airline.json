@@ -1,0 +1,2813 @@
+{
+ "generated_at": "2026-09-05T05:16:12+00:00",
+ "generator": "evidence-manifest/reference/analyze.py",
+ "settings": {
+  "label": "tau2-bench claude-3-7-sonnet_airline",
+  "inputs": [
+   "/private/tmp/claude-501/-Users-jingyuanyi-Documents-mobileworld/8a477d9e-3f8c-48a9-a2f4-b27b373d2be6/scratchpad/tau2_manifests/claude-3-7-sonnet_airline"
+  ],
+  "rounds": null,
+  "exclude_rounds": null,
+  "strata": null,
+  "measured_is_suite": true,
+  "pass_threshold": 0.99,
+  "resamples": 10000,
+  "seed": 20260824
+ },
+ "analysis": {
+  "n_manifests": 200,
+  "n_tasks": 50,
+  "rounds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "outcomes": {
+   "completed": 200
+  },
+  "outcomes_by_round": {
+   "1": {
+    "completed": 50
+   },
+   "2": {
+    "completed": 50
+   },
+   "3": {
+    "completed": 50
+   },
+   "4": {
+    "completed": 50
+   }
+  },
+  "criteria_versions": {
+   "c30d59aaa71c65f9b9eb6a8f8636b48945028fcf": 200
+  },
+  "per_round_suite_score": {
+   "per_round": [
+    {
+     "round": 1,
+     "n_tasks_attempted": 50,
+     "n_tasks_scored": 50,
+     "n_passed": 27,
+     "score_pct": 54.0,
+     "complete": true,
+     "reduced_denominator": false
+    },
+    {
+     "round": 2,
+     "n_tasks_attempted": 50,
+     "n_tasks_scored": 50,
+     "n_passed": 25,
+     "score_pct": 50.0,
+     "complete": true,
+     "reduced_denominator": false
+    },
+    {
+     "round": 3,
+     "n_tasks_attempted": 50,
+     "n_tasks_scored": 50,
+     "n_passed": 25,
+     "score_pct": 50.0,
+     "complete": true,
+     "reduced_denominator": false
+    },
+    {
+     "round": 4,
+     "n_tasks_attempted": 50,
+     "n_tasks_scored": 50,
+     "n_passed": 23,
+     "score_pct": 46.0,
+     "complete": true,
+     "reduced_denominator": false
+    }
+   ],
+   "n_rounds_complete": 4,
+   "n_rounds_partial": 0,
+   "tasks_per_complete_round": 50,
+   "summary": {
+    "n": 4,
+    "mean": 50.0,
+    "sd": 3.266,
+    "min": 46.0,
+    "p05": 46.6,
+    "median": 50.0,
+    "p95": 53.4,
+    "max": 54.0
+   },
+   "observed_range_pp": 8.0,
+   "pairwise_abs_difference_pp": {
+    "n": 6,
+    "mean": 4.0,
+    "sd": 2.5298,
+    "min": 0.0,
+    "p05": 1.0,
+    "median": 4.0,
+    "p95": 7.0,
+    "max": 8.0
+   },
+   "note": "Rounds that attempted fewer tasks than the fullest round are still in progress and are excluded; rounds that attempted every task but scored fewer are kept and flagged."
+  },
+  "tasks": [
+   {
+    "task_id": "0",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 2,
+    "pass_rate": 0.5,
+    "wilson95": [
+     0.15,
+     0.85
+    ],
+    "wilson95_width": 0.6999,
+    "flipped": true,
+    "flip_rate": 0.6667,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     }
+    ]
+   },
+   {
+    "task_id": "1",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 0,
+    "pass_rate": 0.0,
+    "wilson95": [
+     0.0,
+     0.4899
+    ],
+    "wilson95_width": 0.4899,
+    "flipped": false,
+    "flip_rate": 0.0,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     }
+    ]
+   },
+   {
+    "task_id": "10",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 2,
+    "pass_rate": 0.5,
+    "wilson95": [
+     0.15,
+     0.85
+    ],
+    "wilson95_width": 0.6999,
+    "flipped": true,
+    "flip_rate": 0.6667,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     }
+    ]
+   },
+   {
+    "task_id": "11",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 4,
+    "pass_rate": 1.0,
+    "wilson95": [
+     0.5101,
+     1.0
+    ],
+    "wilson95_width": 0.4899,
+    "flipped": false,
+    "flip_rate": 0.0,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     }
+    ]
+   },
+   {
+    "task_id": "12",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 0,
+    "pass_rate": 0.0,
+    "wilson95": [
+     0.0,
+     0.4899
+    ],
+    "wilson95_width": 0.4899,
+    "flipped": false,
+    "flip_rate": 0.0,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     }
+    ]
+   },
+   {
+    "task_id": "13",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 4,
+    "pass_rate": 1.0,
+    "wilson95": [
+     0.5101,
+     1.0
+    ],
+    "wilson95_width": 0.4899,
+    "flipped": false,
+    "flip_rate": 0.0,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     }
+    ]
+   },
+   {
+    "task_id": "14",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 0,
+    "pass_rate": 0.0,
+    "wilson95": [
+     0.0,
+     0.4899
+    ],
+    "wilson95_width": 0.4899,
+    "flipped": false,
+    "flip_rate": 0.0,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     }
+    ]
+   },
+   {
+    "task_id": "15",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 0,
+    "pass_rate": 0.0,
+    "wilson95": [
+     0.0,
+     0.4899
+    ],
+    "wilson95_width": 0.4899,
+    "flipped": false,
+    "flip_rate": 0.0,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     }
+    ]
+   },
+   {
+    "task_id": "16",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 1,
+    "pass_rate": 0.25,
+    "wilson95": [
+     0.0456,
+     0.6994
+    ],
+    "wilson95_width": 0.6538,
+    "flipped": true,
+    "flip_rate": 0.5,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     }
+    ]
+   },
+   {
+    "task_id": "17",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 4,
+    "pass_rate": 1.0,
+    "wilson95": [
+     0.5101,
+     1.0
+    ],
+    "wilson95_width": 0.4899,
+    "flipped": false,
+    "flip_rate": 0.0,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     }
+    ]
+   },
+   {
+    "task_id": "18",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 4,
+    "pass_rate": 1.0,
+    "wilson95": [
+     0.5101,
+     1.0
+    ],
+    "wilson95_width": 0.4899,
+    "flipped": false,
+    "flip_rate": 0.0,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     }
+    ]
+   },
+   {
+    "task_id": "19",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 4,
+    "pass_rate": 1.0,
+    "wilson95": [
+     0.5101,
+     1.0
+    ],
+    "wilson95_width": 0.4899,
+    "flipped": false,
+    "flip_rate": 0.0,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     }
+    ]
+   },
+   {
+    "task_id": "2",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 4,
+    "pass_rate": 1.0,
+    "wilson95": [
+     0.5101,
+     1.0
+    ],
+    "wilson95_width": 0.4899,
+    "flipped": false,
+    "flip_rate": 0.0,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     }
+    ]
+   },
+   {
+    "task_id": "20",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 3,
+    "pass_rate": 0.75,
+    "wilson95": [
+     0.3006,
+     0.9544
+    ],
+    "wilson95_width": 0.6538,
+    "flipped": true,
+    "flip_rate": 0.5,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     }
+    ]
+   },
+   {
+    "task_id": "21",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 1,
+    "pass_rate": 0.25,
+    "wilson95": [
+     0.0456,
+     0.6994
+    ],
+    "wilson95_width": 0.6538,
+    "flipped": true,
+    "flip_rate": 0.5,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     }
+    ]
+   },
+   {
+    "task_id": "22",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 1,
+    "pass_rate": 0.25,
+    "wilson95": [
+     0.0456,
+     0.6994
+    ],
+    "wilson95_width": 0.6538,
+    "flipped": true,
+    "flip_rate": 0.5,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     }
+    ]
+   },
+   {
+    "task_id": "23",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 0,
+    "pass_rate": 0.0,
+    "wilson95": [
+     0.0,
+     0.4899
+    ],
+    "wilson95_width": 0.4899,
+    "flipped": false,
+    "flip_rate": 0.0,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     }
+    ]
+   },
+   {
+    "task_id": "24",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 1,
+    "pass_rate": 0.25,
+    "wilson95": [
+     0.0456,
+     0.6994
+    ],
+    "wilson95_width": 0.6538,
+    "flipped": true,
+    "flip_rate": 0.5,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     }
+    ]
+   },
+   {
+    "task_id": "25",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 4,
+    "pass_rate": 1.0,
+    "wilson95": [
+     0.5101,
+     1.0
+    ],
+    "wilson95_width": 0.4899,
+    "flipped": false,
+    "flip_rate": 0.0,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     }
+    ]
+   },
+   {
+    "task_id": "26",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 0,
+    "pass_rate": 0.0,
+    "wilson95": [
+     0.0,
+     0.4899
+    ],
+    "wilson95_width": 0.4899,
+    "flipped": false,
+    "flip_rate": 0.0,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     }
+    ]
+   },
+   {
+    "task_id": "27",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 1,
+    "pass_rate": 0.25,
+    "wilson95": [
+     0.0456,
+     0.6994
+    ],
+    "wilson95_width": 0.6538,
+    "flipped": true,
+    "flip_rate": 0.5,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     }
+    ]
+   },
+   {
+    "task_id": "28",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 4,
+    "pass_rate": 1.0,
+    "wilson95": [
+     0.5101,
+     1.0
+    ],
+    "wilson95_width": 0.4899,
+    "flipped": false,
+    "flip_rate": 0.0,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     }
+    ]
+   },
+   {
+    "task_id": "29",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 2,
+    "pass_rate": 0.5,
+    "wilson95": [
+     0.15,
+     0.85
+    ],
+    "wilson95_width": 0.6999,
+    "flipped": true,
+    "flip_rate": 0.6667,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     }
+    ]
+   },
+   {
+    "task_id": "3",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 4,
+    "pass_rate": 1.0,
+    "wilson95": [
+     0.5101,
+     1.0
+    ],
+    "wilson95_width": 0.4899,
+    "flipped": false,
+    "flip_rate": 0.0,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     }
+    ]
+   },
+   {
+    "task_id": "30",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 4,
+    "pass_rate": 1.0,
+    "wilson95": [
+     0.5101,
+     1.0
+    ],
+    "wilson95_width": 0.4899,
+    "flipped": false,
+    "flip_rate": 0.0,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     }
+    ]
+   },
+   {
+    "task_id": "31",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 4,
+    "pass_rate": 1.0,
+    "wilson95": [
+     0.5101,
+     1.0
+    ],
+    "wilson95_width": 0.4899,
+    "flipped": false,
+    "flip_rate": 0.0,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     }
+    ]
+   },
+   {
+    "task_id": "32",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 0,
+    "pass_rate": 0.0,
+    "wilson95": [
+     0.0,
+     0.4899
+    ],
+    "wilson95_width": 0.4899,
+    "flipped": false,
+    "flip_rate": 0.0,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     }
+    ]
+   },
+   {
+    "task_id": "33",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 0,
+    "pass_rate": 0.0,
+    "wilson95": [
+     0.0,
+     0.4899
+    ],
+    "wilson95_width": 0.4899,
+    "flipped": false,
+    "flip_rate": 0.0,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     }
+    ]
+   },
+   {
+    "task_id": "34",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 3,
+    "pass_rate": 0.75,
+    "wilson95": [
+     0.3006,
+     0.9544
+    ],
+    "wilson95_width": 0.6538,
+    "flipped": true,
+    "flip_rate": 0.5,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     }
+    ]
+   },
+   {
+    "task_id": "35",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 0,
+    "pass_rate": 0.0,
+    "wilson95": [
+     0.0,
+     0.4899
+    ],
+    "wilson95_width": 0.4899,
+    "flipped": false,
+    "flip_rate": 0.0,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     }
+    ]
+   },
+   {
+    "task_id": "36",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 1,
+    "pass_rate": 0.25,
+    "wilson95": [
+     0.0456,
+     0.6994
+    ],
+    "wilson95_width": 0.6538,
+    "flipped": true,
+    "flip_rate": 0.5,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     }
+    ]
+   },
+   {
+    "task_id": "37",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 0,
+    "pass_rate": 0.0,
+    "wilson95": [
+     0.0,
+     0.4899
+    ],
+    "wilson95_width": 0.4899,
+    "flipped": false,
+    "flip_rate": 0.0,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     }
+    ]
+   },
+   {
+    "task_id": "38",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 2,
+    "pass_rate": 0.5,
+    "wilson95": [
+     0.15,
+     0.85
+    ],
+    "wilson95_width": 0.6999,
+    "flipped": true,
+    "flip_rate": 0.6667,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     }
+    ]
+   },
+   {
+    "task_id": "39",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 0,
+    "pass_rate": 0.0,
+    "wilson95": [
+     0.0,
+     0.4899
+    ],
+    "wilson95_width": 0.4899,
+    "flipped": false,
+    "flip_rate": 0.0,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     }
+    ]
+   },
+   {
+    "task_id": "4",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 4,
+    "pass_rate": 1.0,
+    "wilson95": [
+     0.5101,
+     1.0
+    ],
+    "wilson95_width": 0.4899,
+    "flipped": false,
+    "flip_rate": 0.0,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     }
+    ]
+   },
+   {
+    "task_id": "40",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 4,
+    "pass_rate": 1.0,
+    "wilson95": [
+     0.5101,
+     1.0
+    ],
+    "wilson95_width": 0.4899,
+    "flipped": false,
+    "flip_rate": 0.0,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     }
+    ]
+   },
+   {
+    "task_id": "41",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 0,
+    "pass_rate": 0.0,
+    "wilson95": [
+     0.0,
+     0.4899
+    ],
+    "wilson95_width": 0.4899,
+    "flipped": false,
+    "flip_rate": 0.0,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     }
+    ]
+   },
+   {
+    "task_id": "42",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 4,
+    "pass_rate": 1.0,
+    "wilson95": [
+     0.5101,
+     1.0
+    ],
+    "wilson95_width": 0.4899,
+    "flipped": false,
+    "flip_rate": 0.0,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     }
+    ]
+   },
+   {
+    "task_id": "43",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 0,
+    "pass_rate": 0.0,
+    "wilson95": [
+     0.0,
+     0.4899
+    ],
+    "wilson95_width": 0.4899,
+    "flipped": false,
+    "flip_rate": 0.0,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     }
+    ]
+   },
+   {
+    "task_id": "44",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 4,
+    "pass_rate": 1.0,
+    "wilson95": [
+     0.5101,
+     1.0
+    ],
+    "wilson95_width": 0.4899,
+    "flipped": false,
+    "flip_rate": 0.0,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     }
+    ]
+   },
+   {
+    "task_id": "45",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 0,
+    "pass_rate": 0.0,
+    "wilson95": [
+     0.0,
+     0.4899
+    ],
+    "wilson95_width": 0.4899,
+    "flipped": false,
+    "flip_rate": 0.0,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     }
+    ]
+   },
+   {
+    "task_id": "46",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 4,
+    "pass_rate": 1.0,
+    "wilson95": [
+     0.5101,
+     1.0
+    ],
+    "wilson95_width": 0.4899,
+    "flipped": false,
+    "flip_rate": 0.0,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     }
+    ]
+   },
+   {
+    "task_id": "47",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 2,
+    "pass_rate": 0.5,
+    "wilson95": [
+     0.15,
+     0.85
+    ],
+    "wilson95_width": 0.6999,
+    "flipped": true,
+    "flip_rate": 0.6667,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     }
+    ]
+   },
+   {
+    "task_id": "48",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 2,
+    "pass_rate": 0.5,
+    "wilson95": [
+     0.15,
+     0.85
+    ],
+    "wilson95_width": 0.6999,
+    "flipped": true,
+    "flip_rate": 0.6667,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     }
+    ]
+   },
+   {
+    "task_id": "49",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 3,
+    "pass_rate": 0.75,
+    "wilson95": [
+     0.3006,
+     0.9544
+    ],
+    "wilson95_width": 0.6538,
+    "flipped": true,
+    "flip_rate": 0.5,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     }
+    ]
+   },
+   {
+    "task_id": "5",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 1,
+    "pass_rate": 0.25,
+    "wilson95": [
+     0.0456,
+     0.6994
+    ],
+    "wilson95_width": 0.6538,
+    "flipped": true,
+    "flip_rate": 0.5,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     }
+    ]
+   },
+   {
+    "task_id": "6",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 4,
+    "pass_rate": 1.0,
+    "wilson95": [
+     0.5101,
+     1.0
+    ],
+    "wilson95_width": 0.4899,
+    "flipped": false,
+    "flip_rate": 0.0,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     }
+    ]
+   },
+   {
+    "task_id": "7",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 0,
+    "pass_rate": 0.0,
+    "wilson95": [
+     0.0,
+     0.4899
+    ],
+    "wilson95_width": 0.4899,
+    "flipped": false,
+    "flip_rate": 0.0,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     }
+    ]
+   },
+   {
+    "task_id": "8",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 4,
+    "pass_rate": 1.0,
+    "wilson95": [
+     0.5101,
+     1.0
+    ],
+    "wilson95_width": 0.4899,
+    "flipped": false,
+    "flip_rate": 0.0,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 1.0,
+      "pass": true
+     }
+    ]
+   },
+   {
+    "task_id": "9",
+    "stratum": null,
+    "n_runs": 4,
+    "n_scored": 4,
+    "n_unscored": 0,
+    "unscored_outcomes": {},
+    "passes": 0,
+    "pass_rate": 0.0,
+    "wilson95": [
+     0.0,
+     0.4899
+    ],
+    "wilson95_width": 0.4899,
+    "flipped": false,
+    "flip_rate": 0.0,
+    "flip_rate_max": 0.6667,
+    "n_unadjudicable": 0,
+    "silent_retries": 0,
+    "trial_outcomes": [
+     {
+      "round": 1,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 2,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 3,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     },
+     {
+      "round": 4,
+      "outcome": "completed",
+      "score": 0.0,
+      "pass": false
+     }
+    ]
+   }
+  ],
+  "flips": {
+   "n_tasks_with_2plus_scored": 50,
+   "n_flipped": 16,
+   "flipped_task_ids": [
+    "0",
+    "10",
+    "16",
+    "20",
+    "21",
+    "22",
+    "24",
+    "27",
+    "29",
+    "34",
+    "36",
+    "38",
+    "47",
+    "48",
+    "49",
+    "5"
+   ],
+   "mean_flip_rate": 0.18,
+   "n_trials_typical": 4,
+   "flip_rate_max_typical": 0.6667,
+   "ranked_by_instability": [
+    {
+     "task_id": "0",
+     "stratum": null,
+     "passes": 2,
+     "n_scored": 4,
+     "pass_rate": 0.5,
+     "flip_rate": 0.6667,
+     "wilson95": [
+      0.15,
+      0.85
+     ]
+    },
+    {
+     "task_id": "10",
+     "stratum": null,
+     "passes": 2,
+     "n_scored": 4,
+     "pass_rate": 0.5,
+     "flip_rate": 0.6667,
+     "wilson95": [
+      0.15,
+      0.85
+     ]
+    },
+    {
+     "task_id": "29",
+     "stratum": null,
+     "passes": 2,
+     "n_scored": 4,
+     "pass_rate": 0.5,
+     "flip_rate": 0.6667,
+     "wilson95": [
+      0.15,
+      0.85
+     ]
+    },
+    {
+     "task_id": "38",
+     "stratum": null,
+     "passes": 2,
+     "n_scored": 4,
+     "pass_rate": 0.5,
+     "flip_rate": 0.6667,
+     "wilson95": [
+      0.15,
+      0.85
+     ]
+    },
+    {
+     "task_id": "47",
+     "stratum": null,
+     "passes": 2,
+     "n_scored": 4,
+     "pass_rate": 0.5,
+     "flip_rate": 0.6667,
+     "wilson95": [
+      0.15,
+      0.85
+     ]
+    },
+    {
+     "task_id": "48",
+     "stratum": null,
+     "passes": 2,
+     "n_scored": 4,
+     "pass_rate": 0.5,
+     "flip_rate": 0.6667,
+     "wilson95": [
+      0.15,
+      0.85
+     ]
+    },
+    {
+     "task_id": "16",
+     "stratum": null,
+     "passes": 1,
+     "n_scored": 4,
+     "pass_rate": 0.25,
+     "flip_rate": 0.5,
+     "wilson95": [
+      0.0456,
+      0.6994
+     ]
+    },
+    {
+     "task_id": "20",
+     "stratum": null,
+     "passes": 3,
+     "n_scored": 4,
+     "pass_rate": 0.75,
+     "flip_rate": 0.5,
+     "wilson95": [
+      0.3006,
+      0.9544
+     ]
+    },
+    {
+     "task_id": "21",
+     "stratum": null,
+     "passes": 1,
+     "n_scored": 4,
+     "pass_rate": 0.25,
+     "flip_rate": 0.5,
+     "wilson95": [
+      0.0456,
+      0.6994
+     ]
+    },
+    {
+     "task_id": "22",
+     "stratum": null,
+     "passes": 1,
+     "n_scored": 4,
+     "pass_rate": 0.25,
+     "flip_rate": 0.5,
+     "wilson95": [
+      0.0456,
+      0.6994
+     ]
+    },
+    {
+     "task_id": "24",
+     "stratum": null,
+     "passes": 1,
+     "n_scored": 4,
+     "pass_rate": 0.25,
+     "flip_rate": 0.5,
+     "wilson95": [
+      0.0456,
+      0.6994
+     ]
+    },
+    {
+     "task_id": "27",
+     "stratum": null,
+     "passes": 1,
+     "n_scored": 4,
+     "pass_rate": 0.25,
+     "flip_rate": 0.5,
+     "wilson95": [
+      0.0456,
+      0.6994
+     ]
+    },
+    {
+     "task_id": "34",
+     "stratum": null,
+     "passes": 3,
+     "n_scored": 4,
+     "pass_rate": 0.75,
+     "flip_rate": 0.5,
+     "wilson95": [
+      0.3006,
+      0.9544
+     ]
+    },
+    {
+     "task_id": "36",
+     "stratum": null,
+     "passes": 1,
+     "n_scored": 4,
+     "pass_rate": 0.25,
+     "flip_rate": 0.5,
+     "wilson95": [
+      0.0456,
+      0.6994
+     ]
+    },
+    {
+     "task_id": "49",
+     "stratum": null,
+     "passes": 3,
+     "n_scored": 4,
+     "pass_rate": 0.75,
+     "flip_rate": 0.5,
+     "wilson95": [
+      0.3006,
+      0.9544
+     ]
+    },
+    {
+     "task_id": "5",
+     "stratum": null,
+     "passes": 1,
+     "n_scored": 4,
+     "pass_rate": 0.25,
+     "flip_rate": 0.5,
+     "wilson95": [
+      0.0456,
+      0.6994
+     ]
+    }
+   ]
+  },
+  "rerun": {
+   "plugin": {
+    "n_slots": 50,
+    "n_resamples": 10000,
+    "mean_pct": 50.0048,
+    "sd_pp": 3.6693,
+    "ci95_pct": [
+     42.0,
+     58.0
+    ],
+    "ci95_width_pp": 16.0,
+    "counts_hist": {
+     "18": 1,
+     "19": 2,
+     "20": 36,
+     "21": 215,
+     "22": 592,
+     "23": 1215,
+     "24": 1906,
+     "25": 2120,
+     "26": 1851,
+     "27": 1196,
+     "28": 593,
+     "29": 205,
+     "30": 58,
+     "31": 7,
+     "32": 3
+    },
+    "definition": "Bernoulli(p_hat) per task: noise only, the rate taken as exact."
+   },
+   "posterior": {
+    "n_slots": 50,
+    "n_resamples": 10000,
+    "mean_pct": 49.9568,
+    "sd_pp": 5.1401,
+    "ci95_pct": [
+     40.0,
+     60.0
+    ],
+    "ci95_width_pp": 20.0,
+    "counts_hist": {
+     "14": 1,
+     "16": 5,
+     "17": 14,
+     "18": 29,
+     "19": 101,
+     "20": 251,
+     "21": 497,
+     "22": 772,
+     "23": 1160,
+     "24": 1388,
+     "25": 1557,
+     "26": 1489,
+     "27": 1101,
+     "28": 794,
+     "29": 451,
+     "30": 249,
+     "31": 94,
+     "32": 37,
+     "33": 7,
+     "34": 3
+    },
+    "definition": "p drawn from Jeffreys Beta(k+0.5, n-k+0.5) then Bernoulli(p): includes that p itself is only estimated."
+   }
+  },
+  "estimate": {
+   "n_resamples": 10000,
+   "mean_pct": 49.9984,
+   "sd_pp": 1.83,
+   "ci95_pct": [
+    46.5,
+    53.5
+   ],
+   "ci95_width_pp": 7.0,
+   "definition": "Trials resampled within each task: the precision of this experiment's own estimate, not the spread of a future run."
+  },
+  "suite_extrapolation": null,
+  "detectable_difference": {
+   "single_run_sd_pp": 3.6693,
+   "difference_sd_pp": 5.1892,
+   "mdd95_pp": 10.1706,
+   "mdd95_power80_pp": 14.5379,
+   "definition": {
+    "mdd95_pp": "A gap between two single runs smaller than this is within what noise alone produces 95% of the time when the two are in fact equal.",
+    "mdd95_power80_pp": "The gap needed for a single-run comparison to come out significant 80% of the time."
+   },
+   "basis": "rerun.plugin (the measured tasks are the whole suite)"
+  },
+  "statistical_power": {
+   "sufficient": true,
+   "reasons": [],
+   "n_tasks_scored": 50,
+   "min_scored_trials_per_task": 4
+  },
+  "adjudicability": {
+   "n_unadjudicable": 0,
+   "n_manifests": 200,
+   "observations": {
+    "per_step": 200
+   },
+   "note": "A verdict with no retained observation and no verifier reason cannot be re-examined by anyone. Such runs count in every rate above; they are excluded from any false-positive / false-negative analysis."
+  },
+  "silent_retries": {
+   "total": 0,
+   "by_round": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0
+   }
+  },
+  "drift": {
+   "rounds": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "series": [
+    128.29,
+    132.88,
+    136.11,
+    132.09
+   ],
+   "basis": {
+    "per_step_mean": 200
+   },
+   "note": "Median completion tokens per round; per-step mean where steps[] exists, run total otherwise. A step here is the signature of the serving endpoint changing; the screen says where to look, not that it happened.",
+   "screen_top": [
+    {
+     "boundary_after_round": 2,
+     "left_mean": 130.583,
+     "right_mean": 134.1,
+     "step": 3.517,
+     "step_pct": 2.69,
+     "variance_explained": 0.3992
+    }
+   ]
+  },
+  "leave_one_out": {
+   "method": "Each round dropped in turn; every figure recomputed on what is left.",
+   "variants": [
+    {
+     "dropped_round": 1,
+     "n_rounds_left": 3,
+     "observed_range_pp": 4.0,
+     "mdd95_pp": 9.8155,
+     "ci95_width_pp": null,
+     "n_flipped": 14
+    },
+    {
+     "dropped_round": 2,
+     "n_rounds_left": 3,
+     "observed_range_pp": 8.0,
+     "mdd95_pp": 9.0888,
+     "ci95_width_pp": null,
+     "n_flipped": 12
+    },
+    {
+     "dropped_round": 3,
+     "n_rounds_left": 3,
+     "observed_range_pp": 8.0,
+     "mdd95_pp": 9.4211,
+     "ci95_width_pp": null,
+     "n_flipped": 13
+    },
+    {
+     "dropped_round": 4,
+     "n_rounds_left": 3,
+     "observed_range_pp": 4.0,
+     "mdd95_pp": 10.1692,
+     "ci95_width_pp": null,
+     "n_flipped": 15
+    }
+   ],
+   "mdd95_pp_min": 9.0888,
+   "mdd95_pp_max": 10.1692,
+   "observed_range_pp_min": 4.0,
+   "observed_range_pp_max": 8.0
+  }
+ }
+}

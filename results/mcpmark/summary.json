@@ -1,0 +1,3531 @@
+{
+ "summary": {
+  "n_configs": 116,
+  "n_reportable_nonzero": 67,
+  "mdd": {
+   "min": 0.0,
+   "p25": 9.3621,
+   "median": 11.4828,
+   "p75": 13.5447,
+   "max": 20.4473
+  },
+  "flipped_share": {
+   "min": 0.0,
+   "median": 0.21739130434782608,
+   "max": 0.5714285714285714
+  },
+  "range4": {
+   "median": 9.523800000000001,
+   "max": 21.9212
+  },
+  "by_service": {
+   "filesystem": {
+    "configs": 16,
+    "tasks": 30,
+    "mdd_median": 10.9794,
+    "mdd_min": 0.0,
+    "mdd_max": 15.1238,
+    "flip_share_median": 0.23333333333333334
+   },
+   "github": {
+    "configs": 12,
+    "tasks": 23,
+    "mdd_median": 10.9617,
+    "mdd_min": 5.142,
+    "mdd_max": 12.4113,
+    "flip_share_median": 0.17391304347826086
+   },
+   "notion": {
+    "configs": 14,
+    "tasks": 28,
+    "mdd_median": 10.7019,
+    "mdd_min": 4.9499,
+    "mdd_max": 15.3095,
+    "flip_share_median": 0.21428571428571427
+   },
+   "playwright": {
+    "configs": 9,
+    "tasks": 25,
+    "mdd_median": 11.9764,
+    "mdd_min": 4.8019,
+    "mdd_max": 13.716,
+    "flip_share_median": 0.24
+   },
+   "postgres": {
+    "configs": 16,
+    "tasks": 21,
+    "mdd_median": 14.8563,
+    "mdd_min": 0.0,
+    "mdd_max": 20.4473,
+    "flip_share_median": 0.2857142857142857
+   }
+  },
+  "budget_exhausted": 409,
+  "errors": 559,
+  "manifests": 11314
+ },
+ "configs": [
+  {
+   "name": "qwen-3-max__postgres",
+   "model": "qwen-3-max",
+   "mcp": "postgres",
+   "tasks": 21,
+   "rounds": 4,
+   "scores": [
+    42.9,
+    47.6,
+    45.0,
+    47.4
+   ],
+   "mean": 45.711125,
+   "rng": 4.761899999999997,
+   "sd": 2.892,
+   "mdd": 8.0161,
+   "fl": 2,
+   "nfl": 21,
+   "bud": 0,
+   "err": 3,
+   "n": 84,
+   "rep": false,
+   "loo": [
+    6.2111,
+    8.7309
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "kimi-k2-0905__postgres",
+   "model": "kimi-k2-0905",
+   "mcp": "postgres",
+   "tasks": 21,
+   "rounds": 4,
+   "scores": [
+    52.4,
+    52.4,
+    45.0,
+    45.0
+   ],
+   "mean": 48.6905,
+   "rng": 7.381,
+   "sd": 5.8491,
+   "mdd": 16.2126,
+   "fl": 7,
+   "nfl": 21,
+   "bud": 0,
+   "err": 2,
+   "n": 84,
+   "rep": false,
+   "loo": [
+    14.0434,
+    16.7425
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-4-1__github",
+   "model": "gpt-4-1",
+   "mcp": "github",
+   "tasks": 23,
+   "rounds": 4,
+   "scores": [
+    8.7,
+    8.7,
+    9.1,
+    4.5
+   ],
+   "mean": 7.75695,
+   "rng": 4.5454,
+   "sd": 1.8551,
+   "mdd": 5.142,
+   "fl": 1,
+   "nfl": 23,
+   "bud": 0,
+   "err": 2,
+   "n": 92,
+   "rep": true,
+   "loo": [
+    0.0,
+    5.6279
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "glm-4-5__postgres",
+   "model": "glm-4-5",
+   "mcp": "postgres",
+   "tasks": 21,
+   "rounds": 4,
+   "scores": [
+    23.8,
+    9.5,
+    19.0,
+    4.8
+   ],
+   "mean": 14.2857,
+   "rng": 19.0476,
+   "sd": 4.9823,
+   "mdd": 13.81,
+   "fl": 5,
+   "nfl": 21,
+   "bud": 1,
+   "err": 0,
+   "n": 84,
+   "rep": true,
+   "loo": [
+    10.7455,
+    13.884
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-5-nano-low__postgres",
+   "model": "gpt-5-nano-low",
+   "mcp": "postgres",
+   "tasks": 21,
+   "rounds": 4,
+   "scores": [
+    9.5,
+    14.3,
+    4.8,
+    4.8
+   ],
+   "mean": 8.333325,
+   "rng": 9.523800000000001,
+   "sd": 4.3059,
+   "mdd": 11.9351,
+   "fl": 4,
+   "nfl": 21,
+   "bud": 0,
+   "err": 0,
+   "n": 84,
+   "rep": true,
+   "loo": [
+    8.7506,
+    12.4715
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "glm-4-5__playwright",
+   "model": "glm-4-5",
+   "mcp": "playwright",
+   "tasks": 25,
+   "rounds": 4,
+   "scores": [
+    16.7,
+    16.7,
+    12.0,
+    8.0
+   ],
+   "mean": 13.33335,
+   "rng": 8.666699999999999,
+   "sd": 3.6233,
+   "mdd": 10.0431,
+   "fl": 4,
+   "nfl": 25,
+   "bud": 23,
+   "err": 2,
+   "n": 100,
+   "rep": false,
+   "loo": [
+    7.363,
+    10.5029
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-4-1__notion",
+   "model": "gpt-4-1",
+   "mcp": "notion",
+   "tasks": 28,
+   "rounds": 4,
+   "scores": [
+    3.6,
+    7.1,
+    7.1,
+    7.1
+   ],
+   "mean": 6.250025,
+   "rng": 3.5715,
+   "sd": 3.2329,
+   "mdd": 8.961,
+   "fl": 4,
+   "nfl": 28,
+   "bud": 0,
+   "err": 0,
+   "n": 112,
+   "rep": true,
+   "loo": [
+    8.0995,
+    9.3831
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "grok-code-fast-1__playwright",
+   "model": "grok-code-fast-1",
+   "mcp": "playwright",
+   "tasks": 25,
+   "rounds": 4,
+   "scores": [
+    31.8,
+    31.6,
+    28.6,
+    27.3
+   ],
+   "mean": 29.8103,
+   "rng": 4.5455000000000005,
+   "sd": 5.0648,
+   "mdd": 14.0387,
+   "fl": 6,
+   "nfl": 22,
+   "bud": 0,
+   "err": 16,
+   "n": 100,
+   "rep": false,
+   "loo": [
+    10.2704,
+    14.6163
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-5-mini-low__filesystem",
+   "model": "gpt-5-mini-low",
+   "mcp": "filesystem",
+   "tasks": 30,
+   "rounds": 4,
+   "scores": [
+    20.0,
+    10.0,
+    6.9,
+    13.3
+   ],
+   "mean": 12.557475,
+   "rng": 13.1034,
+   "sd": 4.4491,
+   "mdd": 12.332,
+   "fl": 9,
+   "nfl": 30,
+   "bud": 3,
+   "err": 1,
+   "n": 120,
+   "rep": true,
+   "loo": [
+    9.8,
+    12.9324
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-4-1-mini__postgres",
+   "model": "gpt-4-1-mini",
+   "mcp": "postgres",
+   "tasks": 21,
+   "rounds": 4,
+   "scores": [
+    9.5,
+    9.5,
+    14.3,
+    4.8
+   ],
+   "mean": 9.5238,
+   "rng": 9.523800000000001,
+   "sd": 2.9557,
+   "mdd": 8.1926,
+   "fl": 2,
+   "nfl": 21,
+   "bud": 0,
+   "err": 0,
+   "n": 84,
+   "rep": true,
+   "loo": [
+    6.2133,
+    8.8681
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-4-1__postgres",
+   "model": "gpt-4-1",
+   "mcp": "postgres",
+   "tasks": 21,
+   "rounds": 4,
+   "scores": [
+    4.8,
+    4.8,
+    4.8,
+    4.8
+   ],
+   "mean": 4.7619,
+   "rng": 0.0,
+   "sd": 0.0,
+   "mdd": 0.0,
+   "fl": 0,
+   "nfl": 21,
+   "bud": 0,
+   "err": 0,
+   "n": 84,
+   "rep": true,
+   "loo": [
+    0.0,
+    0.0
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-4-1__filesystem",
+   "model": "gpt-4-1",
+   "mcp": "filesystem",
+   "tasks": 30,
+   "rounds": 4,
+   "scores": [
+    13.3,
+    10.0,
+    13.3,
+    13.3
+   ],
+   "mean": 12.499975,
+   "rng": 3.3332999999999995,
+   "sd": 3.2205,
+   "mdd": 8.9266,
+   "fl": 5,
+   "nfl": 30,
+   "bud": 1,
+   "err": 0,
+   "n": 120,
+   "rep": true,
+   "loo": [
+    7.5202,
+    9.7629
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gemini-2-5-flash__postgres",
+   "model": "gemini-2-5-flash",
+   "mcp": "postgres",
+   "tasks": 21,
+   "rounds": 4,
+   "scores": [
+    19.0,
+    14.3,
+    5.0,
+    4.8
+   ],
+   "mean": 10.7738,
+   "rng": 14.285699999999999,
+   "sd": 4.2305,
+   "mdd": 11.7261,
+   "fl": 4,
+   "nfl": 21,
+   "bud": 0,
+   "err": 1,
+   "n": 84,
+   "rep": true,
+   "loo": [
+    9.0921,
+    12.515
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "claude-sonnet-4__postgres",
+   "model": "claude-sonnet-4",
+   "mcp": "postgres",
+   "tasks": 21,
+   "rounds": 4,
+   "scores": [
+    47.6,
+    57.1,
+    61.9,
+    47.6
+   ],
+   "mean": 53.571425,
+   "rng": 14.285800000000002,
+   "sd": 5.7403,
+   "mdd": 15.911,
+   "fl": 7,
+   "nfl": 21,
+   "bud": 1,
+   "err": 0,
+   "n": 84,
+   "rep": true,
+   "loo": [
+    10.8583,
+    16.6985
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-4-1-nano__filesystem",
+   "model": "gpt-4-1-nano",
+   "mcp": "filesystem",
+   "tasks": 30,
+   "rounds": 4,
+   "scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "mean": 0.0,
+   "rng": 0.0,
+   "sd": 0.0,
+   "mdd": 0.0,
+   "fl": 0,
+   "nfl": 30,
+   "bud": 3,
+   "err": 0,
+   "n": 120,
+   "rep": true,
+   "loo": [
+    0.0,
+    0.0
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "o3__postgres",
+   "model": "o3",
+   "mcp": "postgres",
+   "tasks": 21,
+   "rounds": 4,
+   "scores": [
+    38.1,
+    33.3,
+    42.9,
+    33.3
+   ],
+   "mean": 36.904725,
+   "rng": 9.523800000000001,
+   "sd": 7.0344,
+   "mdd": 19.498,
+   "fl": 11,
+   "nfl": 21,
+   "bud": 0,
+   "err": 0,
+   "n": 84,
+   "rep": true,
+   "loo": [
+    16.4371,
+    20.5809
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "o4-mini__postgres",
+   "model": "o4-mini",
+   "mcp": "postgres",
+   "tasks": 21,
+   "rounds": 4,
+   "scores": [
+    4.8,
+    14.3,
+    14.3,
+    14.3
+   ],
+   "mean": 11.90475,
+   "rng": 9.523800000000001,
+   "sd": 3.7588,
+   "mdd": 10.4187,
+   "fl": 3,
+   "nfl": 21,
+   "bud": 0,
+   "err": 0,
+   "n": 84,
+   "rep": true,
+   "loo": [
+    8.8188,
+    10.8644
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "deepseek-chat__github",
+   "model": "deepseek-chat",
+   "mcp": "github",
+   "tasks": 23,
+   "rounds": 4,
+   "scores": [
+    8.7,
+    8.7,
+    13.0,
+    9.1
+   ],
+   "mean": 9.881450000000001,
+   "rng": 4.347799999999999,
+   "sd": 1.8848,
+   "mdd": 5.2243,
+   "fl": 1,
+   "nfl": 23,
+   "bud": 38,
+   "err": 1,
+   "n": 92,
+   "rep": true,
+   "loo": [
+    0.0,
+    5.6792
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "claude-sonnet-4__playwright",
+   "model": "claude-sonnet-4",
+   "mcp": "playwright",
+   "tasks": 25,
+   "rounds": 4,
+   "scores": [
+    28.0,
+    16.0,
+    32.0,
+    28.0
+   ],
+   "mean": 26.0,
+   "rng": 16.0,
+   "sd": 4.9172,
+   "mdd": 13.6295,
+   "fl": 7,
+   "nfl": 25,
+   "bud": 32,
+   "err": 0,
+   "n": 100,
+   "rep": true,
+   "loo": [
+    11.781,
+    13.9281
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "qwen-3-coder-plus__github",
+   "model": "qwen-3-coder-plus",
+   "mcp": "github",
+   "tasks": 23,
+   "rounds": 4,
+   "scores": [
+    15.0,
+    31.6,
+    15.8,
+    28.6
+   ],
+   "mean": 22.73495,
+   "rng": 16.5789,
+   "sd": 4.8818,
+   "mdd": 13.5314,
+   "fl": 5,
+   "nfl": 20,
+   "bud": 1,
+   "err": 13,
+   "n": 92,
+   "rep": false,
+   "loo": [
+    10.7729,
+    14.2332
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-5-mini-low__notion",
+   "model": "gpt-5-mini-low",
+   "mcp": "notion",
+   "tasks": 28,
+   "rounds": 4,
+   "scores": [
+    0.0,
+    14.3,
+    3.6,
+    3.6
+   ],
+   "mean": 5.357125,
+   "rng": 14.2857,
+   "sd": 3.3776,
+   "mdd": 9.3621,
+   "fl": 4,
+   "nfl": 28,
+   "bud": 0,
+   "err": 0,
+   "n": 112,
+   "rep": true,
+   "loo": [
+    6.5883,
+    9.5785
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-4-1-mini__github",
+   "model": "gpt-4-1-mini",
+   "mcp": "github",
+   "tasks": 23,
+   "rounds": 4,
+   "scores": [
+    0.0,
+    17.4,
+    4.3,
+    4.3
+   ],
+   "mean": 6.521725,
+   "rng": 17.3913,
+   "sd": 3.6915,
+   "mdd": 10.2321,
+   "fl": 4,
+   "nfl": 23,
+   "bud": 0,
+   "err": 0,
+   "n": 92,
+   "rep": true,
+   "loo": [
+    5.6279,
+    11.1416
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-5-low__playwright",
+   "model": "gpt-5-low",
+   "mcp": "playwright",
+   "tasks": 25,
+   "rounds": 4,
+   "scores": [
+    44.0,
+    44.0,
+    48.0,
+    44.0
+   ],
+   "mean": 45.0,
+   "rng": 4.0,
+   "sd": 4.3208,
+   "mdd": 11.9764,
+   "fl": 6,
+   "nfl": 25,
+   "bud": 21,
+   "err": 0,
+   "n": 100,
+   "rep": true,
+   "loo": [
+    9.0527,
+    12.7733
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "claude-opus-4-1__postgres",
+   "model": "claude-opus-4-1",
+   "mcp": "postgres",
+   "tasks": 21,
+   "rounds": 1,
+   "scores": [
+    33.3
+   ],
+   "mean": 33.3333,
+   "rng": 0.0,
+   "sd": 0.0,
+   "mdd": 0.0,
+   "fl": 0,
+   "nfl": 0,
+   "bud": 0,
+   "err": 0,
+   "n": 21,
+   "rep": false,
+   "loo": [
+    null,
+    null
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-4-1-mini__notion",
+   "model": "gpt-4-1-mini",
+   "mcp": "notion",
+   "tasks": 28,
+   "rounds": 4,
+   "scores": [
+    3.6,
+    0.0,
+    0.0,
+    3.6
+   ],
+   "mean": 1.7857,
+   "rng": 3.5714,
+   "sd": 1.7858,
+   "mdd": 4.9499,
+   "fl": 1,
+   "nfl": 28,
+   "bud": 0,
+   "err": 0,
+   "n": 112,
+   "rep": true,
+   "loo": [
+    4.6533,
+    4.6816
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "o3__playwright",
+   "model": "o3",
+   "mcp": "playwright",
+   "tasks": 25,
+   "rounds": 4,
+   "scores": [
+    20.0,
+    12.5,
+    20.0,
+    8.0
+   ],
+   "mean": 15.125,
+   "rng": 12.0,
+   "sd": 4.3361,
+   "mdd": 12.0188,
+   "fl": 6,
+   "nfl": 25,
+   "bud": 9,
+   "err": 1,
+   "n": 100,
+   "rep": true,
+   "loo": [
+    10.3652,
+    12.8044
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-5-mini-low__github",
+   "model": "gpt-5-mini-low",
+   "mcp": "github",
+   "tasks": 23,
+   "rounds": 4,
+   "scores": [
+    8.7,
+    13.0,
+    8.7,
+    4.3
+   ],
+   "mean": 8.695675,
+   "rng": 8.695699999999999,
+   "sd": 3.3884,
+   "mdd": 9.392,
+   "fl": 3,
+   "nfl": 23,
+   "bud": 2,
+   "err": 0,
+   "n": 92,
+   "rep": true,
+   "loo": [
+    7.9379,
+    9.8078
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "qwen-3-coder-plus__notion",
+   "model": "qwen-3-coder-plus",
+   "mcp": "notion",
+   "tasks": 28,
+   "rounds": 4,
+   "scores": [
+    14.3,
+    24.0,
+    34.8,
+    20.8
+   ],
+   "mean": 23.4754,
+   "rng": 20.496900000000004,
+   "sd": 5.0411,
+   "mdd": 13.973,
+   "fl": 8,
+   "nfl": 26,
+   "bud": 0,
+   "err": 19,
+   "n": 112,
+   "rep": false,
+   "loo": [
+    11.9731,
+    13.8219
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "deepseek-chat__notion",
+   "model": "deepseek-chat",
+   "mcp": "notion",
+   "tasks": 28,
+   "rounds": 4,
+   "scores": [
+    18.5,
+    11.1,
+    11.1,
+    10.7
+   ],
+   "mean": 12.86375,
+   "rng": 7.8042,
+   "sd": 4.1486,
+   "mdd": 11.4991,
+   "fl": 7,
+   "nfl": 28,
+   "bud": 2,
+   "err": 3,
+   "n": 112,
+   "rep": true,
+   "loo": [
+    8.0987,
+    12.5327
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "claude-opus-4-1__playwright",
+   "model": "claude-opus-4-1",
+   "mcp": "playwright",
+   "tasks": 25,
+   "rounds": 1,
+   "scores": [
+    24.0
+   ],
+   "mean": 24.0,
+   "rng": 0.0,
+   "sd": 0.0,
+   "mdd": 0.0,
+   "fl": 0,
+   "nfl": 0,
+   "bud": 9,
+   "err": 0,
+   "n": 25,
+   "rep": false,
+   "loo": [
+    null,
+    null
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "glm-4-5__github",
+   "model": "glm-4-5",
+   "mcp": "github",
+   "tasks": 23,
+   "rounds": 4,
+   "scores": [
+    21.7,
+    26.1,
+    13.0,
+    31.8
+   ],
+   "mean": 23.17195,
+   "rng": 18.774700000000003,
+   "sd": 4.4656,
+   "mdd": 12.3778,
+   "fl": 5,
+   "nfl": 23,
+   "bud": 3,
+   "err": 1,
+   "n": 92,
+   "rep": true,
+   "loo": [
+    11.2425,
+    12.553
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-oss-120b__notion",
+   "model": "gpt-oss-120b",
+   "mcp": "notion",
+   "tasks": 28,
+   "rounds": 4,
+   "scores": [
+    3.8,
+    0.0,
+    4.0,
+    7.7
+   ],
+   "mean": 3.884625,
+   "rng": 7.6923,
+   "sd": 3.1246,
+   "mdd": 8.6608,
+   "fl": 4,
+   "nfl": 28,
+   "bud": 0,
+   "err": 9,
+   "n": 112,
+   "rep": false,
+   "loo": [
+    6.6327,
+    9.4197
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "k2__filesystem",
+   "model": "k2",
+   "mcp": "filesystem",
+   "tasks": 30,
+   "rounds": 4,
+   "scores": [
+    20.7,
+    25.9,
+    17.9,
+    21.4
+   ],
+   "mean": 21.475324999999998,
+   "rng": 8.0688,
+   "sd": 3.5927,
+   "mdd": 9.9583,
+   "fl": 5,
+   "nfl": 29,
+   "bud": 2,
+   "err": 8,
+   "n": 120,
+   "rep": false,
+   "loo": [
+    6.3696,
+    10.3103
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "grok-code-fast-1__notion",
+   "model": "grok-code-fast-1",
+   "mcp": "notion",
+   "tasks": 28,
+   "rounds": 4,
+   "scores": [
+    3.8,
+    3.7,
+    0.0,
+    3.6
+   ],
+   "mean": 2.780325,
+   "rng": 3.8462,
+   "sd": 1.5409,
+   "mdd": 4.2711,
+   "fl": 1,
+   "nfl": 28,
+   "bud": 0,
+   "err": 3,
+   "n": 112,
+   "rep": false,
+   "loo": [
+    0.0,
+    4.6611
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-5-low__postgres",
+   "model": "gpt-5-low",
+   "mcp": "postgres",
+   "tasks": 21,
+   "rounds": 4,
+   "scores": [
+    76.2,
+    76.2,
+    66.7,
+    76.2
+   ],
+   "mean": 73.80955,
+   "rng": 9.523799999999994,
+   "sd": 7.3769,
+   "mdd": 20.4473,
+   "fl": 12,
+   "nfl": 21,
+   "bud": 0,
+   "err": 0,
+   "n": 84,
+   "rep": true,
+   "loo": [
+    16.7545,
+    21.7617
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "grok-code-fast-1__github",
+   "model": "grok-code-fast-1",
+   "mcp": "github",
+   "tasks": 23,
+   "rounds": 4,
+   "scores": [
+    18.2,
+    4.3,
+    4.5,
+    8.7
+   ],
+   "mean": 8.9427,
+   "rng": 13.834,
+   "sd": 3.4039,
+   "mdd": 9.435,
+   "fl": 3,
+   "nfl": 23,
+   "bud": 0,
+   "err": 2,
+   "n": 92,
+   "rep": true,
+   "loo": [
+    5.6792,
+    9.7967
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "deepseek-chat__postgres",
+   "model": "deepseek-chat",
+   "mcp": "postgres",
+   "tasks": 21,
+   "rounds": 4,
+   "scores": [
+    40.0,
+    35.0,
+    55.0,
+    50.0
+   ],
+   "mean": 45.0,
+   "rng": 20.0,
+   "sd": 5.8669,
+   "mdd": 16.2619,
+   "fl": 7,
+   "nfl": 20,
+   "bud": 1,
+   "err": 4,
+   "n": 84,
+   "rep": true,
+   "loo": [
+    12.9726,
+    17.2725
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-oss-120b__github",
+   "model": "gpt-oss-120b",
+   "mcp": "github",
+   "tasks": 23,
+   "rounds": 4,
+   "scores": [
+    0.0,
+    4.8,
+    9.1,
+    4.8
+   ],
+   "mean": 4.653675,
+   "rng": 9.0909,
+   "sd": 2.6375,
+   "mdd": 7.3106,
+   "fl": 2,
+   "nfl": 22,
+   "bud": 0,
+   "err": 7,
+   "n": 92,
+   "rep": false,
+   "loo": [
+    5.6792,
+    7.9778
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "glm-4-5__notion",
+   "model": "glm-4-5",
+   "mcp": "notion",
+   "tasks": 28,
+   "rounds": 4,
+   "scores": [
+    21.4,
+    21.4,
+    25.0,
+    17.9
+   ],
+   "mean": 21.428575,
+   "rng": 7.142900000000001,
+   "sd": 3.9857,
+   "mdd": 11.0476,
+   "fl": 6,
+   "nfl": 28,
+   "bud": 2,
+   "err": 0,
+   "n": 112,
+   "rep": true,
+   "loo": [
+    9.3704,
+    11.4024
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "claude-sonnet-4__filesystem",
+   "model": "claude-sonnet-4",
+   "mcp": "filesystem",
+   "tasks": 30,
+   "rounds": 4,
+   "scores": [
+    23.3,
+    30.0,
+    30.0,
+    26.7
+   ],
+   "mean": 27.5,
+   "rng": 6.666699999999999,
+   "sd": 5.4563,
+   "mdd": 15.1238,
+   "fl": 13,
+   "nfl": 30,
+   "bud": 8,
+   "err": 0,
+   "n": 120,
+   "rep": true,
+   "loo": [
+    12.3972,
+    15.7028
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "o4-mini__github",
+   "model": "o4-mini",
+   "mcp": "github",
+   "tasks": 23,
+   "rounds": 4,
+   "scores": [
+    4.3,
+    17.4,
+    13.0,
+    21.7
+   ],
+   "mean": 14.130425,
+   "rng": 17.3913,
+   "sd": 4.4777,
+   "mdd": 12.4113,
+   "fl": 5,
+   "nfl": 23,
+   "bud": 14,
+   "err": 0,
+   "n": 92,
+   "rep": true,
+   "loo": [
+    11.2458,
+    12.7936
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "grok-4__postgres",
+   "model": "grok-4",
+   "mcp": "postgres",
+   "tasks": 21,
+   "rounds": 4,
+   "scores": [
+    57.1,
+    71.4,
+    52.4,
+    52.4
+   ],
+   "mean": 58.333375000000004,
+   "rng": 19.047600000000003,
+   "sd": 6.4457,
+   "mdd": 17.8662,
+   "fl": 9,
+   "nfl": 21,
+   "bud": 0,
+   "err": 0,
+   "n": 84,
+   "rep": true,
+   "loo": [
+    16.3903,
+    17.7484
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-5-low__filesystem",
+   "model": "gpt-5-low",
+   "mcp": "filesystem",
+   "tasks": 30,
+   "rounds": 4,
+   "scores": [
+    43.3,
+    60.0,
+    60.0,
+    53.3
+   ],
+   "mean": 54.166650000000004,
+   "rng": 16.6667,
+   "sd": 5.428,
+   "mdd": 15.0454,
+   "fl": 12,
+   "nfl": 30,
+   "bud": 4,
+   "err": 0,
+   "n": 120,
+   "rep": true,
+   "loo": [
+    13.0702,
+    15.286
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "o3__filesystem",
+   "model": "o3",
+   "mcp": "filesystem",
+   "tasks": 30,
+   "rounds": 4,
+   "scores": [
+    37.9,
+    33.3,
+    33.3,
+    40.0
+   ],
+   "mean": 36.1494,
+   "rng": 6.666699999999999,
+   "sd": 4.006,
+   "mdd": 11.1039,
+   "fl": 7,
+   "nfl": 30,
+   "bud": 0,
+   "err": 1,
+   "n": 120,
+   "rep": true,
+   "loo": [
+    9.7496,
+    10.6667
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "claude-opus-4-1__filesystem",
+   "model": "claude-opus-4-1",
+   "mcp": "filesystem",
+   "tasks": 30,
+   "rounds": 1,
+   "scores": [
+    33.3
+   ],
+   "mean": 33.3333,
+   "rng": 0.0,
+   "sd": 0.0,
+   "mdd": 0.0,
+   "fl": 0,
+   "nfl": 0,
+   "bud": 1,
+   "err": 0,
+   "n": 30,
+   "rep": false,
+   "loo": [
+    null,
+    null
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "o4-mini__notion",
+   "model": "o4-mini",
+   "mcp": "notion",
+   "tasks": 28,
+   "rounds": 4,
+   "scores": [
+    25.0,
+    21.4,
+    10.7,
+    25.0
+   ],
+   "mean": 20.535725,
+   "rng": 14.2857,
+   "sd": 5.0075,
+   "mdd": 13.8798,
+   "fl": 10,
+   "nfl": 28,
+   "bud": 0,
+   "err": 0,
+   "n": 112,
+   "rep": true,
+   "loo": [
+    10.4159,
+    14.2573
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "k2__playwright",
+   "model": "k2",
+   "mcp": "playwright",
+   "tasks": 25,
+   "rounds": 4,
+   "scores": [
+    25.0,
+    15.4,
+    26.7,
+    26.7
+   ],
+   "mean": 23.4295,
+   "rng": 11.282099999999998,
+   "sd": 2.8873,
+   "mdd": 8.003,
+   "fl": 1,
+   "nfl": 15,
+   "bud": 0,
+   "err": 45,
+   "n": 100,
+   "rep": false,
+   "loo": [
+    0.0,
+    8.6965
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "kimi-k2-0711__postgres",
+   "model": "kimi-k2-0711",
+   "mcp": "postgres",
+   "tasks": 21,
+   "rounds": 4,
+   "scores": [
+    52.4,
+    47.4,
+    33.3,
+    35.0
+   ],
+   "mean": 42.020675,
+   "rng": 19.0477,
+   "sd": 6.456,
+   "mdd": 17.8948,
+   "fl": 9,
+   "nfl": 21,
+   "bud": 0,
+   "err": 3,
+   "n": 84,
+   "rep": false,
+   "loo": [
+    14.2252,
+    18.1279
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-5-high__github",
+   "model": "gpt-5-high",
+   "mcp": "github",
+   "tasks": 11,
+   "rounds": 1,
+   "scores": [
+    70.0
+   ],
+   "mean": 70.0,
+   "rng": 0.0,
+   "sd": 0.0,
+   "mdd": 0.0,
+   "fl": 0,
+   "nfl": 0,
+   "bud": 0,
+   "err": 1,
+   "n": 11,
+   "rep": false,
+   "loo": [
+    null,
+    null
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "glm-4-5__filesystem",
+   "model": "glm-4-5",
+   "mcp": "filesystem",
+   "tasks": 30,
+   "rounds": 4,
+   "scores": [
+    6.7,
+    6.9,
+    6.7,
+    10.0
+   ],
+   "mean": 7.5575,
+   "rng": 3.3333000000000004,
+   "sd": 2.4986,
+   "mdd": 6.9256,
+   "fl": 3,
+   "nfl": 30,
+   "bud": 5,
+   "err": 1,
+   "n": 120,
+   "rep": true,
+   "loo": [
+    4.3576,
+    7.5318
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "grok-code-fast-1__filesystem",
+   "model": "grok-code-fast-1",
+   "mcp": "filesystem",
+   "tasks": 30,
+   "rounds": 4,
+   "scores": [
+    35.7,
+    20.7,
+    13.8,
+    27.6
+   ],
+   "mean": 24.445825,
+   "rng": 21.9212,
+   "sd": 4.6052,
+   "mdd": 12.7647,
+   "fl": 9,
+   "nfl": 29,
+   "bud": 0,
+   "err": 5,
+   "n": 120,
+   "rep": true,
+   "loo": [
+    11.1324,
+    12.8252
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-5-mini-low__playwright",
+   "model": "gpt-5-mini-low",
+   "mcp": "playwright",
+   "tasks": 25,
+   "rounds": 4,
+   "scores": [
+    4.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "mean": 1.0,
+   "rng": 4.0,
+   "sd": 1.7324,
+   "mdd": 4.8019,
+   "fl": 1,
+   "nfl": 25,
+   "bud": 2,
+   "err": 1,
+   "n": 100,
+   "rep": true,
+   "loo": [
+    0.0,
+    5.2085
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-5-mini-low__postgres",
+   "model": "gpt-5-mini-low",
+   "mcp": "postgres",
+   "tasks": 21,
+   "rounds": 4,
+   "scores": [
+    14.3,
+    9.5,
+    14.3,
+    19.0
+   ],
+   "mean": 14.2857,
+   "rng": 9.5238,
+   "sd": 5.3598,
+   "mdd": 14.8563,
+   "fl": 6,
+   "nfl": 21,
+   "bud": 0,
+   "err": 0,
+   "n": 84,
+   "rep": true,
+   "loo": [
+    12.5189,
+    15.3464
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-4-1__playwright",
+   "model": "gpt-4-1",
+   "mcp": "playwright",
+   "tasks": 25,
+   "rounds": 4,
+   "scores": [
+    12.0,
+    8.0,
+    8.0,
+    4.0
+   ],
+   "mean": 8.0,
+   "rng": 8.0,
+   "sd": 2.4499,
+   "mdd": 6.7907,
+   "fl": 2,
+   "nfl": 25,
+   "bud": 0,
+   "err": 0,
+   "n": 100,
+   "rep": true,
+   "loo": [
+    5.2287,
+    7.3955
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-4-1-nano__playwright",
+   "model": "gpt-4-1-nano",
+   "mcp": "playwright",
+   "tasks": 25,
+   "rounds": 4,
+   "scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "mean": 0.0,
+   "rng": 0.0,
+   "sd": 0.0,
+   "mdd": 0.0,
+   "fl": 0,
+   "nfl": 25,
+   "bud": 0,
+   "err": 0,
+   "n": 100,
+   "rep": true,
+   "loo": [
+    0.0,
+    0.0
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "claude-opus-4-1__github",
+   "model": "claude-opus-4-1",
+   "mcp": "github",
+   "tasks": 23,
+   "rounds": 1,
+   "scores": [
+    21.7
+   ],
+   "mean": 21.7391,
+   "rng": 0.0,
+   "sd": 0.0,
+   "mdd": 0.0,
+   "fl": 0,
+   "nfl": 0,
+   "bud": 8,
+   "err": 0,
+   "n": 23,
+   "rep": false,
+   "loo": [
+    null,
+    null
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "kimi-k2-0711__playwright",
+   "model": "kimi-k2-0711",
+   "mcp": "playwright",
+   "tasks": 25,
+   "rounds": 4,
+   "scores": [
+    25.0,
+    15.4,
+    26.7,
+    26.7
+   ],
+   "mean": 23.4295,
+   "rng": 11.282099999999998,
+   "sd": 2.8873,
+   "mdd": 8.003,
+   "fl": 1,
+   "nfl": 15,
+   "bud": 0,
+   "err": 45,
+   "n": 100,
+   "rep": false,
+   "loo": [
+    0.0,
+    8.6965
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "k2-0905__playwright",
+   "model": "k2-0905",
+   "mcp": "playwright",
+   "tasks": 25,
+   "rounds": 4,
+   "scores": [
+    30.0,
+    40.9,
+    40.9,
+    28.6
+   ],
+   "mean": 35.0974,
+   "rng": 12.337700000000002,
+   "sd": 4.3725,
+   "mdd": 12.1197,
+   "fl": 5,
+   "nfl": 22,
+   "bud": 0,
+   "err": 15,
+   "n": 100,
+   "rep": false,
+   "loo": [
+    11.312,
+    11.8148
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gemini-2-5-pro__github",
+   "model": "gemini-2-5-pro",
+   "mcp": "github",
+   "tasks": 23,
+   "rounds": 4,
+   "scores": [
+    8.7,
+    8.7,
+    8.7,
+    13.0
+   ],
+   "mean": 9.78265,
+   "rng": 4.347799999999999,
+   "sd": 4.4397,
+   "mdd": 12.306,
+   "fl": 5,
+   "nfl": 23,
+   "bud": 0,
+   "err": 0,
+   "n": 92,
+   "rep": true,
+   "loo": [
+    11.2341,
+    12.5153
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "qwen-3-coder-plus__playwright",
+   "model": "qwen-3-coder-plus",
+   "mcp": "playwright",
+   "tasks": 25,
+   "rounds": 4,
+   "scores": [
+    52.9,
+    42.1,
+    40.0,
+    43.8
+   ],
+   "mean": 44.699125,
+   "rng": 12.941200000000002,
+   "sd": 5.8184,
+   "mdd": 16.1275,
+   "fl": 7,
+   "nfl": 18,
+   "bud": 0,
+   "err": 33,
+   "n": 100,
+   "rep": false,
+   "loo": [
+    13.0735,
+    17.0555
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-4-1-mini__playwright",
+   "model": "gpt-4-1-mini",
+   "mcp": "playwright",
+   "tasks": 25,
+   "rounds": 4,
+   "scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "mean": 0.0,
+   "rng": 0.0,
+   "sd": 0.0,
+   "mdd": 0.0,
+   "fl": 0,
+   "nfl": 25,
+   "bud": 3,
+   "err": 0,
+   "n": 100,
+   "rep": true,
+   "loo": [
+    0.0,
+    0.0
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gemini-2-5-pro__notion",
+   "model": "gemini-2-5-pro",
+   "mcp": "notion",
+   "tasks": 28,
+   "rounds": 4,
+   "scores": [
+    3.6,
+    7.1,
+    7.1,
+    0.0
+   ],
+   "mean": 4.4643,
+   "rng": 7.1429,
+   "sd": 2.3724,
+   "mdd": 6.5758,
+   "fl": 2,
+   "nfl": 28,
+   "bud": 0,
+   "err": 0,
+   "n": 112,
+   "rep": true,
+   "loo": [
+    4.6439,
+    6.6576
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "claude-opus-4-1__notion",
+   "model": "claude-opus-4-1",
+   "mcp": "notion",
+   "tasks": 28,
+   "rounds": 1,
+   "scores": [
+    35.7
+   ],
+   "mean": 35.7143,
+   "rng": 0.0,
+   "sd": 0.0,
+   "mdd": 0.0,
+   "fl": 0,
+   "nfl": 0,
+   "bud": 0,
+   "err": 0,
+   "n": 28,
+   "rep": false,
+   "loo": [
+    null,
+    null
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gemini-2-5-flash__filesystem",
+   "model": "gemini-2-5-flash",
+   "mcp": "filesystem",
+   "tasks": 30,
+   "rounds": 4,
+   "scores": [
+    6.7,
+    10.0,
+    10.0,
+    6.7
+   ],
+   "mean": 8.33335,
+   "rng": 3.3333000000000004,
+   "sd": 2.0306,
+   "mdd": 5.6284,
+   "fl": 2,
+   "nfl": 30,
+   "bud": 0,
+   "err": 0,
+   "n": 120,
+   "rep": true,
+   "loo": [
+    4.3188,
+    6.147
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "grok-4__playwright",
+   "model": "grok-4",
+   "mcp": "playwright",
+   "tasks": 25,
+   "rounds": 4,
+   "scores": [
+    42.1,
+    60.0,
+    33.3,
+    42.1
+   ],
+   "mean": 44.385975,
+   "rng": 26.6667,
+   "sd": 5.0294,
+   "mdd": 13.9405,
+   "fl": 6,
+   "nfl": 21,
+   "bud": 0,
+   "err": 21,
+   "n": 100,
+   "rep": false,
+   "loo": [
+    12.0474,
+    14.9705
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-4-1-nano__postgres",
+   "model": "gpt-4-1-nano",
+   "mcp": "postgres",
+   "tasks": 21,
+   "rounds": 4,
+   "scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "mean": 0.0,
+   "rng": 0.0,
+   "sd": 0.0,
+   "mdd": 0.0,
+   "fl": 0,
+   "nfl": 21,
+   "bud": 0,
+   "err": 0,
+   "n": 84,
+   "rep": true,
+   "loo": [
+    0.0,
+    0.0
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-4-1-nano__notion",
+   "model": "gpt-4-1-nano",
+   "mcp": "notion",
+   "tasks": 28,
+   "rounds": 4,
+   "scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "mean": 0.0,
+   "rng": 0.0,
+   "sd": 0.0,
+   "mdd": 0.0,
+   "fl": 0,
+   "nfl": 28,
+   "bud": 0,
+   "err": 2,
+   "n": 112,
+   "rep": true,
+   "loo": [
+    0.0,
+    0.0
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "qwen-3-max__playwright",
+   "model": "qwen-3-max",
+   "mcp": "playwright",
+   "tasks": 25,
+   "rounds": 4,
+   "scores": [
+    16.7,
+    20.0,
+    16.7,
+    15.4
+   ],
+   "mean": 17.1795,
+   "rng": 4.615399999999999,
+   "sd": 4.7465,
+   "mdd": 13.1564,
+   "fl": 2,
+   "nfl": 14,
+   "bud": 4,
+   "err": 53,
+   "n": 100,
+   "rep": false,
+   "loo": [
+    0.0,
+    13.6049
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "kimi-k2-0905__playwright",
+   "model": "kimi-k2-0905",
+   "mcp": "playwright",
+   "tasks": 25,
+   "rounds": 4,
+   "scores": [
+    30.0,
+    40.9,
+    40.9,
+    28.6
+   ],
+   "mean": 35.0974,
+   "rng": 12.337700000000002,
+   "sd": 4.3725,
+   "mdd": 12.1197,
+   "fl": 5,
+   "nfl": 22,
+   "bud": 0,
+   "err": 15,
+   "n": 100,
+   "rep": false,
+   "loo": [
+    11.312,
+    11.8148
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "deepseek-chat__filesystem",
+   "model": "deepseek-chat",
+   "mcp": "filesystem",
+   "tasks": 30,
+   "rounds": 4,
+   "scores": [
+    17.2,
+    17.2,
+    17.2,
+    13.8
+   ],
+   "mean": 16.379324999999998,
+   "rng": 3.448299999999998,
+   "sd": 3.9611,
+   "mdd": 10.9794,
+   "fl": 6,
+   "nfl": 29,
+   "bud": 4,
+   "err": 4,
+   "n": 120,
+   "rep": true,
+   "loo": [
+    9.9857,
+    11.0124
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gemini-2-5-pro__postgres",
+   "model": "gemini-2-5-pro",
+   "mcp": "postgres",
+   "tasks": 21,
+   "rounds": 4,
+   "scores": [
+    33.3,
+    23.8,
+    14.3,
+    33.3
+   ],
+   "mean": 26.190450000000002,
+   "rng": 19.047600000000003,
+   "sd": 6.0746,
+   "mdd": 16.8376,
+   "fl": 8,
+   "nfl": 21,
+   "bud": 0,
+   "err": 0,
+   "n": 84,
+   "rep": true,
+   "loo": [
+    14.0151,
+    17.7975
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-4-1-nano__github",
+   "model": "gpt-4-1-nano",
+   "mcp": "github",
+   "tasks": 23,
+   "rounds": 4,
+   "scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "mean": 0.0,
+   "rng": 0.0,
+   "sd": 0.0,
+   "mdd": 0.0,
+   "fl": 0,
+   "nfl": 23,
+   "bud": 0,
+   "err": 0,
+   "n": 92,
+   "rep": true,
+   "loo": [
+    0.0,
+    0.0
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "k2-0905__postgres",
+   "model": "k2-0905",
+   "mcp": "postgres",
+   "tasks": 21,
+   "rounds": 4,
+   "scores": [
+    52.4,
+    52.4,
+    45.0,
+    45.0
+   ],
+   "mean": 48.6905,
+   "rng": 7.381,
+   "sd": 5.8491,
+   "mdd": 16.2126,
+   "fl": 7,
+   "nfl": 21,
+   "bud": 0,
+   "err": 2,
+   "n": 84,
+   "rep": false,
+   "loo": [
+    14.0434,
+    16.7425
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-oss-120b__postgres",
+   "model": "gpt-oss-120b",
+   "mcp": "postgres",
+   "tasks": 21,
+   "rounds": 4,
+   "scores": [
+    4.8,
+    9.5,
+    11.1,
+    5.3
+   ],
+   "mean": 7.665,
+   "rng": 6.349200000000001,
+   "sd": 4.8827,
+   "mdd": 13.5339,
+   "fl": 5,
+   "nfl": 21,
+   "bud": 0,
+   "err": 5,
+   "n": 84,
+   "rep": true,
+   "loo": [
+    12.4986,
+    12.7894
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "o4-mini__filesystem",
+   "model": "o4-mini",
+   "mcp": "filesystem",
+   "tasks": 30,
+   "rounds": 4,
+   "scores": [
+    30.0,
+    23.3,
+    23.3,
+    23.3
+   ],
+   "mean": 24.999975,
+   "rng": 6.666699999999999,
+   "sd": 3.9187,
+   "mdd": 10.8619,
+   "fl": 7,
+   "nfl": 30,
+   "bud": 0,
+   "err": 0,
+   "n": 120,
+   "rep": true,
+   "loo": [
+    9.6955,
+    10.7214
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-oss-120b__filesystem",
+   "model": "gpt-oss-120b",
+   "mcp": "filesystem",
+   "tasks": 30,
+   "rounds": 4,
+   "scores": [
+    10.3,
+    0.0,
+    3.4,
+    10.3
+   ],
+   "mean": 6.034475,
+   "rng": 10.3448,
+   "sd": 3.4667,
+   "mdd": 9.609,
+   "fl": 5,
+   "nfl": 30,
+   "bud": 0,
+   "err": 3,
+   "n": 120,
+   "rep": true,
+   "loo": [
+    7.4986,
+    9.6897
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-5-low__github",
+   "model": "gpt-5-low",
+   "mcp": "github",
+   "tasks": 23,
+   "rounds": 4,
+   "scores": [
+    26.1,
+    26.1,
+    30.4,
+    26.1
+   ],
+   "mean": 27.173949999999998,
+   "rng": 4.347799999999999,
+   "sd": 4.4637,
+   "mdd": 12.3725,
+   "fl": 5,
+   "nfl": 23,
+   "bud": 16,
+   "err": 0,
+   "n": 92,
+   "rep": true,
+   "loo": [
+    9.8474,
+    12.6938
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gemini-2-5-pro__filesystem",
+   "model": "gemini-2-5-pro",
+   "mcp": "filesystem",
+   "tasks": 30,
+   "rounds": 4,
+   "scores": [
+    24.1,
+    23.3,
+    30.0,
+    20.0
+   ],
+   "mean": 24.3678,
+   "rng": 10.0,
+   "sd": 4.6453,
+   "mdd": 12.8759,
+   "fl": 10,
+   "nfl": 30,
+   "bud": 0,
+   "err": 1,
+   "n": 120,
+   "rep": true,
+   "loo": [
+    10.5786,
+    13.7296
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "k2__postgres",
+   "model": "k2",
+   "mcp": "postgres",
+   "tasks": 21,
+   "rounds": 4,
+   "scores": [
+    52.4,
+    47.4,
+    33.3,
+    35.0
+   ],
+   "mean": 42.020675,
+   "rng": 19.0477,
+   "sd": 6.456,
+   "mdd": 17.8948,
+   "fl": 9,
+   "nfl": 21,
+   "bud": 0,
+   "err": 3,
+   "n": 84,
+   "rep": false,
+   "loo": [
+    14.2252,
+    18.1279
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "grok-code-fast-1__postgres",
+   "model": "grok-code-fast-1",
+   "mcp": "postgres",
+   "tasks": 21,
+   "rounds": 4,
+   "scores": [
+    52.4,
+    42.9,
+    52.4,
+    42.9
+   ],
+   "mean": 47.61905,
+   "rng": 9.523899999999998,
+   "sd": 5.8397,
+   "mdd": 16.1865,
+   "fl": 7,
+   "nfl": 21,
+   "bud": 0,
+   "err": 0,
+   "n": 84,
+   "rep": true,
+   "loo": [
+    14.029,
+    16.4995
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-5-low__notion",
+   "model": "gpt-5-low",
+   "mcp": "notion",
+   "tasks": 28,
+   "rounds": 4,
+   "scores": [
+    32.1,
+    50.0,
+    32.1,
+    32.1
+   ],
+   "mean": 36.607175,
+   "rng": 17.857100000000003,
+   "sd": 5.5233,
+   "mdd": 15.3095,
+   "fl": 11,
+   "nfl": 28,
+   "bud": 0,
+   "err": 0,
+   "n": 112,
+   "rep": true,
+   "loo": [
+    13.3099,
+    14.9273
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-5-nano-low__playwright",
+   "model": "gpt-5-nano-low",
+   "mcp": "playwright",
+   "tasks": 25,
+   "rounds": 4,
+   "scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "mean": 0.0,
+   "rng": 0.0,
+   "sd": 0.0,
+   "mdd": 0.0,
+   "fl": 0,
+   "nfl": 25,
+   "bud": 2,
+   "err": 1,
+   "n": 100,
+   "rep": true,
+   "loo": [
+    0.0,
+    0.0
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "o3__notion",
+   "model": "o3",
+   "mcp": "notion",
+   "tasks": 28,
+   "rounds": 4,
+   "scores": [
+    25.0,
+    17.9,
+    28.6,
+    25.0
+   ],
+   "mean": 24.107125,
+   "rng": 10.714300000000001,
+   "sd": 5.4209,
+   "mdd": 15.0257,
+   "fl": 11,
+   "nfl": 28,
+   "bud": 0,
+   "err": 0,
+   "n": 112,
+   "rep": true,
+   "loo": [
+    11.4248,
+    15.5235
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "k2-0905__notion",
+   "model": "k2-0905",
+   "mcp": "notion",
+   "tasks": 28,
+   "rounds": 4,
+   "scores": [
+    3.7,
+    10.7,
+    7.1,
+    10.7
+   ],
+   "mean": 8.0688,
+   "rng": 7.0106,
+   "sd": 2.3657,
+   "mdd": 6.5573,
+   "fl": 2,
+   "nfl": 28,
+   "bud": 6,
+   "err": 1,
+   "n": 112,
+   "rep": true,
+   "loo": [
+    4.66,
+    6.6113
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "qwen-3-max__github",
+   "model": "qwen-3-max",
+   "mcp": "github",
+   "tasks": 23,
+   "rounds": 4,
+   "scores": [
+    8.7,
+    13.0,
+    17.4,
+    17.4
+   ],
+   "mean": 14.13045,
+   "rng": 8.6956,
+   "sd": 3.2277,
+   "mdd": 8.9466,
+   "fl": 3,
+   "nfl": 23,
+   "bud": 8,
+   "err": 0,
+   "n": 92,
+   "rep": true,
+   "loo": [
+    5.644,
+    9.7576
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "kimi-k2-0905__filesystem",
+   "model": "kimi-k2-0905",
+   "mcp": "filesystem",
+   "tasks": 30,
+   "rounds": 4,
+   "scores": [
+    17.2,
+    13.3,
+    13.3,
+    13.3
+   ],
+   "mean": 14.310324999999999,
+   "rng": 3.9080999999999992,
+   "sd": 3.4084,
+   "mdd": 9.4474,
+   "fl": 5,
+   "nfl": 30,
+   "bud": 3,
+   "err": 1,
+   "n": 120,
+   "rep": true,
+   "loo": [
+    7.5302,
+    9.7557
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "qwen-3-max__filesystem",
+   "model": "qwen-3-max",
+   "mcp": "filesystem",
+   "tasks": 30,
+   "rounds": 4,
+   "scores": [
+    14.3,
+    10.7,
+    10.7,
+    10.3
+   ],
+   "mean": 11.514775,
+   "rng": 3.940900000000001,
+   "sd": 1.49,
+   "mdd": 4.13,
+   "fl": 1,
+   "nfl": 28,
+   "bud": 7,
+   "err": 7,
+   "n": 120,
+   "rep": false,
+   "loo": [
+    0.0,
+    4.6744
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "deepseek-chat__playwright",
+   "model": "deepseek-chat",
+   "mcp": "playwright",
+   "tasks": 25,
+   "rounds": 4,
+   "scores": [
+    12.0,
+    8.0,
+    4.0,
+    4.2
+   ],
+   "mean": 7.041675,
+   "rng": 8.0,
+   "sd": 3.6447,
+   "mdd": 10.1024,
+   "fl": 4,
+   "nfl": 25,
+   "bud": 58,
+   "err": 1,
+   "n": 100,
+   "rep": true,
+   "loo": [
+    9.0475,
+    10.4627
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "qwen-3-max__notion",
+   "model": "qwen-3-max",
+   "mcp": "notion",
+   "tasks": 28,
+   "rounds": 4,
+   "scores": [
+    10.7,
+    21.4,
+    14.3,
+    21.4
+   ],
+   "mean": 16.9643,
+   "rng": 10.7143,
+   "sd": 3.8775,
+   "mdd": 10.7477,
+   "fl": 6,
+   "nfl": 28,
+   "bud": 7,
+   "err": 0,
+   "n": 112,
+   "rep": true,
+   "loo": [
+    9.3363,
+    11.5717
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "k2-0905__github",
+   "model": "k2-0905",
+   "mcp": "github",
+   "tasks": 23,
+   "rounds": 4,
+   "scores": [
+    20.0,
+    14.3,
+    20.0,
+    18.2
+   ],
+   "mean": 18.116875,
+   "rng": 5.7143,
+   "sd": 4.0779,
+   "mdd": 11.3032,
+   "fl": 4,
+   "nfl": 21,
+   "bud": 1,
+   "err": 9,
+   "n": 92,
+   "rep": false,
+   "loo": [
+    8.3187,
+    12.4579
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "o3__github",
+   "model": "o3",
+   "mcp": "github",
+   "tasks": 23,
+   "rounds": 4,
+   "scores": [
+    8.7,
+    17.4,
+    20.0,
+    13.0
+   ],
+   "mean": 14.782625,
+   "rng": 11.3043,
+   "sd": 3.9547,
+   "mdd": 10.9617,
+   "fl": 4,
+   "nfl": 23,
+   "bud": 1,
+   "err": 3,
+   "n": 92,
+   "rep": true,
+   "loo": [
+    5.6279,
+    11.3614
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-oss-120b__playwright",
+   "model": "gpt-oss-120b",
+   "mcp": "playwright",
+   "tasks": 25,
+   "rounds": 4,
+   "scores": [
+    4.3,
+    4.8,
+    4.2,
+    0.0
+   ],
+   "mean": 3.3190999999999997,
+   "rng": 4.7619,
+   "sd": 1.7406,
+   "mdd": 4.8246,
+   "fl": 1,
+   "nfl": 24,
+   "bud": 1,
+   "err": 9,
+   "n": 100,
+   "rep": false,
+   "loo": [
+    0.0,
+    5.4322
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "o4-mini__playwright",
+   "model": "o4-mini",
+   "mcp": "playwright",
+   "tasks": 25,
+   "rounds": 4,
+   "scores": [
+    12.0,
+    12.0,
+    8.0,
+    20.0
+   ],
+   "mean": 13.0,
+   "rng": 12.0,
+   "sd": 4.9484,
+   "mdd": 13.716,
+   "fl": 7,
+   "nfl": 25,
+   "bud": 18,
+   "err": 5,
+   "n": 100,
+   "rep": true,
+   "loo": [
+    11.8805,
+    14.0583
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-5-nano-low__notion",
+   "model": "gpt-5-nano-low",
+   "mcp": "notion",
+   "tasks": 28,
+   "rounds": 4,
+   "scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "mean": 0.0,
+   "rng": 0.0,
+   "sd": 0.0,
+   "mdd": 0.0,
+   "fl": 0,
+   "nfl": 28,
+   "bud": 0,
+   "err": 0,
+   "n": 112,
+   "rep": true,
+   "loo": [
+    0.0,
+    0.0
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "kimi-k2-0711__notion",
+   "model": "kimi-k2-0711",
+   "mcp": "notion",
+   "tasks": 28,
+   "rounds": 4,
+   "scores": [
+    11.5,
+    22.2,
+    11.5,
+    16.0
+   ],
+   "mean": 15.3248,
+   "rng": 10.6837,
+   "sd": 4.3404,
+   "mdd": 12.0308,
+   "fl": 7,
+   "nfl": 28,
+   "bud": 3,
+   "err": 8,
+   "n": 112,
+   "rep": false,
+   "loo": [
+    9.3687,
+    12.5635
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gemini-2-5-pro__playwright",
+   "model": "gemini-2-5-pro",
+   "mcp": "playwright",
+   "tasks": 25,
+   "rounds": 4,
+   "scores": [
+    16.0,
+    12.5,
+    16.0,
+    16.0
+   ],
+   "mean": 15.125,
+   "rng": 3.5,
+   "sd": 4.7801,
+   "mdd": 13.2495,
+   "fl": 7,
+   "nfl": 25,
+   "bud": 0,
+   "err": 1,
+   "n": 100,
+   "rep": true,
+   "loo": [
+    10.409,
+    13.9466
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "kimi-k2-0905__notion",
+   "model": "kimi-k2-0905",
+   "mcp": "notion",
+   "tasks": 28,
+   "rounds": 4,
+   "scores": [
+    3.7,
+    10.7,
+    7.1,
+    10.7
+   ],
+   "mean": 8.0688,
+   "rng": 7.0106,
+   "sd": 2.3657,
+   "mdd": 6.5573,
+   "fl": 2,
+   "nfl": 28,
+   "bud": 6,
+   "err": 1,
+   "n": 112,
+   "rep": true,
+   "loo": [
+    4.66,
+    6.6113
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "qwen-3-coder-plus__postgres",
+   "model": "qwen-3-coder-plus",
+   "mcp": "postgres",
+   "tasks": 21,
+   "rounds": 4,
+   "scores": [
+    57.1,
+    42.9,
+    47.6,
+    42.9
+   ],
+   "mean": 47.619025,
+   "rng": 14.285799999999995,
+   "sd": 4.7673,
+   "mdd": 13.214,
+   "fl": 5,
+   "nfl": 21,
+   "bud": 0,
+   "err": 0,
+   "n": 84,
+   "rep": true,
+   "loo": [
+    8.7509,
+    13.9278
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "claude-sonnet-4__github",
+   "model": "claude-sonnet-4",
+   "mcp": "github",
+   "tasks": 23,
+   "rounds": 4,
+   "scores": [
+    21.7,
+    13.0,
+    21.7,
+    8.7
+   ],
+   "mean": 16.30435,
+   "rng": 13.0434,
+   "sd": 4.1698,
+   "mdd": 11.5579,
+   "fl": 5,
+   "nfl": 23,
+   "bud": 31,
+   "err": 0,
+   "n": 92,
+   "rep": true,
+   "loo": [
+    9.6431,
+    12.5128
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "claude-sonnet-4__notion",
+   "model": "claude-sonnet-4",
+   "mcp": "notion",
+   "tasks": 28,
+   "rounds": 4,
+   "scores": [
+    14.3,
+    28.6,
+    21.4,
+    21.4
+   ],
+   "mean": 21.428575,
+   "rng": 14.2857,
+   "sd": 4.8866,
+   "mdd": 13.5447,
+   "fl": 9,
+   "nfl": 28,
+   "bud": 0,
+   "err": 0,
+   "n": 112,
+   "rep": true,
+   "loo": [
+    11.3863,
+    14.0082
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "kimi-k2-0905__github",
+   "model": "kimi-k2-0905",
+   "mcp": "github",
+   "tasks": 23,
+   "rounds": 4,
+   "scores": [
+    20.0,
+    14.3,
+    20.0,
+    18.2
+   ],
+   "mean": 18.116875,
+   "rng": 5.7143,
+   "sd": 4.0779,
+   "mdd": 11.3032,
+   "fl": 4,
+   "nfl": 21,
+   "bud": 1,
+   "err": 9,
+   "n": 92,
+   "rep": false,
+   "loo": [
+    8.3187,
+    12.4579
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "kimi-k2-0711__github",
+   "model": "kimi-k2-0711",
+   "mcp": "github",
+   "tasks": 23,
+   "rounds": 4,
+   "scores": [
+    21.4,
+    16.7,
+    16.7,
+    21.4
+   ],
+   "mean": 19.047649999999997,
+   "rng": 4.761900000000001,
+   "sd": 3.8265,
+   "mdd": 10.6063,
+   "fl": 2,
+   "nfl": 14,
+   "bud": 0,
+   "err": 40,
+   "n": 92,
+   "rep": false,
+   "loo": [
+    8.1405,
+    12.2514
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-5-nano-low__github",
+   "model": "gpt-5-nano-low",
+   "mcp": "github",
+   "tasks": 23,
+   "rounds": 4,
+   "scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "mean": 0.0,
+   "rng": 0.0,
+   "sd": 0.0,
+   "mdd": 0.0,
+   "fl": 0,
+   "nfl": 23,
+   "bud": 1,
+   "err": 0,
+   "n": 92,
+   "rep": true,
+   "loo": [
+    0.0,
+    0.0
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-5-nano-low__filesystem",
+   "model": "gpt-5-nano-low",
+   "mcp": "filesystem",
+   "tasks": 30,
+   "rounds": 4,
+   "scores": [
+    13.3,
+    13.3,
+    6.7,
+    16.7
+   ],
+   "mean": 12.5,
+   "rng": 10.0,
+   "sd": 4.1427,
+   "mdd": 11.4828,
+   "fl": 8,
+   "nfl": 30,
+   "bud": 8,
+   "err": 0,
+   "n": 120,
+   "rep": true,
+   "loo": [
+    9.7063,
+    11.4711
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "k2__notion",
+   "model": "k2",
+   "mcp": "notion",
+   "tasks": 28,
+   "rounds": 4,
+   "scores": [
+    11.5,
+    22.2,
+    11.5,
+    16.0
+   ],
+   "mean": 15.3248,
+   "rng": 10.6837,
+   "sd": 4.3404,
+   "mdd": 12.0308,
+   "fl": 7,
+   "nfl": 28,
+   "bud": 3,
+   "err": 8,
+   "n": 112,
+   "rep": false,
+   "loo": [
+    9.3687,
+    12.5635
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "qwen-3-coder-plus__filesystem",
+   "model": "qwen-3-coder-plus",
+   "mcp": "filesystem",
+   "tasks": 30,
+   "rounds": 4,
+   "scores": [
+    23.1,
+    21.4,
+    7.4,
+    7.7
+   ],
+   "mean": 14.901299999999999,
+   "rng": 15.6695,
+   "sd": 4.0764,
+   "mdd": 11.299,
+   "fl": 7,
+   "nfl": 29,
+   "bud": 8,
+   "err": 13,
+   "n": 120,
+   "rep": false,
+   "loo": [
+    10.0669,
+    11.0714
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "k2-0905__filesystem",
+   "model": "k2-0905",
+   "mcp": "filesystem",
+   "tasks": 30,
+   "rounds": 4,
+   "scores": [
+    17.2,
+    13.3,
+    13.3,
+    13.3
+   ],
+   "mean": 14.310324999999999,
+   "rng": 3.9080999999999992,
+   "sd": 3.4084,
+   "mdd": 9.4474,
+   "fl": 5,
+   "nfl": 30,
+   "bud": 3,
+   "err": 1,
+   "n": 120,
+   "rep": true,
+   "loo": [
+    7.5302,
+    9.7557
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "kimi-k2-0711__filesystem",
+   "model": "kimi-k2-0711",
+   "mcp": "filesystem",
+   "tasks": 30,
+   "rounds": 4,
+   "scores": [
+    20.7,
+    25.9,
+    17.9,
+    21.4
+   ],
+   "mean": 21.475324999999998,
+   "rng": 8.0688,
+   "sd": 3.5927,
+   "mdd": 9.9583,
+   "fl": 5,
+   "nfl": 29,
+   "bud": 2,
+   "err": 8,
+   "n": 120,
+   "rep": false,
+   "loo": [
+    6.3696,
+    10.3103
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "grok-4__github",
+   "model": "grok-4",
+   "mcp": "github",
+   "tasks": 23,
+   "rounds": 4,
+   "scores": [
+    16.7,
+    13.3,
+    26.7,
+    19.0
+   ],
+   "mean": 18.928575,
+   "rng": 13.3334,
+   "sd": 3.7864,
+   "mdd": 10.4952,
+   "fl": 3,
+   "nfl": 19,
+   "bud": 0,
+   "err": 23,
+   "n": 92,
+   "rep": false,
+   "loo": [
+    9.2634,
+    10.8408
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "grok-4__notion",
+   "model": "grok-4",
+   "mcp": "notion",
+   "tasks": 28,
+   "rounds": 4,
+   "scores": [
+    3.8,
+    3.6,
+    3.8,
+    0.0
+   ],
+   "mean": 2.81595,
+   "rng": 3.8462,
+   "sd": 1.5409,
+   "mdd": 4.2711,
+   "fl": 1,
+   "nfl": 28,
+   "bud": 0,
+   "err": 5,
+   "n": 112,
+   "rep": false,
+   "loo": [
+    0.0,
+    4.6611
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gpt-4-1-mini__filesystem",
+   "model": "gpt-4-1-mini",
+   "mcp": "filesystem",
+   "tasks": 30,
+   "rounds": 4,
+   "scores": [
+    3.3,
+    3.3,
+    3.3,
+    3.3
+   ],
+   "mean": 3.3333,
+   "rng": 0.0,
+   "sd": 0.0,
+   "mdd": 0.0,
+   "fl": 0,
+   "nfl": 30,
+   "bud": 1,
+   "err": 0,
+   "n": 120,
+   "rep": true,
+   "loo": [
+    0.0,
+    0.0
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gemini-2-5-flash__playwright",
+   "model": "gemini-2-5-flash",
+   "mcp": "playwright",
+   "tasks": 25,
+   "rounds": 4,
+   "scores": [
+    4.3,
+    8.0,
+    4.0,
+    8.0
+   ],
+   "mean": 6.08695,
+   "rng": 4.0,
+   "sd": 3.4095,
+   "mdd": 9.4505,
+   "fl": 3,
+   "nfl": 25,
+   "bud": 5,
+   "err": 2,
+   "n": 100,
+   "rep": true,
+   "loo": [
+    7.4412,
+    9.2747
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "k2__github",
+   "model": "k2",
+   "mcp": "github",
+   "tasks": 23,
+   "rounds": 4,
+   "scores": [
+    21.4,
+    16.7,
+    16.7,
+    21.4
+   ],
+   "mean": 19.047649999999997,
+   "rng": 4.761900000000001,
+   "sd": 3.8265,
+   "mdd": 10.6063,
+   "fl": 2,
+   "nfl": 14,
+   "bud": 0,
+   "err": 40,
+   "n": 92,
+   "rep": false,
+   "loo": [
+    8.1405,
+    12.2514
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "grok-4__filesystem",
+   "model": "grok-4",
+   "mcp": "filesystem",
+   "tasks": 30,
+   "rounds": 4,
+   "scores": [
+    44.8,
+    53.3,
+    48.3,
+    62.1
+   ],
+   "mean": 52.12645,
+   "rng": 17.241400000000006,
+   "sd": 5.4233,
+   "mdd": 15.0323,
+   "fl": 14,
+   "nfl": 30,
+   "bud": 1,
+   "err": 3,
+   "n": 120,
+   "rep": false,
+   "loo": [
+    13.713,
+    15.059
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gemini-2-5-flash__github",
+   "model": "gemini-2-5-flash",
+   "mcp": "github",
+   "tasks": 23,
+   "rounds": 4,
+   "scores": [
+    18.2,
+    13.0,
+    14.3,
+    17.4
+   ],
+   "mean": 15.725575,
+   "rng": 5.138299999999999,
+   "sd": 3.4456,
+   "mdd": 9.5505,
+   "fl": 3,
+   "nfl": 23,
+   "bud": 1,
+   "err": 3,
+   "n": 92,
+   "rep": false,
+   "loo": [
+    7.9845,
+    9.9123
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  },
+  {
+   "name": "gemini-2-5-flash__notion",
+   "model": "gemini-2-5-flash",
+   "mcp": "notion",
+   "tasks": 28,
+   "rounds": 4,
+   "scores": [
+    3.6,
+    3.6,
+    14.3,
+    3.6
+   ],
+   "mean": 6.249975,
+   "rng": 10.7143,
+   "sd": 3.861,
+   "mdd": 10.7019,
+   "fl": 6,
+   "nfl": 28,
+   "bud": 0,
+   "err": 0,
+   "n": 112,
+   "rep": true,
+   "loo": [
+    8.0721,
+    11.3791
+   ],
+   "served": [
+    "mcpmark-v1-0905"
+   ]
+  }
+ ]
+}

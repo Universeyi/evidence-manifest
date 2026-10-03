@@ -1,0 +1,43 @@
+{
+  "serving": {
+    "provider": "atlas-cloud",
+    "observed_provider": "unrecorded",
+    "observed_provider_source": "unrecorded",
+    "quantization": "int4"
+  },
+  "env": {
+    "image_digest": "sha256:00e24a8995892af9a0e1b68bc14ce455fae288d0f1ca8cf57e84a58e40e9f19e",
+    "taskset_commit": "83e7b8fc75ebb6c4a098254a42999db5f4172666"
+  },
+  "run": {
+    "repetition_index": 4,
+    "total_repetitions": 10,
+    "started_at": "2026-08-26T07:19:40.651507+00:00",
+    "ended_at": "2026-08-26T07:29:13.326284+00:00"
+  },
+  "sampling": {
+    "temperature": 0.0,
+    "seed": 42
+  },
+  "steps": [],
+  "verdict": {
+    "criteria_version": "83e7b8fc75ebb6c4a098254a42999db5f4172666",
+    "score": 0.0,
+    "reason": "Budget summary table not posted in channel (missing departments, ROI info, or table format)"
+  },
+  "outcome": {
+    "reason": "budget_exhausted"
+  },
+  "harness": {
+    "silent_retries": 0
+  },
+  "artefacts": {
+    "observations": "none"
+  },
+  "task_id": "MattermostBudgetApprovalPipelineTask",
+  "usage": {
+    "completion_tokens": 4416,
+    "prompt_tokens": 599815,
+    "per_step_unavailable_reason": "MobileWorld's trajectory logger records one token_usage per run, not per step."
+  }
+}

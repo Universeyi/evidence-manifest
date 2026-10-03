@@ -1,0 +1,39 @@
+{
+ "sizes": {
+  "split": 98,
+  "all_pass": 9,
+  "all_fail": 10
+ },
+ "tasks": {
+  "AcceptMeetingTask": "all_pass",
+  "BidFileRenameTask": "split",
+  "CVEmailTask": "split",
+  "ChangeWallpaperTask": "all_pass",
+  "CheckEventTimeTask": "all_pass",
+  "CheckInterviewTimesTask": "all_fail",
+  "CloseFlightModeTask": "all_pass",
+  "DownloadSendReceiptTask": "split",
+  "GoogleMapsAlibabaSouthNeighborTask": "all_pass",
+  "GraduationMassEmailTask": "split",
+  "LocalFileManagementTask2": "all_fail",
+  "MastodonCalendarMultiMemosTask": "all_fail",
+  "MastodonChangeHeaderTask": "all_pass",
+  "MastodonGetServerInfoTask": "all_fail",
+  "MastodonImportMutedUsersTask": "split",
+  "MastodonNewPostTask": "all_pass",
+  "MastodonServerInfoReportTask": "all_fail",
+  "MastodonShareLocationTask": "all_fail",
+  "MattermostBudgetApprovalPipelineTask": "split",
+  "MattermostCreateChannelTask": "split",
+  "MattermostEmailTask": "split",
+  "MattermostProjectStatusReportTask": "all_fail",
+  "MattermostResourceConflictResolutionTask": "all_fail",
+  "OpenFlightModeTask": "all_pass",
+  "ReadQwen3PaperTask5": "all_fail",
+  "SMSManagement": "all_fail",
+  "ScheduleLunchViaSmsTask": "split",
+  "SendFormsTask": "split",
+  "TakeSelfieTask": "all_pass"
+ },
+ "note": "MobileWorld GUI-Only strata as used in the audit: 98 split / 9 all_pass / 10 all_fail = 117"
+}

@@ -1,0 +1,3685 @@
+{
+ "summary": {
+  "n_configs_total": 108,
+  "n_reportable": 95,
+  "mdd": {
+   "min": 3.8254,
+   "p25": 7.1406,
+   "median": 7.6058,
+   "p75": 8.01935,
+   "max": 9.1148
+  },
+  "sd": {
+   "min": 1.3801,
+   "median": 2.744,
+   "max": 3.2884
+  },
+  "range": {
+   "min": 1.1236,
+   "median": 6.7416,
+   "max": 15.7303
+  },
+  "flipped_share": {
+   "min": 0.0898876404494382,
+   "median": 0.34831460674157305,
+   "max": 0.5168539325842697
+  },
+  "adjacent_pairs": 94,
+  "adjacent_within_noise": 94,
+  "note": "board = the 5-round mean of each reportable configuration; a pair is within noise when its gap is below 1.96*sqrt(sd_a^2+sd_b^2)"
+ },
+ "configs": [
+  {
+   "name": "Factory_Droid__claude-opus-4-5-20251101_anthropic",
+   "agent": "Factory_Droid",
+   "model": "claude-opus-4-5-20251101_anthropic",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 63.146040000000006,
+   "scores": [
+    62.9,
+    65.2,
+    61.8,
+    62.9,
+    62.9
+   ],
+   "rng": 3.3707,
+   "sd": 2.744,
+   "mdd": 7.6058,
+   "reportable": true,
+   "flipped": 30,
+   "nflip": 89,
+   "meanflip": 0.1685,
+   "loo": [
+    7.154,
+    7.572
+   ],
+   "unadj": 445,
+   "n": 445
+  },
+  {
+   "name": "Factory_Droid__claude-opus-4-6_anthropic",
+   "agent": "Factory_Droid",
+   "model": "claude-opus-4-6_anthropic",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 69.88762,
+   "scores": [
+    68.5,
+    71.9,
+    68.5,
+    70.8,
+    69.7
+   ],
+   "rng": 3.3708,
+   "sd": 2.4912,
+   "mdd": 6.9051,
+   "reportable": true,
+   "flipped": 26,
+   "nflip": 89,
+   "meanflip": 0.1416,
+   "loo": [
+    6.511,
+    6.8234
+   ],
+   "unadj": 445,
+   "n": 445
+  },
+  {
+   "name": "Factory_Droid__gemini-3-pro-preview_google",
+   "agent": "Factory_Droid",
+   "model": "gemini-3-pro-preview_google",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 61.123599999999996,
+   "scores": [
+    64.0,
+    59.6,
+    59.6,
+    62.9,
+    59.6
+   ],
+   "rng": 4.4943,
+   "sd": 2.8356,
+   "mdd": 7.8597,
+   "reportable": true,
+   "flipped": 33,
+   "nflip": 89,
+   "meanflip": 0.1798,
+   "loo": [
+    7.3824,
+    7.7924
+   ],
+   "unadj": 445,
+   "n": 445
+  },
+  {
+   "name": "Factory_Droid__gpt-5.2_openai",
+   "agent": "Factory_Droid",
+   "model": "gpt-5.2_openai",
+   "n_tasks": 89,
+   "n_rounds": 4,
+   "mean": 65.4494,
+   "scores": [
+    65.2,
+    64.0,
+    67.4,
+    65.2
+   ],
+   "rng": 3.3708,
+   "sd": 2.8603,
+   "mdd": 7.9282,
+   "reportable": true,
+   "flipped": 33,
+   "nflip": 89,
+   "meanflip": 0.1775,
+   "loo": [
+    7.4232,
+    7.8204
+   ],
+   "unadj": 444,
+   "n": 444
+  },
+  {
+   "name": "Factory_Droid__gpt-5.3-codex_openai",
+   "agent": "Factory_Droid",
+   "model": "gpt-5.3-codex_openai",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 77.30337999999999,
+   "scores": [
+    77.5,
+    76.4,
+    76.4,
+    77.5,
+    78.7
+   ],
+   "rng": 2.2472,
+   "sd": 2.2148,
+   "mdd": 6.139,
+   "reportable": true,
+   "flipped": 19,
+   "nflip": 89,
+   "meanflip": 0.1079,
+   "loo": [
+    5.7975,
+    6.1179
+   ],
+   "unadj": 445,
+   "n": 445
+  },
+  {
+   "name": "Junie__gemini-3-flash-preview_gemini",
+   "agent": "Junie",
+   "model": "gemini-3-flash-preview_gemini",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 64.26964000000001,
+   "scores": [
+    68.5,
+    62.9,
+    66.3,
+    66.3,
+    57.3
+   ],
+   "rng": 11.2359,
+   "sd": 2.8571,
+   "mdd": 7.9193,
+   "reportable": true,
+   "flipped": 33,
+   "nflip": 89,
+   "meanflip": 0.1798,
+   "loo": [
+    7.0337,
+    8.0712
+   ],
+   "unadj": 445,
+   "n": 445
+  },
+  {
+   "name": "TerminalBenchAgent__claude-sonnet-4-5_anthropic",
+   "agent": "TerminalBenchAgent",
+   "model": "claude-sonnet-4-5_anthropic",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 46.51684,
+   "scores": [
+    47.2,
+    47.2,
+    49.4,
+    41.6,
+    47.2
+   ],
+   "rng": 7.8652,
+   "sd": 2.4143,
+   "mdd": 6.692,
+   "reportable": true,
+   "flipped": 24,
+   "nflip": 89,
+   "meanflip": 0.1281,
+   "loo": [
+    6.1947,
+    6.7829
+   ],
+   "unadj": 445,
+   "n": 445
+  },
+  {
+   "name": "ante__gemini-3-pro-preview_Google",
+   "agent": "ante",
+   "model": "gemini-3-pro-preview_Google",
+   "n_tasks": 89,
+   "n_rounds": 4,
+   "mean": 66.29215,
+   "scores": [
+    71.9,
+    70.8,
+    61.8,
+    60.7
+   ],
+   "rng": 11.2359,
+   "sd": 2.7336,
+   "mdd": 7.577,
+   "reportable": true,
+   "flipped": 33,
+   "nflip": 89,
+   "meanflip": 0.1685,
+   "loo": [
+    6.9312,
+    7.5831
+   ],
+   "unadj": 444,
+   "n": 444
+  },
+  {
+   "name": "aone-agent__Qwen_Qwen3-Coder-480B-A35B-Instruct-FP8_modelscope",
+   "agent": "aone-agent",
+   "model": "Qwen_Qwen3-Coder-480B-A35B-Instruct-FP8_modelscope",
+   "n_tasks": 89,
+   "n_rounds": 2,
+   "mean": 24.7191,
+   "scores": [
+    25.8,
+    23.6
+   ],
+   "rng": 2.2472,
+   "sd": 2.6039,
+   "mdd": 7.2175,
+   "reportable": false,
+   "flipped": 28,
+   "nflip": 89,
+   "meanflip": 0.1528,
+   "loo": [
+    6.5401,
+    7.2203
+   ],
+   "unadj": 442,
+   "n": 442
+  },
+  {
+   "name": "claude-code-enhanced__claude-opus-4-6_anthropic",
+   "agent": "claude-code-enhanced",
+   "model": "claude-opus-4-6_anthropic",
+   "n_tasks": 89,
+   "n_rounds": 1,
+   "mean": 51.6854,
+   "scores": [
+    51.7
+   ],
+   "rng": 0.0,
+   "sd": 3.6879,
+   "mdd": 10.2221,
+   "reportable": false,
+   "flipped": 52,
+   "nflip": 87,
+   "meanflip": 0.3199,
+   "loo": [
+    9.3269,
+    10.2338
+   ],
+   "unadj": 398,
+   "n": 398
+  },
+  {
+   "name": "claude-code__GLM-4.7_z-ai",
+   "agent": "claude-code",
+   "model": "GLM-4.7_z-ai",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 33.25846,
+   "scores": [
+    31.5,
+    34.8,
+    32.6,
+    30.3,
+    37.1
+   ],
+   "rng": 6.7416,
+   "sd": 2.4902,
+   "mdd": 6.9024,
+   "reportable": true,
+   "flipped": 27,
+   "nflip": 89,
+   "meanflip": 0.1393,
+   "loo": [
+    6.1856,
+    6.9475
+   ],
+   "unadj": 445,
+   "n": 445
+  },
+  {
+   "name": "claude-code__claude-haiku-4-5-20251001_anthropic",
+   "agent": "claude-code",
+   "model": "claude-haiku-4-5-20251001_anthropic",
+   "n_tasks": 89,
+   "n_rounds": 4,
+   "mean": 28.9326,
+   "scores": [
+    31.5,
+    28.1,
+    31.5,
+    24.7
+   ],
+   "rng": 6.7416,
+   "sd": 2.7746,
+   "mdd": 7.6907,
+   "reportable": true,
+   "flipped": 31,
+   "nflip": 89,
+   "meanflip": 0.1738,
+   "loo": [
+    7.2147,
+    7.5088
+   ],
+   "unadj": 35,
+   "n": 438
+  },
+  {
+   "name": "claude-code__claude-opus-4-1-20250805_anthropic",
+   "agent": "claude-code",
+   "model": "claude-opus-4-1-20250805_anthropic",
+   "n_tasks": 89,
+   "n_rounds": 4,
+   "mean": 35.674175,
+   "scores": [
+    34.8,
+    38.2,
+    36.0,
+    33.7
+   ],
+   "rng": 4.4943,
+   "sd": 2.8908,
+   "mdd": 8.0127,
+   "reportable": true,
+   "flipped": 32,
+   "nflip": 89,
+   "meanflip": 0.1873,
+   "loo": [
+    7.3065,
+    8.0502
+   ],
+   "unadj": 33,
+   "n": 437
+  },
+  {
+   "name": "claude-code__claude-opus-4-5-20251101_anthropic",
+   "agent": "claude-code",
+   "model": "claude-opus-4-5-20251101_anthropic",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 52.13484,
+   "scores": [
+    53.9,
+    50.6,
+    48.3,
+    55.1,
+    52.8
+   ],
+   "rng": 6.7416,
+   "sd": 2.5653,
+   "mdd": 7.1105,
+   "reportable": true,
+   "flipped": 28,
+   "nflip": 89,
+   "meanflip": 0.1483,
+   "loo": [
+    6.5911,
+    7.2652
+   ],
+   "unadj": 9,
+   "n": 445
+  },
+  {
+   "name": "claude-code__claude-opus-4-6_anthropic",
+   "agent": "claude-code",
+   "model": "claude-opus-4-6_anthropic",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 57.977560000000004,
+   "scores": [
+    57.3,
+    56.2,
+    58.4,
+    56.2,
+    61.8
+   ],
+   "rng": 5.618,
+   "sd": 2.9605,
+   "mdd": 8.2059,
+   "reportable": true,
+   "flipped": 35,
+   "nflip": 89,
+   "meanflip": 0.1955,
+   "loo": [
+    7.6765,
+    8.11
+   ],
+   "unadj": 10,
+   "n": 445
+  },
+  {
+   "name": "claude-code__claude-sonnet-4-5-20250929_anthropic",
+   "agent": "claude-code",
+   "model": "claude-sonnet-4-5-20250929_anthropic",
+   "n_tasks": 89,
+   "n_rounds": 4,
+   "mean": 40.168525,
+   "scores": [
+    44.9,
+    40.4,
+    37.1,
+    38.2
+   ],
+   "rng": 7.8651,
+   "sd": 2.9096,
+   "mdd": 8.0649,
+   "reportable": true,
+   "flipped": 35,
+   "nflip": 89,
+   "meanflip": 0.1899,
+   "loo": [
+    7.4728,
+    8.082
+   ],
+   "unadj": 33,
+   "n": 437
+  },
+  {
+   "name": "claude-code__minimax-m2.1_minimax",
+   "agent": "claude-code",
+   "model": "minimax-m2.1_minimax",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 36.62922,
+   "scores": [
+    39.3,
+    32.6,
+    39.3,
+    37.1,
+    34.8
+   ],
+   "rng": 6.7415,
+   "sd": 2.9847,
+   "mdd": 8.273,
+   "reportable": true,
+   "flipped": 34,
+   "nflip": 89,
+   "meanflip": 0.1933,
+   "loo": [
+    7.3938,
+    8.2361
+   ],
+   "unadj": 5,
+   "n": 445
+  },
+  {
+   "name": "codex__gpt-5-codex_openai",
+   "agent": "codex",
+   "model": "gpt-5-codex_openai",
+   "n_tasks": 89,
+   "n_rounds": 4,
+   "mean": 44.6629,
+   "scores": [
+    42.7,
+    44.9,
+    46.1,
+    44.9
+   ],
+   "rng": 3.3708,
+   "sd": 2.6873,
+   "mdd": 7.4487,
+   "reportable": true,
+   "flipped": 29,
+   "nflip": 89,
+   "meanflip": 0.1644,
+   "loo": [
+    7.0254,
+    7.3137
+   ],
+   "unadj": 268,
+   "n": 436
+  },
+  {
+   "name": "codex__gpt-5-mini_openai",
+   "agent": "codex",
+   "model": "gpt-5-mini_openai",
+   "n_tasks": 89,
+   "n_rounds": 4,
+   "mean": 32.0225,
+   "scores": [
+    32.6,
+    33.7,
+    33.7,
+    28.1
+   ],
+   "rng": 5.618,
+   "sd": 2.9839,
+   "mdd": 8.2708,
+   "reportable": true,
+   "flipped": 36,
+   "nflip": 89,
+   "meanflip": 0.2004,
+   "loo": [
+    7.518,
+    8.3182
+   ],
+   "unadj": 27,
+   "n": 437
+  },
+  {
+   "name": "codex__gpt-5-nano_openai",
+   "agent": "codex",
+   "model": "gpt-5-nano_openai",
+   "n_tasks": 89,
+   "n_rounds": 4,
+   "mean": 11.235975,
+   "scores": [
+    10.1,
+    10.1,
+    11.2,
+    13.5
+   ],
+   "rng": 3.3707,
+   "sd": 2.3153,
+   "mdd": 6.4176,
+   "reportable": true,
+   "flipped": 22,
+   "nflip": 89,
+   "meanflip": 0.1191,
+   "loo": [
+    5.9026,
+    6.4162
+   ],
+   "unadj": 17,
+   "n": 440
+  },
+  {
+   "name": "codex__gpt-5.1-codex-max_openai",
+   "agent": "codex",
+   "model": "gpt-5.1-codex-max_openai",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 60.44944,
+   "scores": [
+    58.4,
+    57.3,
+    62.9,
+    64.0,
+    59.6
+   ],
+   "rng": 6.7415,
+   "sd": 2.69,
+   "mdd": 7.4562,
+   "reportable": true,
+   "flipped": 29,
+   "nflip": 89,
+   "meanflip": 0.164,
+   "loo": [
+    7.1116,
+    7.6385
+   ],
+   "unadj": 445,
+   "n": 445
+  },
+  {
+   "name": "codex__gpt-5.1-codex-mini_openai",
+   "agent": "codex",
+   "model": "gpt-5.1-codex-mini_openai",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 43.14604,
+   "scores": [
+    40.4,
+    39.3,
+    48.3,
+    46.1,
+    41.6
+   ],
+   "rng": 8.9888,
+   "sd": 3.0724,
+   "mdd": 8.5161,
+   "reportable": true,
+   "flipped": 37,
+   "nflip": 89,
+   "meanflip": 0.209,
+   "loo": [
+    7.8872,
+    8.6267
+   ],
+   "unadj": 445,
+   "n": 445
+  },
+  {
+   "name": "codex__gpt-5.1-codex_openai",
+   "agent": "codex",
+   "model": "gpt-5.1-codex_openai",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 57.752840000000006,
+   "scores": [
+    60.7,
+    61.8,
+    59.6,
+    56.2,
+    50.6
+   ],
+   "rng": 11.236,
+   "sd": 3.0066,
+   "mdd": 8.3337,
+   "reportable": true,
+   "flipped": 38,
+   "nflip": 89,
+   "meanflip": 0.2,
+   "loo": [
+    7.4212,
+    8.4163
+   ],
+   "unadj": 445,
+   "n": 445
+  },
+  {
+   "name": "codex__gpt-5.2_openai",
+   "agent": "codex",
+   "model": "gpt-5.2_openai",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 62.92136000000001,
+   "scores": [
+    59.6,
+    67.4,
+    60.7,
+    58.4,
+    68.5
+   ],
+   "rng": 10.1123,
+   "sd": 3.0693,
+   "mdd": 8.5075,
+   "reportable": true,
+   "flipped": 37,
+   "nflip": 89,
+   "meanflip": 0.209,
+   "loo": [
+    8.0155,
+    8.3492
+   ],
+   "unadj": 445,
+   "n": 445
+  },
+  {
+   "name": "codex__gpt-5_openai",
+   "agent": "codex",
+   "model": "gpt-5_openai",
+   "n_tasks": 89,
+   "n_rounds": 4,
+   "mean": 49.4382,
+   "scores": [
+    47.2,
+    51.7,
+    48.3,
+    50.6
+   ],
+   "rng": 4.4944,
+   "sd": 2.8773,
+   "mdd": 7.9753,
+   "reportable": true,
+   "flipped": 33,
+   "nflip": 89,
+   "meanflip": 0.1884,
+   "loo": [
+    7.4587,
+    7.941
+   ],
+   "unadj": 30,
+   "n": 439
+  },
+  {
+   "name": "deepagent-harbor__gpt-5.2-codex_openai",
+   "agent": "deepagent-harbor",
+   "model": "gpt-5.2-codex_openai",
+   "n_tasks": 89,
+   "n_rounds": 2,
+   "mean": 66.85390000000001,
+   "scores": [
+    66.3,
+    67.4
+   ],
+   "rng": 1.1236,
+   "sd": 2.9315,
+   "mdd": 8.1256,
+   "reportable": false,
+   "flipped": 35,
+   "nflip": 89,
+   "meanflip": 0.1985,
+   "loo": [
+    7.5088,
+    7.8675
+   ],
+   "unadj": 16,
+   "n": 433
+  },
+  {
+   "name": "final__claude-4.5-sonnet_anthropic",
+   "agent": "final",
+   "model": "claude-4.5-sonnet_anthropic",
+   "n_tasks": 89,
+   "n_rounds": 1,
+   "mean": 42.6966,
+   "scores": [
+    42.7
+   ],
+   "rng": 0.0,
+   "sd": 0.0,
+   "mdd": 0.0,
+   "reportable": false,
+   "flipped": 0,
+   "nflip": 87,
+   "meanflip": 0.0,
+   "loo": [
+    0.0,
+    0.0
+   ],
+   "unadj": 322,
+   "n": 322
+  },
+  {
+   "name": "forge__gemini-3.1-pro-preview_Google",
+   "agent": "forge",
+   "model": "gemini-3.1-pro-preview_Google",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 78.42698,
+   "scores": [
+    79.8,
+    73.0,
+    80.9,
+    78.7,
+    79.8
+   ],
+   "rng": 7.8652,
+   "sd": 1.8581,
+   "mdd": 5.1503,
+   "reportable": true,
+   "flipped": 14,
+   "nflip": 89,
+   "meanflip": 0.0764,
+   "loo": [
+    4.574,
+    5.2257
+   ],
+   "unadj": 445,
+   "n": 445
+  },
+  {
+   "name": "gemini-cli__gemini-2.5-flash_gemini",
+   "agent": "gemini-cli",
+   "model": "gemini-2.5-flash_gemini",
+   "n_tasks": 89,
+   "n_rounds": 4,
+   "mean": 14.88765,
+   "scores": [
+    19.1,
+    12.4,
+    11.2,
+    16.9
+   ],
+   "rng": 7.8651,
+   "sd": 2.3248,
+   "mdd": 6.4439,
+   "reportable": true,
+   "flipped": 22,
+   "nflip": 89,
+   "meanflip": 0.121,
+   "loo": [
+    5.4738,
+    6.6094
+   ],
+   "unadj": 33,
+   "n": 439
+  },
+  {
+   "name": "gemini-cli__gemini-2.5-pro_gemini",
+   "agent": "gemini-cli",
+   "model": "gemini-2.5-pro_gemini",
+   "n_tasks": 89,
+   "n_rounds": 4,
+   "mean": 20.5056,
+   "scores": [
+    24.7,
+    21.3,
+    18.0,
+    18.0
+   ],
+   "rng": 6.7416,
+   "sd": 2.9043,
+   "mdd": 8.0502,
+   "reportable": true,
+   "flipped": 35,
+   "nflip": 89,
+   "meanflip": 0.1865,
+   "loo": [
+    7.268,
+    7.9584
+   ],
+   "unadj": 56,
+   "n": 437
+  },
+  {
+   "name": "gemini-cli__gemini-3-flash-preview_Google",
+   "agent": "gemini-cli",
+   "model": "gemini-3-flash-preview_Google",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 51.01124,
+   "scores": [
+    48.3,
+    52.8,
+    55.1,
+    49.4,
+    49.4
+   ],
+   "rng": 6.7416,
+   "sd": 3.0515,
+   "mdd": 8.4582,
+   "reportable": true,
+   "flipped": 34,
+   "nflip": 89,
+   "meanflip": 0.2022,
+   "loo": [
+    7.9642,
+    8.2289
+   ],
+   "unadj": 445,
+   "n": 445
+  },
+  {
+   "name": "goose__claude-haiku-4-5_anthropic",
+   "agent": "goose",
+   "model": "claude-haiku-4-5_anthropic",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 35.50564,
+   "scores": [
+    34.8,
+    40.4,
+    36.0,
+    36.0,
+    30.3
+   ],
+   "rng": 10.1123,
+   "sd": 2.9668,
+   "mdd": 8.2234,
+   "reportable": true,
+   "flipped": 34,
+   "nflip": 89,
+   "meanflip": 0.1933,
+   "loo": [
+    7.6754,
+    8.1328
+   ],
+   "unadj": 445,
+   "n": 445
+  },
+  {
+   "name": "goose__claude-opus-4-5_anthropic",
+   "agent": "goose",
+   "model": "claude-opus-4-5_anthropic",
+   "n_tasks": 89,
+   "n_rounds": 4,
+   "mean": 53.6517,
+   "scores": [
+    55.1,
+    53.9,
+    53.9,
+    51.7
+   ],
+   "rng": 3.3708,
+   "sd": 2.6913,
+   "mdd": 7.4598,
+   "reportable": true,
+   "flipped": 29,
+   "nflip": 89,
+   "meanflip": 0.1584,
+   "loo": [
+    6.8441,
+    7.6108
+   ],
+   "unadj": 442,
+   "n": 442
+  },
+  {
+   "name": "goose__claude-sonnet-4-5_anthropic",
+   "agent": "goose",
+   "model": "claude-sonnet-4-5_anthropic",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 43.14604,
+   "scores": [
+    42.7,
+    49.4,
+    38.2,
+    44.9,
+    40.4
+   ],
+   "rng": 11.236,
+   "sd": 2.6452,
+   "mdd": 7.332,
+   "reportable": true,
+   "flipped": 29,
+   "nflip": 89,
+   "meanflip": 0.1551,
+   "loo": [
+    6.9223,
+    7.3608
+   ],
+   "unadj": 445,
+   "n": 445
+  },
+  {
+   "name": "ii-agent-simple__gemini-3-pro-preview_gemini",
+   "agent": "ii-agent-simple",
+   "model": "gemini-3-pro-preview_gemini",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 61.797760000000004,
+   "scores": [
+    66.3,
+    61.8,
+    60.7,
+    56.2,
+    64.0
+   ],
+   "rng": 10.1123,
+   "sd": 2.877,
+   "mdd": 7.9745,
+   "reportable": true,
+   "flipped": 35,
+   "nflip": 89,
+   "meanflip": 0.1843,
+   "loo": [
+    7.5576,
+    7.9279
+   ],
+   "unadj": 445,
+   "n": 445
+  },
+  {
+   "name": "judy__claude-opus-4.6_anthropic",
+   "agent": "judy",
+   "model": "claude-opus-4.6_anthropic",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 71.9101,
+   "scores": [
+    73.0,
+    75.3,
+    69.7,
+    68.5,
+    73.0
+   ],
+   "rng": 6.7416,
+   "sd": 2.7244,
+   "mdd": 7.5515,
+   "reportable": true,
+   "flipped": 32,
+   "nflip": 89,
+   "meanflip": 0.1663,
+   "loo": [
+    7.0883,
+    7.516
+   ],
+   "unadj": 288,
+   "n": 445
+  },
+  {
+   "name": "letta-code__claude-opus-4-5_anthropic",
+   "agent": "letta-code",
+   "model": "claude-opus-4-5_anthropic",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 59.10116000000001,
+   "scores": [
+    60.7,
+    59.6,
+    58.4,
+    58.4,
+    58.4
+   ],
+   "rng": 2.2472,
+   "sd": 2.4649,
+   "mdd": 6.8322,
+   "reportable": true,
+   "flipped": 24,
+   "nflip": 89,
+   "meanflip": 0.1348,
+   "loo": [
+    6.3078,
+    6.9062
+   ],
+   "unadj": 445,
+   "n": 445
+  },
+  {
+   "name": "letta-code__gemini-3-pro-preview_google",
+   "agent": "letta-code",
+   "model": "gemini-3-pro-preview_google",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 55.955079999999995,
+   "scores": [
+    56.2,
+    57.3,
+    56.2,
+    53.9,
+    56.2
+   ],
+   "rng": 3.3708,
+   "sd": 3.0137,
+   "mdd": 8.3534,
+   "reportable": true,
+   "flipped": 35,
+   "nflip": 89,
+   "meanflip": 0.2045,
+   "loo": [
+    7.8675,
+    8.2741
+   ],
+   "unadj": 445,
+   "n": 445
+  },
+  {
+   "name": "letta-code__gpt-5.1-codex_openai",
+   "agent": "letta-code",
+   "model": "gpt-5.1-codex_openai",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 53.48316,
+   "scores": [
+    53.9,
+    53.9,
+    53.9,
+    53.9,
+    51.7
+   ],
+   "rng": 2.2472,
+   "sd": 2.877,
+   "mdd": 7.9745,
+   "reportable": true,
+   "flipped": 32,
+   "nflip": 89,
+   "meanflip": 0.1865,
+   "loo": [
+    7.3927,
+    7.9498
+   ],
+   "unadj": 445,
+   "n": 445
+  },
+  {
+   "name": "mini-swe-agent__claude-haiku-4-5-20251001_anthropic",
+   "agent": "mini-swe-agent",
+   "model": "claude-haiku-4-5-20251001_anthropic",
+   "n_tasks": 89,
+   "n_rounds": 4,
+   "mean": 29.7753,
+   "scores": [
+    29.2,
+    30.3,
+    29.2,
+    30.3
+   ],
+   "rng": 1.1236,
+   "sd": 2.548,
+   "mdd": 7.0626,
+   "reportable": true,
+   "flipped": 26,
+   "nflip": 89,
+   "meanflip": 0.1449,
+   "loo": [
+    6.4666,
+    7.0634
+   ],
+   "unadj": 16,
+   "n": 444
+  },
+  {
+   "name": "mini-swe-agent__claude-opus-4-1-20250805_anthropic",
+   "agent": "mini-swe-agent",
+   "model": "claude-opus-4-1-20250805_anthropic",
+   "n_tasks": 89,
+   "n_rounds": 4,
+   "mean": 35.674175,
+   "scores": [
+    31.5,
+    37.1,
+    36.0,
+    38.2
+   ],
+   "rng": 6.7415,
+   "sd": 2.5648,
+   "mdd": 7.1091,
+   "reportable": true,
+   "flipped": 26,
+   "nflip": 89,
+   "meanflip": 0.1461,
+   "loo": [
+    6.5082,
+    7.1995
+   ],
+   "unadj": 15,
+   "n": 444
+  },
+  {
+   "name": "mini-swe-agent__claude-sonnet-4-5-20250929_anthropic",
+   "agent": "mini-swe-agent",
+   "model": "claude-sonnet-4-5-20250929_anthropic",
+   "n_tasks": 89,
+   "n_rounds": 4,
+   "mean": 42.9775,
+   "scores": [
+    43.8,
+    41.6,
+    47.2,
+    39.3
+   ],
+   "rng": 7.8652,
+   "sd": 2.8534,
+   "mdd": 7.9091,
+   "reportable": true,
+   "flipped": 31,
+   "nflip": 89,
+   "meanflip": 0.1809,
+   "loo": [
+    7.0983,
+    7.9024
+   ],
+   "unadj": 23,
+   "n": 442
+  },
+  {
+   "name": "mini-swe-agent__gemini-2.5-flash_gemini",
+   "agent": "mini-swe-agent",
+   "model": "gemini-2.5-flash_gemini",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 17.07862,
+   "scores": [
+    13.5,
+    16.9,
+    24.7,
+    15.7,
+    14.6
+   ],
+   "rng": 11.236,
+   "sd": 2.5387,
+   "mdd": 7.0368,
+   "reportable": true,
+   "flipped": 27,
+   "nflip": 89,
+   "meanflip": 0.1438,
+   "loo": [
+    6.4109,
+    7.1951
+   ],
+   "unadj": 13,
+   "n": 445
+  },
+  {
+   "name": "mini-swe-agent__gemini-2.5-pro_gemini",
+   "agent": "mini-swe-agent",
+   "model": "gemini-2.5-pro_gemini",
+   "n_tasks": 89,
+   "n_rounds": 4,
+   "mean": 25.8427,
+   "scores": [
+    32.6,
+    23.6,
+    22.5,
+    24.7
+   ],
+   "rng": 10.1124,
+   "sd": 2.6332,
+   "mdd": 7.2987,
+   "reportable": true,
+   "flipped": 29,
+   "nflip": 89,
+   "meanflip": 0.1506,
+   "loo": [
+    6.9589,
+    7.2061
+   ],
+   "unadj": 9,
+   "n": 444
+  },
+  {
+   "name": "mini-swe-agent__gpt-5-codex_openai",
+   "agent": "mini-swe-agent",
+   "model": "gpt-5-codex_openai",
+   "n_tasks": 89,
+   "n_rounds": 4,
+   "mean": 42.696600000000004,
+   "scores": [
+    47.2,
+    43.8,
+    41.6,
+    38.2
+   ],
+   "rng": 8.9888,
+   "sd": 2.8404,
+   "mdd": 7.873,
+   "reportable": true,
+   "flipped": 32,
+   "nflip": 89,
+   "meanflip": 0.1775,
+   "loo": [
+    7.3808,
+    7.9712
+   ],
+   "unadj": 18,
+   "n": 444
+  },
+  {
+   "name": "mini-swe-agent__gpt-5-mini_openai",
+   "agent": "mini-swe-agent",
+   "model": "gpt-5-mini_openai",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 22.24718,
+   "scores": [
+    24.7,
+    25.8,
+    21.3,
+    18.0,
+    21.3
+   ],
+   "rng": 7.8652,
+   "sd": 2.6709,
+   "mdd": 7.4032,
+   "reportable": true,
+   "flipped": 30,
+   "nflip": 89,
+   "meanflip": 0.1596,
+   "loo": [
+    7.049,
+    7.3439
+   ],
+   "unadj": 11,
+   "n": 445
+  },
+  {
+   "name": "mini-swe-agent__gpt-5-nano_openai",
+   "agent": "mini-swe-agent",
+   "model": "gpt-5-nano_openai",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 6.9663200000000005,
+   "scores": [
+    6.7,
+    10.1,
+    4.5,
+    7.9,
+    5.6
+   ],
+   "rng": 5.618,
+   "sd": 1.9534,
+   "mdd": 5.4144,
+   "reportable": true,
+   "flipped": 16,
+   "nflip": 89,
+   "meanflip": 0.0854,
+   "loo": [
+    5.0136,
+    5.6265
+   ],
+   "unadj": 4,
+   "n": 445
+  },
+  {
+   "name": "mini-swe-agent__gpt-5_openai",
+   "agent": "mini-swe-agent",
+   "model": "gpt-5_openai",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 33.93262,
+   "scores": [
+    36.0,
+    33.7,
+    34.8,
+    32.6,
+    32.6
+   ],
+   "rng": 3.3708,
+   "sd": 2.9827,
+   "mdd": 8.2675,
+   "reportable": true,
+   "flipped": 34,
+   "nflip": 89,
+   "meanflip": 0.1955,
+   "loo": [
+    7.7857,
+    8.3074
+   ],
+   "unadj": 13,
+   "n": 445
+  },
+  {
+   "name": "mini-swe-agent__grok-4-0709_xai",
+   "agent": "mini-swe-agent",
+   "model": "grok-4-0709_xai",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 25.39326,
+   "scores": [
+    28.1,
+    23.6,
+    28.1,
+    19.1,
+    28.1
+   ],
+   "rng": 8.9888,
+   "sd": 2.9918,
+   "mdd": 8.2927,
+   "reportable": true,
+   "flipped": 36,
+   "nflip": 89,
+   "meanflip": 0.1978,
+   "loo": [
+    7.6968,
+    8.2849
+   ],
+   "unadj": 32,
+   "n": 445
+  },
+  {
+   "name": "mini-swe-agent__grok-code-fast-1_xai",
+   "agent": "mini-swe-agent",
+   "model": "grok-code-fast-1_xai",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 25.8427,
+   "scores": [
+    27.0,
+    21.3,
+    28.1,
+    25.8,
+    27.0
+   ],
+   "rng": 6.7416,
+   "sd": 2.6544,
+   "mdd": 7.3575,
+   "reportable": true,
+   "flipped": 30,
+   "nflip": 89,
+   "meanflip": 0.1596,
+   "loo": [
+    6.8392,
+    7.4337
+   ],
+   "unadj": 9,
+   "n": 445
+  },
+  {
+   "name": "mini-swe-agent__openai_gpt-oss-120b_together_ai",
+   "agent": "mini-swe-agent",
+   "model": "openai_gpt-oss-120b_together_ai",
+   "n_tasks": 89,
+   "n_rounds": 9,
+   "mean": 14.232199999999999,
+   "scores": [
+    15.7,
+    11.2,
+    11.2,
+    18.0,
+    14.6,
+    12.4,
+    14.6,
+    13.5,
+    16.9
+   ],
+   "rng": 6.7415,
+   "sd": 2.3129,
+   "mdd": 6.4109,
+   "reportable": true,
+   "flipped": 21,
+   "nflip": 89,
+   "meanflip": 0.1061,
+   "loo": [
+    6.2036,
+    6.4603
+   ],
+   "unadj": 3,
+   "n": 887
+  },
+  {
+   "name": "mini-swe-agent__openai_gpt-oss-20b_together_ai",
+   "agent": "mini-swe-agent",
+   "model": "openai_gpt-oss-20b_together_ai",
+   "n_tasks": 89,
+   "n_rounds": 9,
+   "mean": 3.2459555555555557,
+   "scores": [
+    7.9,
+    2.2,
+    2.2,
+    3.4,
+    1.1,
+    2.2,
+    4.5,
+    1.1,
+    4.5
+   ],
+   "rng": 6.7416,
+   "sd": 1.3801,
+   "mdd": 3.8254,
+   "reportable": true,
+   "flipped": 8,
+   "nflip": 89,
+   "meanflip": 0.038,
+   "loo": [
+    3.5831,
+    3.9152
+   ],
+   "unadj": 2,
+   "n": 888
+  },
+  {
+   "name": "mux__claude-opus-4-5_anthropic",
+   "agent": "mux",
+   "model": "claude-opus-4-5_anthropic",
+   "n_tasks": 89,
+   "n_rounds": 1,
+   "mean": 58.427,
+   "scores": [
+    58.4
+   ],
+   "rng": 0.0,
+   "sd": 0.0,
+   "mdd": 0.0,
+   "reportable": false,
+   "flipped": 0,
+   "nflip": 0,
+   "meanflip": null,
+   "loo": [
+    null,
+    null
+   ],
+   "unadj": 89,
+   "n": 89
+  },
+  {
+   "name": "mux__claude-opus-4-6_anthropic",
+   "agent": "mux",
+   "model": "claude-opus-4-6_anthropic",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 66.51682,
+   "scores": [
+    68.5,
+    67.4,
+    64.0,
+    67.4,
+    65.2
+   ],
+   "rng": 4.4944,
+   "sd": 2.5881,
+   "mdd": 7.1737,
+   "reportable": true,
+   "flipped": 27,
+   "nflip": 89,
+   "meanflip": 0.1483,
+   "loo": [
+    6.4608,
+    7.2929
+   ],
+   "unadj": 445,
+   "n": 445
+  },
+  {
+   "name": "mux__gpt-5.2_openai",
+   "agent": "mux",
+   "model": "gpt-5.2_openai",
+   "n_tasks": 89,
+   "n_rounds": 1,
+   "mean": 60.6742,
+   "scores": [
+    60.7
+   ],
+   "rng": 0.0,
+   "sd": 0.0,
+   "mdd": 0.0,
+   "reportable": false,
+   "flipped": 0,
+   "nflip": 0,
+   "meanflip": null,
+   "loo": [
+    null,
+    null
+   ],
+   "unadj": 89,
+   "n": 89
+  },
+  {
+   "name": "mux__gpt-5.3-codex_openai",
+   "agent": "mux",
+   "model": "gpt-5.3-codex_openai",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 68.5393,
+   "scores": [
+    69.7,
+    73.0,
+    67.4,
+    68.5,
+    64.0
+   ],
+   "rng": 8.9888,
+   "sd": 2.4574,
+   "mdd": 6.8114,
+   "reportable": true,
+   "flipped": 24,
+   "nflip": 89,
+   "meanflip": 0.1326,
+   "loo": [
+    6.0553,
+    6.8871
+   ],
+   "unadj": 445,
+   "n": 445
+  },
+  {
+   "name": "opencode__claude-opus-4-5_anthropic",
+   "agent": "opencode",
+   "model": "claude-opus-4-5_anthropic",
+   "n_tasks": 89,
+   "n_rounds": 1,
+   "mean": 51.6854,
+   "scores": [
+    51.7
+   ],
+   "rng": 0.0,
+   "sd": 0.0,
+   "mdd": 0.0,
+   "reportable": false,
+   "flipped": 0,
+   "nflip": 0,
+   "meanflip": null,
+   "loo": [
+    null,
+    null
+   ],
+   "unadj": 89,
+   "n": 89
+  },
+  {
+   "name": "openhands__Qwen_Qwen3-Coder-480B-A35B-Instruct-FP8_together_ai",
+   "agent": "openhands",
+   "model": "Qwen_Qwen3-Coder-480B-A35B-Instruct-FP8_together_ai",
+   "n_tasks": 89,
+   "n_rounds": 6,
+   "mean": 25.093633333333333,
+   "scores": [
+    27.0,
+    28.1,
+    24.7,
+    25.8,
+    21.3,
+    23.6
+   ],
+   "rng": 6.7416,
+   "sd": 2.6325,
+   "mdd": 7.2968,
+   "reportable": true,
+   "flipped": 28,
+   "nflip": 89,
+   "meanflip": 0.1391,
+   "loo": [
+    7.1962,
+    7.3835
+   ],
+   "unadj": 8,
+   "n": 878
+  },
+  {
+   "name": "openhands__claude-haiku-4-5-20251001_anthropic",
+   "agent": "openhands",
+   "model": "claude-haiku-4-5-20251001_anthropic",
+   "n_tasks": 89,
+   "n_rounds": 4,
+   "mean": 14.325825,
+   "scores": [
+    18.0,
+    15.7,
+    10.1,
+    13.5
+   ],
+   "rng": 7.8651,
+   "sd": 2.7859,
+   "mdd": 7.722,
+   "reportable": true,
+   "flipped": 32,
+   "nflip": 89,
+   "meanflip": 0.173,
+   "loo": [
+    7.2294,
+    7.8936
+   ],
+   "unadj": 26,
+   "n": 444
+  },
+  {
+   "name": "openhands__claude-opus-4-1-20250805_anthropic",
+   "agent": "openhands",
+   "model": "claude-opus-4-1-20250805_anthropic",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 36.85394,
+   "scores": [
+    34.8,
+    34.8,
+    36.0,
+    40.4,
+    38.2
+   ],
+   "rng": 5.6179,
+   "sd": 2.7407,
+   "mdd": 7.5967,
+   "reportable": true,
+   "flipped": 30,
+   "nflip": 89,
+   "meanflip": 0.1685,
+   "loo": [
+    6.9248,
+    7.7541
+   ],
+   "unadj": 5,
+   "n": 445
+  },
+  {
+   "name": "openhands__claude-opus-4-5-20251101_anthropic",
+   "agent": "openhands",
+   "model": "claude-opus-4-5-20251101_anthropic",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 51.91011999999999,
+   "scores": [
+    55.1,
+    55.1,
+    46.1,
+    57.3,
+    46.1
+   ],
+   "rng": 11.236,
+   "sd": 2.9711,
+   "mdd": 8.2353,
+   "reportable": true,
+   "flipped": 37,
+   "nflip": 89,
+   "meanflip": 0.1933,
+   "loo": [
+    7.6862,
+    8.2456
+   ],
+   "unadj": 7,
+   "n": 445
+  },
+  {
+   "name": "openhands__claude-sonnet-4-5-20250929_anthropic",
+   "agent": "openhands",
+   "model": "claude-sonnet-4-5-20250929_anthropic",
+   "n_tasks": 89,
+   "n_rounds": 4,
+   "mean": 43.2584,
+   "scores": [
+    39.3,
+    41.6,
+    51.7,
+    40.4
+   ],
+   "rng": 12.3596,
+   "sd": 2.7931,
+   "mdd": 7.7419,
+   "reportable": true,
+   "flipped": 32,
+   "nflip": 89,
+   "meanflip": 0.176,
+   "loo": [
+    7.1316,
+    7.727
+   ],
+   "unadj": 5,
+   "n": 443
+  },
+  {
+   "name": "openhands__gemini-2.5-flash_gemini",
+   "agent": "openhands",
+   "model": "gemini-2.5-flash_gemini",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 16.40446,
+   "scores": [
+    15.7,
+    15.7,
+    18.0,
+    15.7,
+    16.9
+   ],
+   "rng": 2.2472,
+   "sd": 2.4397,
+   "mdd": 6.7624,
+   "reportable": true,
+   "flipped": 25,
+   "nflip": 89,
+   "meanflip": 0.1326,
+   "loo": [
+    6.2125,
+    6.8538
+   ],
+   "unadj": 9,
+   "n": 445
+  },
+  {
+   "name": "openhands__gemini-2.5-pro_gemini",
+   "agent": "openhands",
+   "model": "gemini-2.5-pro_gemini",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 16.40448,
+   "scores": [
+    19.1,
+    12.4,
+    20.2,
+    15.7,
+    14.6
+   ],
+   "rng": 7.8651,
+   "sd": 2.818,
+   "mdd": 7.811,
+   "reportable": true,
+   "flipped": 32,
+   "nflip": 89,
+   "meanflip": 0.1753,
+   "loo": [
+    7.0459,
+    7.896
+   ],
+   "unadj": 9,
+   "n": 445
+  },
+  {
+   "name": "openhands__gpt-5-mini_openai",
+   "agent": "openhands",
+   "model": "gpt-5-mini_openai",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 29.2135,
+   "scores": [
+    30.3,
+    30.3,
+    30.3,
+    25.8,
+    29.2
+   ],
+   "rng": 4.4944,
+   "sd": 2.7632,
+   "mdd": 7.6591,
+   "reportable": true,
+   "flipped": 31,
+   "nflip": 89,
+   "meanflip": 0.1753,
+   "loo": [
+    7.3012,
+    7.8256
+   ],
+   "unadj": 16,
+   "n": 445
+  },
+  {
+   "name": "openhands__gpt-5-nano_openai",
+   "agent": "openhands",
+   "model": "gpt-5-nano_openai",
+   "n_tasks": 89,
+   "n_rounds": 4,
+   "mean": 9.5506,
+   "scores": [
+    12.4,
+    12.4,
+    10.1,
+    3.4
+   ],
+   "rng": 8.9888,
+   "sd": 2.1551,
+   "mdd": 5.9735,
+   "reportable": true,
+   "flipped": 18,
+   "nflip": 89,
+   "meanflip": 0.1034,
+   "loo": [
+    5.5317,
+    5.9688
+   ],
+   "unadj": 17,
+   "n": 444
+  },
+  {
+   "name": "openhands__gpt-5_openai",
+   "agent": "openhands",
+   "model": "gpt-5_openai",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 43.82022,
+   "scores": [
+    46.1,
+    44.9,
+    47.2,
+    43.8,
+    37.1
+   ],
+   "rng": 10.1123,
+   "sd": 3.0435,
+   "mdd": 8.436,
+   "reportable": true,
+   "flipped": 38,
+   "nflip": 89,
+   "meanflip": 0.2067,
+   "loo": [
+    7.9507,
+    8.3947
+   ],
+   "unadj": 9,
+   "n": 445
+  },
+  {
+   "name": "openhands__grok-4-0709_xai",
+   "agent": "openhands",
+   "model": "grok-4-0709_xai",
+   "n_tasks": 89,
+   "n_rounds": 4,
+   "mean": 27.809,
+   "scores": [
+    30.3,
+    27.0,
+    25.8,
+    28.1
+   ],
+   "rng": 4.4944,
+   "sd": 3.1004,
+   "mdd": 8.5937,
+   "reportable": true,
+   "flipped": 38,
+   "nflip": 89,
+   "meanflip": 0.2157,
+   "loo": [
+    7.8631,
+    8.599
+   ],
+   "unadj": 17,
+   "n": 444
+  },
+  {
+   "name": "openhands__moonshotai_Kimi-K2-Instruct-0905_together_ai",
+   "agent": "openhands",
+   "model": "moonshotai_Kimi-K2-Instruct-0905_together_ai",
+   "n_tasks": 89,
+   "n_rounds": 8,
+   "mean": 27.94945,
+   "scores": [
+    30.3,
+    30.3,
+    27.0,
+    23.6,
+    27.0,
+    29.2,
+    25.8,
+    30.3
+   ],
+   "rng": 6.7416,
+   "sd": 2.7164,
+   "mdd": 7.5293,
+   "reportable": true,
+   "flipped": 29,
+   "nflip": 89,
+   "meanflip": 0.1486,
+   "loo": [
+    7.3777,
+    7.6069
+   ],
+   "unadj": 15,
+   "n": 875
+  },
+  {
+   "name": "ruley__gemini-3-pro-preview_Google",
+   "agent": "ruley",
+   "model": "gemini-3-pro-preview_Google",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 62.24718,
+   "scores": [
+    62.9,
+    62.9,
+    60.7,
+    62.9,
+    61.8
+   ],
+   "rng": 2.2471,
+   "sd": 2.6699,
+   "mdd": 7.4004,
+   "reportable": true,
+   "flipped": 27,
+   "nflip": 89,
+   "meanflip": 0.1573,
+   "loo": [
+    6.8292,
+    7.2871
+   ],
+   "unadj": 445,
+   "n": 445
+  },
+  {
+   "name": "ruley__gpt-5.3-codex_OpenAI",
+   "agent": "ruley",
+   "model": "gpt-5.3-codex_OpenAI",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 70.33706,
+   "scores": [
+    67.4,
+    74.2,
+    73.0,
+    67.4,
+    69.7
+   ],
+   "rng": 6.7416,
+   "sd": 2.622,
+   "mdd": 7.2677,
+   "reportable": true,
+   "flipped": 29,
+   "nflip": 89,
+   "meanflip": 0.1528,
+   "loo": [
+    6.7563,
+    7.2483
+   ],
+   "unadj": 445,
+   "n": 445
+  },
+  {
+   "name": "sage__gemini-3-pro-preview_Google",
+   "agent": "sage",
+   "model": "gemini-3-pro-preview_Google",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 65.1685,
+   "scores": [
+    64.0,
+    65.2,
+    68.5,
+    64.0,
+    64.0
+   ],
+   "rng": 4.4944,
+   "sd": 2.0995,
+   "mdd": 5.8194,
+   "reportable": true,
+   "flipped": 20,
+   "nflip": 89,
+   "meanflip": 0.0989,
+   "loo": [
+    5.1933,
+    6.1204
+   ],
+   "unadj": 445,
+   "n": 445
+  },
+  {
+   "name": "simple_codex__gpt-5.3-codex_openai",
+   "agent": "simple_codex",
+   "model": "gpt-5.3-codex_openai",
+   "n_tasks": 89,
+   "n_rounds": 4,
+   "mean": 74.4382,
+   "scores": [
+    75.3,
+    73.0,
+    74.2,
+    75.3
+   ],
+   "rng": 2.2472,
+   "sd": 2.4427,
+   "mdd": 6.7707,
+   "reportable": true,
+   "flipped": 23,
+   "nflip": 89,
+   "meanflip": 0.1326,
+   "loo": [
+    6.2831,
+    6.7516
+   ],
+   "unadj": 443,
+   "n": 443
+  },
+  {
+   "name": "spoox-m__gpt-5-mini_openai",
+   "agent": "spoox-m",
+   "model": "gpt-5-mini_openai",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 34.83148,
+   "scores": [
+    40.4,
+    34.8,
+    33.7,
+    29.2,
+    36.0
+   ],
+   "rng": 11.2359,
+   "sd": 2.7685,
+   "mdd": 7.6737,
+   "reportable": true,
+   "flipped": 30,
+   "nflip": 89,
+   "meanflip": 0.1708,
+   "loo": [
+    7.2341,
+    7.7178
+   ],
+   "unadj": 445,
+   "n": 445
+  },
+  {
+   "name": "terminus-2__Qwen_Qwen3-Coder-480B-A35B-Instruct-FP8_together_ai",
+   "agent": "terminus-2",
+   "model": "Qwen_Qwen3-Coder-480B-A35B-Instruct-FP8_together_ai",
+   "n_tasks": 89,
+   "n_rounds": 9,
+   "mean": 24.09487777777778,
+   "scores": [
+    23.6,
+    21.3,
+    27.0,
+    24.7,
+    22.5,
+    22.5,
+    19.1,
+    25.8,
+    30.3
+   ],
+   "rng": 11.236,
+   "sd": 2.926,
+   "mdd": 8.1103,
+   "reportable": true,
+   "flipped": 34,
+   "nflip": 89,
+   "meanflip": 0.1702,
+   "loo": [
+    7.9695,
+    8.1918
+   ],
+   "unadj": 1,
+   "n": 929
+  },
+  {
+   "name": "terminus-2__accounts_fireworks_models_glm-4p6_fireworks_ai",
+   "agent": "terminus-2",
+   "model": "accounts_fireworks_models_glm-4p6_fireworks_ai",
+   "n_tasks": 89,
+   "n_rounds": 8,
+   "mean": 24.85955,
+   "scores": [
+    23.6,
+    22.5,
+    30.3,
+    21.3,
+    27.0,
+    27.0,
+    22.5,
+    24.7
+   ],
+   "rng": 8.9888,
+   "sd": 2.5134,
+   "mdd": 6.9667,
+   "reportable": true,
+   "flipped": 27,
+   "nflip": 89,
+   "meanflip": 0.127,
+   "loo": [
+    6.8433,
+    7.0756
+   ],
+   "unadj": 0,
+   "n": 904
+  },
+  {
+   "name": "terminus-2__accounts_fireworks_models_minimax-m2_fireworks_ai",
+   "agent": "terminus-2",
+   "model": "accounts_fireworks_models_minimax-m2_fireworks_ai",
+   "n_tasks": 89,
+   "n_rounds": 10,
+   "mean": 30.11238,
+   "scores": [
+    34.8,
+    27.0,
+    30.3,
+    30.3,
+    29.2,
+    30.3,
+    29.2,
+    29.2,
+    29.2,
+    31.5
+   ],
+   "rng": 7.8652,
+   "sd": 2.8369,
+   "mdd": 7.8633,
+   "reportable": true,
+   "flipped": 31,
+   "nflip": 89,
+   "meanflip": 0.1567,
+   "loo": [
+    7.7101,
+    7.9775
+   ],
+   "unadj": 0,
+   "n": 902
+  },
+  {
+   "name": "terminus-2__claude-haiku-4-5-20251001_anthropic",
+   "agent": "terminus-2",
+   "model": "claude-haiku-4-5-20251001_anthropic",
+   "n_tasks": 89,
+   "n_rounds": 4,
+   "mean": 27.5281,
+   "scores": [
+    28.1,
+    30.3,
+    30.3,
+    21.3
+   ],
+   "rng": 8.9888,
+   "sd": 2.8956,
+   "mdd": 8.026,
+   "reportable": true,
+   "flipped": 32,
+   "nflip": 89,
+   "meanflip": 0.1888,
+   "loo": [
+    7.4659,
+    7.9839
+   ],
+   "unadj": 0,
+   "n": 439
+  },
+  {
+   "name": "terminus-2__claude-opus-4-1-20250805_anthropic",
+   "agent": "terminus-2",
+   "model": "claude-opus-4-1-20250805_anthropic",
+   "n_tasks": 89,
+   "n_rounds": 4,
+   "mean": 38.483125,
+   "scores": [
+    38.2,
+    36.0,
+    41.6,
+    38.2
+   ],
+   "rng": 5.6179,
+   "sd": 2.6576,
+   "mdd": 7.3664,
+   "reportable": true,
+   "flipped": 29,
+   "nflip": 89,
+   "meanflip": 0.1596,
+   "loo": [
+    6.5922,
+    7.5515
+   ],
+   "unadj": 2,
+   "n": 443
+  },
+  {
+   "name": "terminus-2__claude-opus-4-5-20251101_anthropic",
+   "agent": "terminus-2",
+   "model": "claude-opus-4-5-20251101_anthropic",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 57.75282,
+   "scores": [
+    57.3,
+    55.1,
+    62.9,
+    58.4,
+    55.1
+   ],
+   "rng": 7.8651,
+   "sd": 2.5879,
+   "mdd": 7.1732,
+   "reportable": true,
+   "flipped": 28,
+   "nflip": 89,
+   "meanflip": 0.1483,
+   "loo": [
+    6.6346,
+    7.2463
+   ],
+   "unadj": 0,
+   "n": 445
+  },
+  {
+   "name": "terminus-2__claude-opus-4-6_anthropic",
+   "agent": "terminus-2",
+   "model": "claude-opus-4-6_anthropic",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 62.92134,
+   "scores": [
+    67.4,
+    59.6,
+    62.9,
+    65.2,
+    59.6
+   ],
+   "rng": 7.8651,
+   "sd": 2.7275,
+   "mdd": 7.5601,
+   "reportable": true,
+   "flipped": 30,
+   "nflip": 89,
+   "meanflip": 0.164,
+   "loo": [
+    6.9991,
+    7.7173
+   ],
+   "unadj": 0,
+   "n": 445
+  },
+  {
+   "name": "terminus-2__claude-sonnet-4-5-20250929_anthropic",
+   "agent": "terminus-2",
+   "model": "claude-sonnet-4-5-20250929_anthropic",
+   "n_tasks": 89,
+   "n_rounds": 4,
+   "mean": 42.4157,
+   "scores": [
+    41.6,
+    39.3,
+    46.1,
+    42.7
+   ],
+   "rng": 6.7416,
+   "sd": 2.8254,
+   "mdd": 7.8315,
+   "reportable": true,
+   "flipped": 33,
+   "nflip": 89,
+   "meanflip": 0.1783,
+   "loo": [
+    7.4656,
+    7.6959
+   ],
+   "unadj": 0,
+   "n": 440
+  },
+  {
+   "name": "terminus-2__deepseek-v3.2_deepseek",
+   "agent": "terminus-2",
+   "model": "deepseek-v3.2_deepseek",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 39.55056,
+   "scores": [
+    43.8,
+    37.1,
+    38.2,
+    36.0,
+    42.7
+   ],
+   "rng": 7.8651,
+   "sd": 2.8069,
+   "mdd": 7.7802,
+   "reportable": true,
+   "flipped": 33,
+   "nflip": 89,
+   "meanflip": 0.1753,
+   "loo": [
+    7.2117,
+    7.8595
+   ],
+   "unadj": 72,
+   "n": 445
+  },
+  {
+   "name": "terminus-2__gemini-2.5-flash_gemini",
+   "agent": "terminus-2",
+   "model": "gemini-2.5-flash_gemini",
+   "n_tasks": 89,
+   "n_rounds": 3,
+   "mean": 17.9775,
+   "scores": [
+    16.9,
+    19.1,
+    18.0
+   ],
+   "rng": 2.2472,
+   "sd": 2.4287,
+   "mdd": 6.7319,
+   "reportable": true,
+   "flipped": 23,
+   "nflip": 89,
+   "meanflip": 0.1303,
+   "loo": [
+    6.0667,
+    6.764
+   ],
+   "unadj": 1,
+   "n": 439
+  },
+  {
+   "name": "terminus-2__gemini-2.5-pro_gemini",
+   "agent": "terminus-2",
+   "model": "gemini-2.5-pro_gemini",
+   "n_tasks": 89,
+   "n_rounds": 4,
+   "mean": 32.022475,
+   "scores": [
+    23.6,
+    39.3,
+    31.5,
+    33.7
+   ],
+   "rng": 15.7303,
+   "sd": 3.0699,
+   "mdd": 8.5092,
+   "reportable": true,
+   "flipped": 38,
+   "nflip": 89,
+   "meanflip": 0.2101,
+   "loo": [
+    8.1535,
+    8.4177
+   ],
+   "unadj": 0,
+   "n": 442
+  },
+  {
+   "name": "terminus-2__gemini-3-flash-preview_gemini",
+   "agent": "terminus-2",
+   "model": "gemini-3-flash-preview_gemini",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 51.6854,
+   "scores": [
+    51.7,
+    51.7,
+    52.8,
+    51.7,
+    50.6
+   ],
+   "rng": 2.2472,
+   "sd": 3.205,
+   "mdd": 8.8836,
+   "reportable": true,
+   "flipped": 39,
+   "nflip": 89,
+   "meanflip": 0.227,
+   "loo": [
+    8.0255,
+    8.8656
+   ],
+   "unadj": 1,
+   "n": 445
+  },
+  {
+   "name": "terminus-2__gemini-3-pro-preview_gemini",
+   "agent": "terminus-2",
+   "model": "gemini-3-pro-preview_gemini",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 56.85396000000001,
+   "scores": [
+    58.4,
+    51.7,
+    57.3,
+    58.4,
+    58.4
+   ],
+   "rng": 6.7416,
+   "sd": 2.5094,
+   "mdd": 6.9556,
+   "reportable": true,
+   "flipped": 25,
+   "nflip": 89,
+   "meanflip": 0.1416,
+   "loo": [
+    6.5742,
+    6.8527
+   ],
+   "unadj": 0,
+   "n": 445
+  },
+  {
+   "name": "terminus-2__glm-4.7_z-ai",
+   "agent": "terminus-2",
+   "model": "glm-4.7_z-ai",
+   "n_tasks": 89,
+   "n_rounds": 3,
+   "mean": 32.584266666666664,
+   "scores": [
+    38.2,
+    30.3,
+    29.2
+   ],
+   "rng": 8.9887,
+   "sd": 2.7887,
+   "mdd": 7.7297,
+   "reportable": true,
+   "flipped": 30,
+   "nflip": 89,
+   "meanflip": 0.1757,
+   "loo": [
+    7.1604,
+    7.6807
+   ],
+   "unadj": 427,
+   "n": 427
+  },
+  {
+   "name": "terminus-2__glm-5_z-ai",
+   "agent": "terminus-2",
+   "model": "glm-5_z-ai",
+   "n_tasks": 89,
+   "n_rounds": 3,
+   "mean": 51.685399999999994,
+   "scores": [
+    56.2,
+    49.4,
+    49.4
+   ],
+   "rng": 6.7416,
+   "sd": 2.655,
+   "mdd": 7.3591,
+   "reportable": true,
+   "flipped": 31,
+   "nflip": 89,
+   "meanflip": 0.1584,
+   "loo": [
+    6.7457,
+    7.7137
+   ],
+   "unadj": 66,
+   "n": 442
+  },
+  {
+   "name": "terminus-2__gpt-5-codex_openai",
+   "agent": "terminus-2",
+   "model": "gpt-5-codex_openai",
+   "n_tasks": 89,
+   "n_rounds": 4,
+   "mean": 42.977525,
+   "scores": [
+    46.1,
+    42.7,
+    37.1,
+    46.1
+   ],
+   "rng": 8.9887,
+   "sd": 2.8769,
+   "mdd": 7.9742,
+   "reportable": true,
+   "flipped": 37,
+   "nflip": 89,
+   "meanflip": 0.1899,
+   "loo": [
+    7.4431,
+    7.9947
+   ],
+   "unadj": 0,
+   "n": 437
+  },
+  {
+   "name": "terminus-2__gpt-5-mini_openai",
+   "agent": "terminus-2",
+   "model": "gpt-5-mini_openai",
+   "n_tasks": 89,
+   "n_rounds": 4,
+   "mean": 25.2809,
+   "scores": [
+    21.3,
+    29.2,
+    30.3,
+    20.2
+   ],
+   "rng": 10.1124,
+   "sd": 2.5901,
+   "mdd": 7.1793,
+   "reportable": true,
+   "flipped": 27,
+   "nflip": 89,
+   "meanflip": 0.1483,
+   "loo": [
+    6.5351,
+    7.2802
+   ],
+   "unadj": 1,
+   "n": 438
+  },
+  {
+   "name": "terminus-2__gpt-5-nano_openai",
+   "agent": "terminus-2",
+   "model": "gpt-5-nano_openai",
+   "n_tasks": 89,
+   "n_rounds": 4,
+   "mean": 7.8652,
+   "scores": [
+    7.9,
+    7.9,
+    10.1,
+    5.6
+   ],
+   "rng": 4.4944,
+   "sd": 1.9159,
+   "mdd": 5.3105,
+   "reportable": true,
+   "flipped": 15,
+   "nflip": 89,
+   "meanflip": 0.0809,
+   "loo": [
+    4.8351,
+    5.4436
+   ],
+   "unadj": 1,
+   "n": 436
+  },
+  {
+   "name": "terminus-2__gpt-5.1-codex_openai",
+   "agent": "terminus-2",
+   "model": "gpt-5.1-codex_openai",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 36.85396,
+   "scores": [
+    37.1,
+    31.5,
+    37.1,
+    44.9,
+    33.7
+   ],
+   "rng": 13.4831,
+   "sd": 3.2884,
+   "mdd": 9.1148,
+   "reportable": true,
+   "flipped": 46,
+   "nflip": 89,
+   "meanflip": 0.2427,
+   "loo": [
+    8.6364,
+    9.0436
+   ],
+   "unadj": 0,
+   "n": 445
+  },
+  {
+   "name": "terminus-2__gpt-5.1_openai",
+   "agent": "terminus-2",
+   "model": "gpt-5.1_openai",
+   "n_tasks": 89,
+   "n_rounds": 4,
+   "mean": 47.7528,
+   "scores": [
+    50.6,
+    51.7,
+    44.9,
+    43.8
+   ],
+   "rng": 7.8652,
+   "sd": 2.8649,
+   "mdd": 7.941,
+   "reportable": true,
+   "flipped": 33,
+   "nflip": 89,
+   "meanflip": 0.1764,
+   "loo": [
+    7.3846,
+    8.0069
+   ],
+   "unadj": 0,
+   "n": 445
+  },
+  {
+   "name": "terminus-2__gpt-5.2_openai",
+   "agent": "terminus-2",
+   "model": "gpt-5.2_openai",
+   "n_tasks": 89,
+   "n_rounds": 4,
+   "mean": 53.6517,
+   "scores": [
+    55.1,
+    46.1,
+    57.3,
+    56.2
+   ],
+   "rng": 11.236,
+   "sd": 2.9278,
+   "mdd": 8.1153,
+   "reportable": true,
+   "flipped": 35,
+   "nflip": 89,
+   "meanflip": 0.1918,
+   "loo": [
+    7.6912,
+    7.9958
+   ],
+   "unadj": 1,
+   "n": 444
+  },
+  {
+   "name": "terminus-2__gpt-5.3-codex_openai",
+   "agent": "terminus-2",
+   "model": "gpt-5.3-codex_openai",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 64.71908,
+   "scores": [
+    59.6,
+    66.3,
+    66.3,
+    67.4,
+    64.0
+   ],
+   "rng": 7.8651,
+   "sd": 2.7824,
+   "mdd": 7.7123,
+   "reportable": true,
+   "flipped": 32,
+   "nflip": 89,
+   "meanflip": 0.1708,
+   "loo": [
+    7.1618,
+    7.6191
+   ],
+   "unadj": 445,
+   "n": 445
+  },
+  {
+   "name": "terminus-2__gpt-5_openai",
+   "agent": "terminus-2",
+   "model": "gpt-5_openai",
+   "n_tasks": 89,
+   "n_rounds": 4,
+   "mean": 35.955075,
+   "scores": [
+    37.1,
+    39.3,
+    34.8,
+    32.6
+   ],
+   "rng": 6.7415,
+   "sd": 3.123,
+   "mdd": 8.6564,
+   "reportable": true,
+   "flipped": 36,
+   "nflip": 89,
+   "meanflip": 0.2135,
+   "loo": [
+    7.8852,
+    8.5455
+   ],
+   "unadj": 2,
+   "n": 438
+  },
+  {
+   "name": "terminus-2__grok-4-0709_xai",
+   "agent": "terminus-2",
+   "model": "grok-4-0709_xai",
+   "n_tasks": 89,
+   "n_rounds": 4,
+   "mean": 21.9101,
+   "scores": [
+    19.1,
+    20.2,
+    27.0,
+    21.3
+   ],
+   "rng": 7.8652,
+   "sd": 2.9738,
+   "mdd": 8.2428,
+   "reportable": true,
+   "flipped": 35,
+   "nflip": 89,
+   "meanflip": 0.1955,
+   "loo": [
+    7.8376,
+    8.0973
+   ],
+   "unadj": 0,
+   "n": 436
+  },
+  {
+   "name": "terminus-2__grok-code-fast-1_xai",
+   "agent": "terminus-2",
+   "model": "grok-code-fast-1_xai",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 14.15728,
+   "scores": [
+    15.7,
+    11.2,
+    14.6,
+    13.5,
+    15.7
+   ],
+   "rng": 4.4943,
+   "sd": 2.587,
+   "mdd": 7.1707,
+   "reportable": true,
+   "flipped": 27,
+   "nflip": 89,
+   "meanflip": 0.1506,
+   "loo": [
+    6.8028,
+    7.1665
+   ],
+   "unadj": 0,
+   "n": 445
+  },
+  {
+   "name": "terminus-2__kimi-k2.5_kimi",
+   "agent": "terminus-2",
+   "model": "kimi-k2.5_kimi",
+   "n_tasks": 89,
+   "n_rounds": 3,
+   "mean": 43.8202,
+   "scores": [
+    41.6,
+    44.9,
+    44.9
+   ],
+   "rng": 3.3708,
+   "sd": 2.893,
+   "mdd": 8.0188,
+   "reportable": true,
+   "flipped": 34,
+   "nflip": 89,
+   "meanflip": 0.1876,
+   "loo": [
+    7.6028,
+    7.936
+   ],
+   "unadj": 435,
+   "n": 435
+  },
+  {
+   "name": "terminus-2__minimax-m2.1_openai",
+   "agent": "terminus-2",
+   "model": "minimax-m2.1_openai",
+   "n_tasks": 89,
+   "n_rounds": 2,
+   "mean": 30.898899999999998,
+   "scores": [
+    32.6,
+    29.2
+   ],
+   "rng": 3.3708,
+   "sd": 2.9793,
+   "mdd": 8.258,
+   "reportable": false,
+   "flipped": 35,
+   "nflip": 89,
+   "meanflip": 0.1955,
+   "loo": [
+    7.7985,
+    8.158
+   ],
+   "unadj": 0,
+   "n": 438
+  },
+  {
+   "name": "terminus-2__minimax-m2.5_Minimax",
+   "agent": "terminus-2",
+   "model": "minimax-m2.5_Minimax",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 42.24718,
+   "scores": [
+    41.6,
+    40.4,
+    48.3,
+    37.1,
+    43.8
+   ],
+   "rng": 11.2359,
+   "sd": 2.6742,
+   "mdd": 7.4124,
+   "reportable": true,
+   "flipped": 29,
+   "nflip": 89,
+   "meanflip": 0.1596,
+   "loo": [
+    6.9996,
+    7.4548
+   ],
+   "unadj": 34,
+   "n": 445
+  },
+  {
+   "name": "terminus-2__moonshotai_Kimi-K2-Instruct-0905_together_ai",
+   "agent": "terminus-2",
+   "model": "moonshotai_Kimi-K2-Instruct-0905_together_ai",
+   "n_tasks": 89,
+   "n_rounds": 9,
+   "mean": 27.965055555555555,
+   "scores": [
+    23.6,
+    27.0,
+    33.7,
+    24.7,
+    29.2,
+    32.6,
+    23.6,
+    27.0,
+    30.3
+   ],
+   "rng": 10.1124,
+   "sd": 2.6383,
+   "mdd": 7.3129,
+   "reportable": true,
+   "flipped": 27,
+   "nflip": 89,
+   "meanflip": 0.138,
+   "loo": [
+    7.2214,
+    7.3561
+   ],
+   "unadj": 0,
+   "n": 923
+  },
+  {
+   "name": "terminus-2__moonshotai_Kimi-K2-Thinking_together_ai",
+   "agent": "terminus-2",
+   "model": "moonshotai_Kimi-K2-Thinking_together_ai",
+   "n_tasks": 89,
+   "n_rounds": 10,
+   "mean": 35.73037,
+   "scores": [
+    37.1,
+    39.3,
+    32.6,
+    32.6,
+    37.1,
+    33.7,
+    34.8,
+    36.0,
+    37.1,
+    37.1
+   ],
+   "rng": 6.7415,
+   "sd": 2.8868,
+   "mdd": 8.0017,
+   "reportable": true,
+   "flipped": 36,
+   "nflip": 89,
+   "meanflip": 0.1638,
+   "loo": [
+    7.8547,
+    8.059
+   ],
+   "unadj": 0,
+   "n": 892
+  },
+  {
+   "name": "terminus-2__openai_gpt-oss-120b_together_ai",
+   "agent": "terminus-2",
+   "model": "openai_gpt-oss-120b_together_ai",
+   "n_tasks": 89,
+   "n_rounds": 8,
+   "mean": 19.1011125,
+   "scores": [
+    18.0,
+    12.4,
+    20.2,
+    20.2,
+    21.3,
+    23.6,
+    18.0,
+    19.1
+   ],
+   "rng": 11.2359,
+   "sd": 2.7835,
+   "mdd": 7.7153,
+   "reportable": true,
+   "flipped": 33,
+   "nflip": 89,
+   "meanflip": 0.1534,
+   "loo": [
+    7.5626,
+    7.8001
+   ],
+   "unadj": 1,
+   "n": 925
+  },
+  {
+   "name": "terminus-2__openai_gpt-oss-20b_together_ai",
+   "agent": "terminus-2",
+   "model": "openai_gpt-oss-20b_together_ai",
+   "n_tasks": 89,
+   "n_rounds": 10,
+   "mean": 2.92136,
+   "scores": [
+    2.2,
+    2.2,
+    4.5,
+    4.5,
+    2.2,
+    3.4,
+    3.4,
+    1.1,
+    3.4,
+    2.2
+   ],
+   "rng": 3.3708,
+   "sd": 1.5694,
+   "mdd": 4.3501,
+   "reportable": true,
+   "flipped": 11,
+   "nflip": 89,
+   "meanflip": 0.0488,
+   "loo": [
+    4.1899,
+    4.4022
+   ],
+   "unadj": 0,
+   "n": 932
+  },
+  {
+   "name": "terminus-3-3__claude-opus-4-6_anthropic",
+   "agent": "terminus-3-3",
+   "model": "claude-opus-4-6_anthropic",
+   "n_tasks": 89,
+   "n_rounds": 2,
+   "mean": 75.2809,
+   "scores": [
+    71.9,
+    78.7
+   ],
+   "rng": 6.7416,
+   "sd": 2.4774,
+   "mdd": 6.8669,
+   "reportable": false,
+   "flipped": 24,
+   "nflip": 89,
+   "meanflip": 0.1393,
+   "loo": [
+    6.1944,
+    6.9037
+   ],
+   "unadj": 195,
+   "n": 442
+  },
+  {
+   "name": "terminus-3-3__gemini-3.1-pro-preview_Google",
+   "agent": "terminus-3-3",
+   "model": "gemini-3.1-pro-preview_Google",
+   "n_tasks": 89,
+   "n_rounds": 5,
+   "mean": 74.83146,
+   "scores": [
+    73.0,
+    76.4,
+    74.2,
+    75.3,
+    75.3
+   ],
+   "rng": 3.3708,
+   "sd": 2.6217,
+   "mdd": 7.2668,
+   "reportable": true,
+   "flipped": 28,
+   "nflip": 89,
+   "meanflip": 0.1528,
+   "loo": [
+    6.8037,
+    7.3389
+   ],
+   "unadj": 14,
+   "n": 445
+  }
+ ],
+ "adjacent": [
+  [
+   "forge__gemini-3.1-pro-preview_Google",
+   "Factory_Droid__gpt-5.3-codex_openai",
+   1.1236000000000104,
+   5.666253726802068,
+   true
+  ],
+  [
+   "Factory_Droid__gpt-5.3-codex_openai",
+   "terminus-3-3__gemini-3.1-pro-preview_Google",
+   2.471919999999983,
+   6.726603799055415,
+   true
+  ],
+  [
+   "terminus-3-3__gemini-3.1-pro-preview_Google",
+   "simple_codex__gpt-5.3-codex_openai",
+   0.39326000000001216,
+   7.023154066820997,
+   true
+  ],
+  [
+   "simple_codex__gpt-5.3-codex_openai",
+   "judy__claude-opus-4.6_anthropic",
+   2.528099999999995,
+   7.171737918283066,
+   true
+  ],
+  [
+   "judy__claude-opus-4.6_anthropic",
+   "ruley__gpt-5.3-codex_OpenAI",
+   1.573040000000006,
+   7.410955151061652,
+   true
+  ],
+  [
+   "ruley__gpt-5.3-codex_OpenAI",
+   "Factory_Droid__claude-opus-4-6_anthropic",
+   0.4494399999999956,
+   7.088721655337281,
+   true
+  ],
+  [
+   "Factory_Droid__claude-opus-4-6_anthropic",
+   "mux__gpt-5.3-codex_openai",
+   1.348320000000001,
+   6.858443639058259,
+   true
+  ],
+  [
+   "mux__gpt-5.3-codex_openai",
+   "mux__claude-opus-4-6_anthropic",
+   2.0224800000000016,
+   6.994923471446361,
+   true
+  ],
+  [
+   "mux__claude-opus-4-6_anthropic",
+   "ante__gemini-3-pro-preview_Google",
+   0.22466999999998905,
+   7.378120498452736,
+   true
+  ],
+  [
+   "ante__gemini-3-pro-preview_Google",
+   "Factory_Droid__gpt-5.2_openai",
+   0.8427500000000094,
+   7.754595721470875,
+   true
+  ],
+  [
+   "Factory_Droid__gpt-5.2_openai",
+   "sage__gemini-3-pro-preview_Google",
+   0.2809000000000026,
+   6.954204207162716,
+   true
+  ],
+  [
+   "sage__gemini-3-pro-preview_Google",
+   "terminus-2__gpt-5.3-codex_openai",
+   0.4494199999999893,
+   6.831718685606204,
+   true
+  ],
+  [
+   "terminus-2__gpt-5.3-codex_openai",
+   "Junie__gemini-3-flash-preview_gemini",
+   0.4494399999999956,
+   7.81649023927359,
+   true
+  ],
+  [
+   "Junie__gemini-3-flash-preview_gemini",
+   "Factory_Droid__claude-opus-4-5-20251101_anthropic",
+   1.1236000000000033,
+   7.764168290321549,
+   true
+  ],
+  [
+   "Factory_Droid__claude-opus-4-5-20251101_anthropic",
+   "codex__gpt-5.2_openai",
+   0.22467999999999932,
+   8.069278717109572,
+   true
+  ],
+  [
+   "codex__gpt-5.2_openai",
+   "terminus-2__claude-opus-4-6_anthropic",
+   2.0000000006348273e-05,
+   8.047760748955572,
+   true
+  ],
+  [
+   "terminus-2__claude-opus-4-6_anthropic",
+   "ruley__gemini-3-pro-preview_Google",
+   0.6741600000000005,
+   7.480703244162082,
+   true
+  ],
+  [
+   "ruley__gemini-3-pro-preview_Google",
+   "ii-agent-simple__gemini-3-pro-preview_gemini",
+   0.4494199999999964,
+   7.6928261837457255,
+   true
+  ],
+  [
+   "ii-agent-simple__gemini-3-pro-preview_gemini",
+   "Factory_Droid__gemini-3-pro-preview_google",
+   0.6741600000000076,
+   7.917322091658243,
+   true
+  ],
+  [
+   "Factory_Droid__gemini-3-pro-preview_google",
+   "codex__gpt-5.1-codex-max_openai",
+   0.6741599999999934,
+   7.66060827013177,
+   true
+  ],
+  [
+   "codex__gpt-5.1-codex-max_openai",
+   "letta-code__claude-opus-4-5_anthropic",
+   1.3482799999999955,
+   7.151003740343932,
+   true
+  ],
+  [
+   "letta-code__claude-opus-4-5_anthropic",
+   "claude-code__claude-opus-4-6_anthropic",
+   1.1236000000000033,
+   7.550388837924558,
+   true
+  ],
+  [
+   "claude-code__claude-opus-4-6_anthropic",
+   "codex__gpt-5.1-codex_openai",
+   0.2247199999999978,
+   8.270073504592355,
+   true
+  ],
+  [
+   "codex__gpt-5.1-codex_openai",
+   "terminus-2__claude-opus-4-5-20251101_anthropic",
+   2.0000000006348273e-05,
+   7.775123018729221,
+   true
+  ],
+  [
+   "terminus-2__claude-opus-4-5-20251101_anthropic",
+   "terminus-2__gemini-3-pro-preview_gemini",
+   0.898859999999992,
+   7.065205240620576,
+   true
+  ],
+  [
+   "terminus-2__gemini-3-pro-preview_gemini",
+   "letta-code__gemini-3-pro-preview_google",
+   0.8988800000000126,
+   7.686327076694469,
+   true
+  ],
+  [
+   "letta-code__gemini-3-pro-preview_google",
+   "goose__claude-opus-4-5_anthropic",
+   2.303379999999997,
+   7.919196432226969,
+   true
+  ],
+  [
+   "goose__claude-opus-4-5_anthropic",
+   "terminus-2__gpt-5.2_openai",
+   0.0,
+   7.7944267372785925,
+   true
+  ],
+  [
+   "terminus-2__gpt-5.2_openai",
+   "letta-code__gpt-5.1-codex_openai",
+   0.16854000000000013,
+   8.045202579326043,
+   true
+  ],
+  [
+   "letta-code__gpt-5.1-codex_openai",
+   "claude-code__claude-opus-4-5-20251101_anthropic",
+   1.348320000000001,
+   7.554864953624968,
+   true
+  ],
+  [
+   "claude-code__claude-opus-4-5-20251101_anthropic",
+   "openhands__claude-opus-4-5-20251101_anthropic",
+   0.22472000000000492,
+   7.693501355819601,
+   true
+  ],
+  [
+   "openhands__claude-opus-4-5-20251101_anthropic",
+   "terminus-2__gemini-3-flash-preview_gemini",
+   0.2247199999999907,
+   8.565616725852317,
+   true
+  ],
+  [
+   "terminus-2__gemini-3-flash-preview_gemini",
+   "gemini-cli__gemini-3-flash-preview_Google",
+   0.6741600000000005,
+   8.673516571359011,
+   true
+  ],
+  [
+   "gemini-cli__gemini-3-flash-preview_Google",
+   "codex__gpt-5_openai",
+   1.5730399999999989,
+   8.220292595158613,
+   true
+  ],
+  [
+   "codex__gpt-5_openai",
+   "terminus-2__gpt-5.1_openai",
+   1.6854000000000013,
+   7.958155495466465,
+   true
+  ],
+  [
+   "terminus-2__gpt-5.1_openai",
+   "TerminalBenchAgent__claude-sonnet-4-5_anthropic",
+   1.2359599999999986,
+   7.343066341220623,
+   true
+  ],
+  [
+   "TerminalBenchAgent__claude-sonnet-4-5_anthropic",
+   "codex__gpt-5-codex_openai",
+   1.8539400000000015,
+   7.080443010602869,
+   true
+  ],
+  [
+   "codex__gpt-5-codex_openai",
+   "openhands__gpt-5_openai",
+   0.8426800000000014,
+   7.957664625047471,
+   true
+  ],
+  [
+   "openhands__gpt-5_openai",
+   "openhands__claude-sonnet-4-5-20250929_anthropic",
+   0.5618199999999973,
+   8.096406932471126,
+   true
+  ],
+  [
+   "openhands__claude-sonnet-4-5-20250929_anthropic",
+   "codex__gpt-5.1-codex-mini_openai",
+   0.11236000000000246,
+   8.138229609713,
+   true
+  ],
+  [
+   "codex__gpt-5.1-codex-mini_openai",
+   "goose__claude-sonnet-4-5_anthropic",
+   0.0,
+   7.946131226344169,
+   true
+  ],
+  [
+   "goose__claude-sonnet-4-5_anthropic",
+   "terminus-2__gpt-5-codex_openai",
+   0.1685149999999993,
+   7.659833303226615,
+   true
+  ],
+  [
+   "terminus-2__gpt-5-codex_openai",
+   "mini-swe-agent__claude-sonnet-4-5-20250929_anthropic",
+   2.5000000000829914e-05,
+   7.941711466704098,
+   true
+  ],
+  [
+   "mini-swe-agent__claude-sonnet-4-5-20250929_anthropic",
+   "mini-swe-agent__gpt-5-codex_openai",
+   0.2808999999999955,
+   7.891079762843715,
+   true
+  ],
+  [
+   "mini-swe-agent__gpt-5-codex_openai",
+   "terminus-2__claude-sonnet-4-5-20250929_anthropic",
+   0.2809000000000026,
+   7.852281406427993,
+   true
+  ],
+  [
+   "terminus-2__claude-sonnet-4-5-20250929_anthropic",
+   "terminus-2__minimax-m2.5_Minimax",
+   0.1685200000000009,
+   7.624796679327306,
+   true
+  ],
+  [
+   "terminus-2__minimax-m2.5_Minimax",
+   "claude-code__claude-sonnet-4-5-20250929_anthropic",
+   2.0786549999999977,
+   7.74548351793671,
+   true
+  ],
+  [
+   "claude-code__claude-sonnet-4-5-20250929_anthropic",
+   "terminus-2__deepseek-v3.2_deepseek",
+   0.6179650000000052,
+   7.923797647147912,
+   true
+  ],
+  [
+   "terminus-2__deepseek-v3.2_deepseek",
+   "terminus-2__claude-opus-4-1-20250805_anthropic",
+   1.0674349999999961,
+   7.576097572445299,
+   true
+  ],
+  [
+   "terminus-2__claude-opus-4-1-20250805_anthropic",
+   "terminus-2__gpt-5.1-codex_openai",
+   1.6291650000000004,
+   8.28682700368658,
+   true
+  ],
+  [
+   "terminus-2__gpt-5.1-codex_openai",
+   "openhands__claude-opus-4-1-20250805_anthropic",
+   1.9999999999242846e-05,
+   8.390159434560218,
+   true
+  ],
+  [
+   "openhands__claude-opus-4-1-20250805_anthropic",
+   "claude-code__minimax-m2.1_minimax",
+   0.22472000000000492,
+   7.942056199385457,
+   true
+  ],
+  [
+   "claude-code__minimax-m2.1_minimax",
+   "terminus-2__gpt-5_openai",
+   0.6741449999999958,
+   8.466854559989821,
+   true
+  ],
+  [
+   "terminus-2__gpt-5_openai",
+   "terminus-2__moonshotai_Kimi-K2-Thinking_together_ai",
+   0.22470500000000015,
+   8.335435163021057,
+   true
+  ],
+  [
+   "terminus-2__moonshotai_Kimi-K2-Thinking_together_ai",
+   "claude-code__claude-opus-4-1-20250805_anthropic",
+   0.05619500000000244,
+   8.007199854565272,
+   true
+  ],
+  [
+   "claude-code__claude-opus-4-1-20250805_anthropic",
+   "mini-swe-agent__claude-opus-4-1-20250805_anthropic",
+   0.0,
+   7.574423694706388,
+   true
+  ],
+  [
+   "mini-swe-agent__claude-opus-4-1-20250805_anthropic",
+   "goose__claude-haiku-4-5_anthropic",
+   0.16853499999999855,
+   7.6864833132730475,
+   true
+  ],
+  [
+   "goose__claude-haiku-4-5_anthropic",
+   "spoox-m__gpt-5-mini_openai",
+   0.6741600000000005,
+   7.953323865185029,
+   true
+  ],
+  [
+   "spoox-m__gpt-5-mini_openai",
+   "mini-swe-agent__gpt-5_openai",
+   0.8988599999999991,
+   7.976136356448268,
+   true
+  ],
+  [
+   "mini-swe-agent__gpt-5_openai",
+   "claude-code__GLM-4.7_z-ai",
+   0.6741600000000005,
+   7.615562405475969,
+   true
+  ],
+  [
+   "claude-code__GLM-4.7_z-ai",
+   "codex__gpt-5-mini_openai",
+   1.2359599999999986,
+   7.617368002764367,
+   true
+  ],
+  [
+   "codex__gpt-5-mini_openai",
+   "terminus-2__gemini-2.5-pro_gemini",
+   2.5000000000829914e-05,
+   8.390831116794555,
+   true
+  ],
+  [
+   "terminus-2__gemini-2.5-pro_gemini",
+   "terminus-2__accounts_fireworks_models_minimax-m2_fireworks_ai",
+   1.9100949999999983,
+   8.192623108355086,
+   true
+  ],
+  [
+   "terminus-2__accounts_fireworks_models_minimax-m2_fireworks_ai",
+   "mini-swe-agent__claude-haiku-4-5-20251001_anthropic",
+   0.33708000000000027,
+   7.4736861882957575,
+   true
+  ],
+  [
+   "mini-swe-agent__claude-haiku-4-5-20251001_anthropic",
+   "openhands__gpt-5-mini_openai",
+   0.5618000000000016,
+   7.366852112340411,
+   true
+  ],
+  [
+   "openhands__gpt-5-mini_openai",
+   "claude-code__claude-haiku-4-5-20251001_anthropic",
+   0.28089999999999904,
+   7.674874460525449,
+   true
+  ],
+  [
+   "claude-code__claude-haiku-4-5-20251001_anthropic",
+   "terminus-2__moonshotai_Kimi-K2-Instruct-0905_together_ai",
+   0.9675444444444459,
+   7.504136723921705,
+   true
+  ],
+  [
+   "terminus-2__moonshotai_Kimi-K2-Instruct-0905_together_ai",
+   "openhands__moonshotai_Kimi-K2-Instruct-0905_together_ai",
+   0.015605555555556094,
+   7.42188851701078,
+   true
+  ],
+  [
+   "openhands__moonshotai_Kimi-K2-Instruct-0905_together_ai",
+   "openhands__grok-4-0709_xai",
+   0.14044999999999774,
+   8.079072613497452,
+   true
+  ],
+  [
+   "openhands__grok-4-0709_xai",
+   "terminus-2__claude-haiku-4-5-20251001_anthropic",
+   0.2809000000000026,
+   8.314725234363161,
+   true
+  ],
+  [
+   "terminus-2__claude-haiku-4-5-20251001_anthropic",
+   "mini-swe-agent__gemini-2.5-pro_gemini",
+   1.6853999999999978,
+   7.671009992943803,
+   true
+  ],
+  [
+   "mini-swe-agent__gemini-2.5-pro_gemini",
+   "mini-swe-agent__grok-code-fast-1_xai",
+   0.0,
+   7.328163961520873,
+   true
+  ],
+  [
+   "mini-swe-agent__grok-code-fast-1_xai",
+   "mini-swe-agent__grok-4-0709_xai",
+   0.4494399999999992,
+   7.839049028461675,
+   true
+  ],
+  [
+   "mini-swe-agent__grok-4-0709_xai",
+   "terminus-2__gpt-5-mini_openai",
+   0.11236000000000246,
+   7.755982706346247,
+   true
+  ],
+  [
+   "terminus-2__gpt-5-mini_openai",
+   "openhands__Qwen_Qwen3-Coder-480B-A35B-Instruct-FP8_together_ai",
+   0.18726666666666603,
+   7.238259841885404,
+   true
+  ],
+  [
+   "openhands__Qwen_Qwen3-Coder-480B-A35B-Instruct-FP8_together_ai",
+   "terminus-2__accounts_fireworks_models_glm-4p6_fireworks_ai",
+   0.2340833333333343,
+   7.13363237433354,
+   true
+  ],
+  [
+   "terminus-2__accounts_fireworks_models_glm-4p6_fireworks_ai",
+   "terminus-2__Qwen_Qwen3-Coder-480B-A35B-Instruct-FP8_together_ai",
+   0.7646722222222202,
+   7.560141707734829,
+   true
+  ],
+  [
+   "terminus-2__Qwen_Qwen3-Coder-480B-A35B-Instruct-FP8_together_ai",
+   "mini-swe-agent__gpt-5-mini_openai",
+   1.8476977777777783,
+   7.764817991935247,
+   true
+  ],
+  [
+   "mini-swe-agent__gpt-5-mini_openai",
+   "terminus-2__grok-4-0709_xai",
+   0.33708000000000027,
+   7.834266394509901,
+   true
+  ],
+  [
+   "terminus-2__grok-4-0709_xai",
+   "gemini-cli__gemini-2.5-pro_gemini",
+   1.4044999999999987,
+   8.147050673969458,
+   true
+  ],
+  [
+   "gemini-cli__gemini-2.5-pro_gemini",
+   "terminus-2__openai_gpt-oss-120b_together_ai",
+   1.4044875000000019,
+   7.884521411599631,
+   true
+  ],
+  [
+   "terminus-2__openai_gpt-oss-120b_together_ai",
+   "mini-swe-agent__gemini-2.5-flash_gemini",
+   2.0224924999999985,
+   7.383855728681155,
+   true
+  ],
+  [
+   "mini-swe-agent__gemini-2.5-flash_gemini",
+   "openhands__gemini-2.5-pro_gemini",
+   0.6741400000000013,
+   7.433955478857106,
+   true
+  ],
+  [
+   "openhands__gemini-2.5-pro_gemini",
+   "openhands__gemini-2.5-flash_gemini",
+   1.9999999999242846e-05,
+   7.305503851270504,
+   true
+  ],
+  [
+   "openhands__gemini-2.5-flash_gemini",
+   "gemini-cli__gemini-2.5-flash_gemini",
+   1.5168099999999995,
+   6.605058600759886,
+   true
+  ],
+  [
+   "gemini-cli__gemini-2.5-flash_gemini",
+   "openhands__claude-haiku-4-5-20251001_anthropic",
+   0.5618250000000007,
+   7.111708143671101,
+   true
+  ],
+  [
+   "openhands__claude-haiku-4-5-20251001_anthropic",
+   "mini-swe-agent__openai_gpt-oss-120b_together_ai",
+   0.09362500000000118,
+   7.096787151327165,
+   true
+  ],
+  [
+   "mini-swe-agent__openai_gpt-oss-120b_together_ai",
+   "terminus-2__grok-code-fast-1_xai",
+   0.07491999999999877,
+   6.801406972326265,
+   true
+  ],
+  [
+   "terminus-2__grok-code-fast-1_xai",
+   "codex__gpt-5-nano_openai",
+   2.9213050000000003,
+   6.804543077865095,
+   true
+  ],
+  [
+   "codex__gpt-5-nano_openai",
+   "openhands__gpt-5-nano_openai",
+   1.6853750000000005,
+   6.199521335337757,
+   true
+  ],
+  [
+   "openhands__gpt-5-nano_openai",
+   "terminus-2__gpt-5-nano_openai",
+   1.6853999999999996,
+   5.6517453013026815,
+   true
+  ],
+  [
+   "terminus-2__gpt-5-nano_openai",
+   "mini-swe-agent__gpt-5-nano_openai",
+   0.8988799999999992,
+   5.362729506582667,
+   true
+  ],
+  [
+   "mini-swe-agent__gpt-5-nano_openai",
+   "mini-swe-agent__openai_gpt-oss-20b_together_ai",
+   3.720364444444445,
+   4.687735463536181,
+   true
+  ],
+  [
+   "mini-swe-agent__openai_gpt-oss-20b_together_ai",
+   "terminus-2__openai_gpt-oss-20b_together_ai",
+   0.32459555555555575,
+   4.096133589229596,
+   true
+  ]
+ ]
+}

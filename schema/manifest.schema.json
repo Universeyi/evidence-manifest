@@ -1,0 +1,249 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/evidence-manifest/0.1/manifest.schema.json",
+  "title": "evidence-manifest run record",
+  "type": "object",
+  "required": [
+    "serving",
+    "env",
+    "run",
+    "steps",
+    "verdict",
+    "outcome",
+    "artefacts",
+    "task_id"
+  ],
+  "properties": {
+    "serving": {
+      "type": "object",
+      "required": [
+        "provider",
+        "observed_provider",
+        "observed_provider_source"
+      ],
+      "properties": {
+        "provider": {
+          "type": "string",
+          "description": "Provider the request was pinned to."
+        },
+        "observed_provider": {
+          "type": "string",
+          "description": "Provider reported on the response. Read back, never copied from the request."
+        },
+        "quantization": {
+          "type": "string"
+        },
+        "observed_provider_source": {
+          "type": "string",
+          "enum": [
+            "response",
+            "log",
+            "unrecorded"
+          ],
+          "description": "Where observed_provider was read from. 'response' = a field on the API response; 'log' = a harness log line written at call time; 'unrecorded' = not read back, in which case observed_provider must be the literal string 'unrecorded'."
+        }
+      }
+    },
+    "env": {
+      "type": "object",
+      "required": [
+        "image_digest",
+        "taskset_commit"
+      ],
+      "properties": {
+        "image_digest": {
+          "type": "string",
+          "pattern": "^(sha256:[0-9a-f]{64}|not_containerized|unrecorded)$",
+          "description": "Digest of the environment image; the literal 'not_containerized' for a benchmark whose environment is not an image; the literal 'unrecorded' when the run was containerized but the released record carries no digest. Never a tag."
+        },
+        "taskset_commit": {
+          "type": "string",
+          "pattern": "^([0-9a-f]{7,40}|unrecorded)$",
+          "description": "Commit of the task set and verifiers that scored the run, or the literal 'unrecorded' when the released record does not carry it."
+        }
+      }
+    },
+    "run": {
+      "type": "object",
+      "required": [
+        "repetition_index",
+        "total_repetitions"
+      ],
+      "properties": {
+        "repetition_index": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "total_repetitions": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "started_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "ended_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "sampling": {
+      "type": "object",
+      "properties": {
+        "temperature": {
+          "type": "number"
+        },
+        "seed": {
+          "type": "integer"
+        }
+      }
+    },
+    "steps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "completion_tokens"
+        ],
+        "properties": {
+          "completion_tokens": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "prompt_tokens": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "latency_ms": {
+            "type": "number",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "verdict": {
+      "type": "object",
+      "required": [
+        "criteria_version"
+      ],
+      "properties": {
+        "criteria_version": {
+          "type": "string"
+        },
+        "score": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "basis": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Optional. What kind of check decided the verdict (e.g. 'DB', 'DB+NL_ASSERTION:nl', 'exact_match', 'llm_judge'). Free text, but stable within a benchmark, so a consumer can compare instability across verifier kinds."
+        }
+      }
+    },
+    "outcome": {
+      "type": "object",
+      "required": [
+        "reason"
+      ],
+      "properties": {
+        "reason": {
+          "type": "string",
+          "enum": [
+            "completed",
+            "budget_exhausted",
+            "error",
+            "unknown"
+          ]
+        }
+      }
+    },
+    "harness": {
+      "type": "object",
+      "properties": {
+        "silent_retries": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "usage": {
+      "type": "object",
+      "description": "Run-level totals. Used only when the source harness does not record per-step usage; steps[] may then be empty and this field is required instead. completion_tokens may be null when the harness recorded no usage at all for this run -- a null with a reason, never an invented zero.",
+      "properties": {
+        "completion_tokens": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "prompt_tokens": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "per_step_unavailable_reason": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "completion_tokens",
+        "per_step_unavailable_reason"
+      ]
+    },
+    "artefacts": {
+      "type": "object",
+      "required": [
+        "observations"
+      ],
+      "properties": {
+        "observations": {
+          "type": "string",
+          "enum": [
+            "per_step",
+            "final_only",
+            "none"
+          ],
+          "description": "What observation record is retained with the released run: one per step (screenshots / a11y trees), the final state only, or nothing. Describes what is kept, not what the harness captured at run time."
+        },
+        "location": {
+          "type": "string",
+          "description": "Path or URL of the retained observations."
+        }
+      }
+    },
+    "task_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The task this run attempted, as the benchmark names it. Repetitions of one task share it; nothing per task can be computed without it."
+    }
+  },
+  "anyOf": [
+    {
+      "properties": {
+        "steps": {
+          "minItems": 1
+        }
+      }
+    },
+    {
+      "required": [
+        "usage"
+      ]
+    }
+  ]
+}

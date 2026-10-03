@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this format or these results, please cite it as below."
+title: "evidence-manifest: a record of what produced an agent-benchmark number"
+version: 0.1.0
+date-released: 2026-10-03
+authors:
+  - family-names: Yi
+    given-names: Jingyuan
+    email: jingyuay@alumni.cmu.edu
+    affiliation: Independent Researcher
+repository-code: "https://github.com/Universeyi/evidence-manifest"
+license: MIT
+type: software
