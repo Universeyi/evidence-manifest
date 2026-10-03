@@ -35,8 +35,10 @@ are in `summary.json`.
   for one configuration on the filesystem service. This is the 1/sqrt(n) term at n = 25.
 - **This is an indication of scale, not a re-scoring.** Four trials per configuration; a gap below the MDD
   warrants more runs before citation, not a claim that two systems are equal.
-- **The leaderboard reports pass@1 averaged over the four runs and pass^4**, i.e. it already runs repeats;
-  what it does not report is an interval per entry.
+- **The leaderboard reports pass@1 averaged over the four runs and pass^4**, i.e. it already runs repeats,
+  and the repository's announcements give pass@1 with a ± (for example 50.6% ± 2.3%). For two such
+  four-run averages the comparable threshold is the MDD divided by sqrt(4): a median of about 5.7 points
+  per service, about 7.5 on Postgres.
 - **Budget and errors.** 409 of 11314 runs ended at a context-length or turn limit
   (`budget_exhausted`, scored 0); 559 ended in a harness or API error and carry no verdict, so they
   are outside the denominators here while MCPMark's own pass@1 counts them as failures. The difference

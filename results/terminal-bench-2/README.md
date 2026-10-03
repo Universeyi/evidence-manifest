@@ -21,13 +21,17 @@ are in `summary.json`.
 | observed range over 5 rounds, pp | 1.1 | | 6.7 | | 15.7 |
 | share of tasks that flipped | 0.09 | | 0.35 | | 0.52 |
 
-**Adjacent entries.** Ranking the 95 configurations by their five-round mean gives a board;
-**94 of 94 adjacent pairs** are closer than the noise of the two entries allows
-(gap below 1.96 × sqrt(sd_a² + sd_b²)). With 95 entries spread over about sixty points, adjacent gaps
-average well under a point, so this is what the median MDD of 7.6 implies rather than a surprise; the
-informative number is the MDD, and the reading it supports is that the board orders tiers, not
-neighbours. The published board reports a mean and an interval from the same five trials; what it does
-not say is which neighbours it can and cannot separate.
+**Adjacent entries.** The board ranks configurations by their five-round mean, so two neighbours are
+separable when their gap exceeds the noise of those means, 1.96 × sqrt(sd_a²/5 + sd_b²/5). Ranking the
+95 configurations by mean, **93 of 94 adjacent pairs** are closer than that: the median adjacent gap is
+0.6 points against a median threshold of 3.5. With 95 entries spread over about sixty points this is
+expected; the reading it supports is that the board orders tiers, not neighbours. The published board
+reports a mean and an interval from the same five trials; what it does not say is which neighbours it
+can and cannot separate.
+
+*Corrected 2026-10-03.* An earlier version of this note compared the five-round means against
+single-run noise, 1.96 × sqrt(sd_a² + sd_b²), and reported 94 of 94. Single-run noise is the right
+scale for comparing two single runs (the MDD above), not two means.
 
 ## How to read it
 

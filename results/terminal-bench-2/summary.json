@@ -25,8 +25,9 @@
    "max": 0.5168539325842697
   },
   "adjacent_pairs": 94,
-  "adjacent_within_noise": 94,
-  "note": "board = the 5-round mean of each reportable configuration; a pair is within noise when its gap is below 1.96*sqrt(sd_a^2+sd_b^2)"
+  "adjacent_within_noise": 93,
+  "note": "board = the 5-round mean of each reportable configuration; a pair is within noise when its gap is below 1.96*sqrt(sd_a^2+sd_b^2)",
+  "adjacent_rule": "gap < 1.96*sqrt(sd_a^2/n_a + sd_b^2/n_b), noise of the per-configuration means (corrected 2026-10-03; earlier versions used single-run noise)"
  },
  "configs": [
   {
@@ -3027,658 +3028,658 @@
    "forge__gemini-3.1-pro-preview_Google",
    "Factory_Droid__gpt-5.3-codex_openai",
    1.1236000000000104,
-   5.666253726802068,
+   2.5341,
    true
   ],
   [
    "Factory_Droid__gpt-5.3-codex_openai",
    "terminus-3-3__gemini-3.1-pro-preview_Google",
    2.471919999999983,
-   6.726603799055415,
+   3.0083,
    true
   ],
   [
    "terminus-3-3__gemini-3.1-pro-preview_Google",
    "simple_codex__gpt-5.3-codex_openai",
    0.39326000000001216,
-   7.023154066820997,
+   3.3183,
    true
   ],
   [
    "simple_codex__gpt-5.3-codex_openai",
    "judy__claude-opus-4.6_anthropic",
    2.528099999999995,
-   7.171737918283066,
+   3.3813,
    true
   ],
   [
    "judy__claude-opus-4.6_anthropic",
    "ruley__gpt-5.3-codex_OpenAI",
    1.573040000000006,
-   7.410955151061652,
+   3.3143,
    true
   ],
   [
    "ruley__gpt-5.3-codex_OpenAI",
    "Factory_Droid__claude-opus-4-6_anthropic",
    0.4494399999999956,
-   7.088721655337281,
+   3.1702,
    true
   ],
   [
    "Factory_Droid__claude-opus-4-6_anthropic",
    "mux__gpt-5.3-codex_openai",
    1.348320000000001,
-   6.858443639058259,
+   3.0672,
    true
   ],
   [
    "mux__gpt-5.3-codex_openai",
    "mux__claude-opus-4-6_anthropic",
    2.0224800000000016,
-   6.994923471446361,
+   3.1283,
    true
   ],
   [
    "mux__claude-opus-4-6_anthropic",
    "ante__gemini-3-pro-preview_Google",
    0.22466999999998905,
-   7.378120498452736,
+   3.5104,
    true
   ],
   [
    "ante__gemini-3-pro-preview_Google",
    "Factory_Droid__gpt-5.2_openai",
    0.8427500000000094,
-   7.754595721470875,
+   3.8774,
    true
   ],
   [
    "Factory_Droid__gpt-5.2_openai",
    "sage__gemini-3-pro-preview_Google",
    0.2809000000000026,
-   6.954204207162716,
+   3.3532,
    true
   ],
   [
    "sage__gemini-3-pro-preview_Google",
    "terminus-2__gpt-5.3-codex_openai",
    0.4494199999999893,
-   6.831718685606204,
+   3.0553,
    true
   ],
   [
    "terminus-2__gpt-5.3-codex_openai",
    "Junie__gemini-3-flash-preview_gemini",
    0.4494399999999956,
-   7.81649023927359,
+   3.4957,
    true
   ],
   [
    "Junie__gemini-3-flash-preview_gemini",
    "Factory_Droid__claude-opus-4-5-20251101_anthropic",
    1.1236000000000033,
-   7.764168290321549,
+   3.4723,
    true
   ],
   [
    "Factory_Droid__claude-opus-4-5-20251101_anthropic",
    "codex__gpt-5.2_openai",
    0.22467999999999932,
-   8.069278717109572,
+   3.6088,
    true
   ],
   [
    "codex__gpt-5.2_openai",
    "terminus-2__claude-opus-4-6_anthropic",
    2.0000000006348273e-05,
-   8.047760748955572,
+   3.5991,
    true
   ],
   [
    "terminus-2__claude-opus-4-6_anthropic",
    "ruley__gemini-3-pro-preview_Google",
    0.6741600000000005,
-   7.480703244162082,
+   3.3455,
    true
   ],
   [
    "ruley__gemini-3-pro-preview_Google",
    "ii-agent-simple__gemini-3-pro-preview_gemini",
    0.4494199999999964,
-   7.6928261837457255,
+   3.4404,
    true
   ],
   [
    "ii-agent-simple__gemini-3-pro-preview_gemini",
    "Factory_Droid__gemini-3-pro-preview_google",
    0.6741600000000076,
-   7.917322091658243,
+   3.5408,
    true
   ],
   [
    "Factory_Droid__gemini-3-pro-preview_google",
    "codex__gpt-5.1-codex-max_openai",
    0.6741599999999934,
-   7.66060827013177,
+   3.426,
    true
   ],
   [
    "codex__gpt-5.1-codex-max_openai",
    "letta-code__claude-opus-4-5_anthropic",
    1.3482799999999955,
-   7.151003740343932,
+   3.1981,
    true
   ],
   [
    "letta-code__claude-opus-4-5_anthropic",
    "claude-code__claude-opus-4-6_anthropic",
    1.1236000000000033,
-   7.550388837924558,
+   3.3767,
    true
   ],
   [
    "claude-code__claude-opus-4-6_anthropic",
    "codex__gpt-5.1-codex_openai",
    0.2247199999999978,
-   8.270073504592355,
+   3.6986,
    true
   ],
   [
    "codex__gpt-5.1-codex_openai",
    "terminus-2__claude-opus-4-5-20251101_anthropic",
    2.0000000006348273e-05,
-   7.775123018729221,
+   3.4772,
    true
   ],
   [
    "terminus-2__claude-opus-4-5-20251101_anthropic",
    "terminus-2__gemini-3-pro-preview_gemini",
    0.898859999999992,
-   7.065205240620576,
+   3.1597,
    true
   ],
   [
    "terminus-2__gemini-3-pro-preview_gemini",
    "letta-code__gemini-3-pro-preview_google",
    0.8988800000000126,
-   7.686327076694469,
+   3.4375,
    true
   ],
   [
    "letta-code__gemini-3-pro-preview_google",
    "goose__claude-opus-4-5_anthropic",
    2.303379999999997,
-   7.919196432226969,
+   3.7329,
    true
   ],
   [
    "goose__claude-opus-4-5_anthropic",
    "terminus-2__gpt-5.2_openai",
    0.0,
-   7.7944267372785925,
+   3.8973,
    true
   ],
   [
    "terminus-2__gpt-5.2_openai",
    "letta-code__gpt-5.1-codex_openai",
    0.16854000000000013,
-   8.045202579326043,
+   3.82,
    true
   ],
   [
    "letta-code__gpt-5.1-codex_openai",
    "claude-code__claude-opus-4-5-20251101_anthropic",
    1.348320000000001,
-   7.554864953624968,
+   3.3787,
    true
   ],
   [
    "claude-code__claude-opus-4-5-20251101_anthropic",
    "openhands__claude-opus-4-5-20251101_anthropic",
    0.22472000000000492,
-   7.693501355819601,
+   3.4407,
    true
   ],
   [
    "openhands__claude-opus-4-5-20251101_anthropic",
    "terminus-2__gemini-3-flash-preview_gemini",
    0.2247199999999907,
-   8.565616725852317,
+   3.8307,
    true
   ],
   [
    "terminus-2__gemini-3-flash-preview_gemini",
    "gemini-cli__gemini-3-flash-preview_Google",
    0.6741600000000005,
-   8.673516571359011,
+   3.879,
    true
   ],
   [
    "gemini-cli__gemini-3-flash-preview_Google",
    "codex__gpt-5_openai",
    1.5730399999999989,
-   8.220292595158613,
+   3.8866,
    true
   ],
   [
    "codex__gpt-5_openai",
    "terminus-2__gpt-5.1_openai",
    1.6854000000000013,
-   7.958155495466465,
+   3.9792,
    true
   ],
   [
    "terminus-2__gpt-5.1_openai",
    "TerminalBenchAgent__claude-sonnet-4-5_anthropic",
    1.2359599999999986,
-   7.343066341220623,
+   3.5158,
    true
   ],
   [
    "TerminalBenchAgent__claude-sonnet-4-5_anthropic",
    "codex__gpt-5-codex_openai",
    1.8539400000000015,
-   7.080443010602869,
+   3.3785,
    true
   ],
   [
    "codex__gpt-5-codex_openai",
    "openhands__gpt-5_openai",
    0.8426800000000014,
-   7.957664625047471,
+   3.7487,
    true
   ],
   [
    "openhands__gpt-5_openai",
    "openhands__claude-sonnet-4-5-20250929_anthropic",
    0.5618199999999973,
-   8.096406932471126,
+   3.8222,
    true
   ],
   [
    "openhands__claude-sonnet-4-5-20250929_anthropic",
    "codex__gpt-5.1-codex-mini_openai",
    0.11236000000000246,
-   8.138229609713,
+   3.8399,
    true
   ],
   [
    "codex__gpt-5.1-codex-mini_openai",
    "goose__claude-sonnet-4-5_anthropic",
    0.0,
-   7.946131226344169,
+   3.5537,
    true
   ],
   [
    "goose__claude-sonnet-4-5_anthropic",
    "terminus-2__gpt-5-codex_openai",
    0.1685149999999993,
-   7.659833303226615,
+   3.6503,
    true
   ],
   [
    "terminus-2__gpt-5-codex_openai",
    "mini-swe-agent__claude-sonnet-4-5-20250929_anthropic",
    2.5000000000829914e-05,
-   7.941711466704098,
+   3.9709,
    true
   ],
   [
    "mini-swe-agent__claude-sonnet-4-5-20250929_anthropic",
    "mini-swe-agent__gpt-5-codex_openai",
    0.2808999999999955,
-   7.891079762843715,
+   3.9456,
    true
   ],
   [
    "mini-swe-agent__gpt-5-codex_openai",
    "terminus-2__claude-sonnet-4-5-20250929_anthropic",
    0.2809000000000026,
-   7.852281406427993,
+   3.9262,
    true
   ],
   [
    "terminus-2__claude-sonnet-4-5-20250929_anthropic",
    "terminus-2__minimax-m2.5_Minimax",
    0.1685200000000009,
-   7.624796679327306,
+   3.6278,
    true
   ],
   [
    "terminus-2__minimax-m2.5_Minimax",
    "claude-code__claude-sonnet-4-5-20250929_anthropic",
    2.0786549999999977,
-   7.74548351793671,
+   3.6912,
    true
   ],
   [
    "claude-code__claude-sonnet-4-5-20250929_anthropic",
    "terminus-2__deepseek-v3.2_deepseek",
    0.6179650000000052,
-   7.923797647147912,
+   3.7661,
    true
   ],
   [
    "terminus-2__deepseek-v3.2_deepseek",
    "terminus-2__claude-opus-4-1-20250805_anthropic",
    1.0674349999999961,
-   7.576097572445299,
+   3.5828,
    true
   ],
   [
    "terminus-2__claude-opus-4-1-20250805_anthropic",
    "terminus-2__gpt-5.1-codex_openai",
    1.6291650000000004,
-   8.28682700368658,
+   3.8848,
    true
   ],
   [
    "terminus-2__gpt-5.1-codex_openai",
    "openhands__claude-opus-4-1-20250805_anthropic",
    1.9999999999242846e-05,
-   8.390159434560218,
+   3.7523,
    true
   ],
   [
    "openhands__claude-opus-4-1-20250805_anthropic",
    "claude-code__minimax-m2.1_minimax",
    0.22472000000000492,
-   7.942056199385457,
+   3.5519,
    true
   ],
   [
    "claude-code__minimax-m2.1_minimax",
    "terminus-2__gpt-5_openai",
    0.6741449999999958,
-   8.466854559989821,
+   4.0263,
    true
   ],
   [
    "terminus-2__gpt-5_openai",
    "terminus-2__moonshotai_Kimi-K2-Thinking_together_ai",
    0.22470500000000015,
-   8.335435163021057,
+   3.5452,
    true
   ],
   [
    "terminus-2__moonshotai_Kimi-K2-Thinking_together_ai",
    "claude-code__claude-opus-4-1-20250805_anthropic",
    0.05619500000000244,
-   8.007199854565272,
+   3.3507,
    true
   ],
   [
    "claude-code__claude-opus-4-1-20250805_anthropic",
    "mini-swe-agent__claude-opus-4-1-20250805_anthropic",
    0.0,
-   7.574423694706388,
+   3.7873,
    true
   ],
   [
    "mini-swe-agent__claude-opus-4-1-20250805_anthropic",
    "goose__claude-haiku-4-5_anthropic",
    0.16853499999999855,
-   7.6864833132730475,
+   3.6167,
    true
   ],
   [
    "goose__claude-haiku-4-5_anthropic",
    "spoox-m__gpt-5-mini_openai",
    0.6741600000000005,
-   7.953323865185029,
+   3.5569,
    true
   ],
   [
    "spoox-m__gpt-5-mini_openai",
    "mini-swe-agent__gpt-5_openai",
    0.8988599999999991,
-   7.976136356448268,
+   3.5671,
    true
   ],
   [
    "mini-swe-agent__gpt-5_openai",
    "claude-code__GLM-4.7_z-ai",
    0.6741600000000005,
-   7.615562405475969,
+   3.4058,
    true
   ],
   [
    "claude-code__GLM-4.7_z-ai",
    "codex__gpt-5-mini_openai",
    1.2359599999999986,
-   7.617368002764367,
+   3.649,
    true
   ],
   [
    "codex__gpt-5-mini_openai",
    "terminus-2__gemini-2.5-pro_gemini",
    2.5000000000829914e-05,
-   8.390831116794555,
+   4.1955,
    true
   ],
   [
    "terminus-2__gemini-2.5-pro_gemini",
    "terminus-2__accounts_fireworks_models_minimax-m2_fireworks_ai",
    1.9100949999999983,
-   8.192623108355086,
+   3.4847,
    true
   ],
   [
    "terminus-2__accounts_fireworks_models_minimax-m2_fireworks_ai",
    "mini-swe-agent__claude-haiku-4-5-20251001_anthropic",
    0.33708000000000027,
-   7.4736861882957575,
+   3.054,
    true
   ],
   [
    "mini-swe-agent__claude-haiku-4-5-20251001_anthropic",
    "openhands__gpt-5-mini_openai",
    0.5618000000000016,
-   7.366852112340411,
+   3.4787,
    true
   ],
   [
    "openhands__gpt-5-mini_openai",
    "claude-code__claude-haiku-4-5-20251001_anthropic",
    0.28089999999999904,
-   7.674874460525449,
+   3.6414,
    true
   ],
   [
    "claude-code__claude-haiku-4-5-20251001_anthropic",
    "terminus-2__moonshotai_Kimi-K2-Instruct-0905_together_ai",
    0.9675444444444459,
-   7.504136723921705,
+   3.2194,
    true
   ],
   [
    "terminus-2__moonshotai_Kimi-K2-Instruct-0905_together_ai",
    "openhands__moonshotai_Kimi-K2-Instruct-0905_together_ai",
    0.015605555555556094,
-   7.42188851701078,
+   2.5523,
    true
   ],
   [
    "openhands__moonshotai_Kimi-K2-Instruct-0905_together_ai",
    "openhands__grok-4-0709_xai",
    0.14044999999999774,
-   8.079072613497452,
+   3.5742,
    true
   ],
   [
    "openhands__grok-4-0709_xai",
    "terminus-2__claude-haiku-4-5-20251001_anthropic",
    0.2809000000000026,
-   8.314725234363161,
+   4.1574,
    true
   ],
   [
    "terminus-2__claude-haiku-4-5-20251001_anthropic",
    "mini-swe-agent__gemini-2.5-pro_gemini",
    1.6853999999999978,
-   7.671009992943803,
+   3.8356,
    true
   ],
   [
    "mini-swe-agent__gemini-2.5-pro_gemini",
    "mini-swe-agent__grok-code-fast-1_xai",
    0.0,
-   7.328163961520873,
+   3.4746,
    true
   ],
   [
    "mini-swe-agent__grok-code-fast-1_xai",
    "mini-swe-agent__grok-4-0709_xai",
    0.4494399999999992,
-   7.839049028461675,
+   3.5058,
    true
   ],
   [
    "mini-swe-agent__grok-4-0709_xai",
    "terminus-2__gpt-5-mini_openai",
    0.11236000000000246,
-   7.755982706346247,
+   3.6497,
    true
   ],
   [
    "terminus-2__gpt-5-mini_openai",
    "openhands__Qwen_Qwen3-Coder-480B-A35B-Instruct-FP8_together_ai",
    0.18726666666666603,
-   7.238259841885404,
+   3.2985,
    true
   ],
   [
    "openhands__Qwen_Qwen3-Coder-480B-A35B-Instruct-FP8_together_ai",
    "terminus-2__accounts_fireworks_models_glm-4p6_fireworks_ai",
    0.2340833333333343,
-   7.13363237433354,
+   2.7332,
    true
   ],
   [
    "terminus-2__accounts_fireworks_models_glm-4p6_fireworks_ai",
    "terminus-2__Qwen_Qwen3-Coder-480B-A35B-Instruct-FP8_together_ai",
    0.7646722222222202,
-   7.560141707734829,
+   2.5861,
    true
   ],
   [
    "terminus-2__Qwen_Qwen3-Coder-480B-A35B-Instruct-FP8_together_ai",
    "mini-swe-agent__gpt-5-mini_openai",
    1.8476977777777783,
-   7.764817991935247,
+   3.0225,
    true
   ],
   [
    "mini-swe-agent__gpt-5-mini_openai",
    "terminus-2__grok-4-0709_xai",
    0.33708000000000027,
-   7.834266394509901,
+   3.7382,
    true
   ],
   [
    "terminus-2__grok-4-0709_xai",
    "gemini-cli__gemini-2.5-pro_gemini",
    1.4044999999999987,
-   8.147050673969458,
+   4.0736,
    true
   ],
   [
    "gemini-cli__gemini-2.5-pro_gemini",
    "terminus-2__openai_gpt-oss-120b_together_ai",
    1.4044875000000019,
-   7.884521411599631,
+   3.4382,
    true
   ],
   [
    "terminus-2__openai_gpt-oss-120b_together_ai",
    "mini-swe-agent__gemini-2.5-flash_gemini",
    2.0224924999999985,
-   7.383855728681155,
+   2.9449,
    true
   ],
   [
    "mini-swe-agent__gemini-2.5-flash_gemini",
    "openhands__gemini-2.5-pro_gemini",
    0.6741400000000013,
-   7.433955478857106,
+   3.3246,
    true
   ],
   [
    "openhands__gemini-2.5-pro_gemini",
    "openhands__gemini-2.5-flash_gemini",
    1.9999999999242846e-05,
-   7.305503851270504,
+   3.2672,
    true
   ],
   [
    "openhands__gemini-2.5-flash_gemini",
    "gemini-cli__gemini-2.5-flash_gemini",
    1.5168099999999995,
-   6.605058600759886,
+   3.1247,
    true
   ],
   [
    "gemini-cli__gemini-2.5-flash_gemini",
    "openhands__claude-haiku-4-5-20251001_anthropic",
    0.5618250000000007,
-   7.111708143671101,
+   3.5559,
    true
   ],
   [
    "openhands__claude-haiku-4-5-20251001_anthropic",
    "mini-swe-agent__openai_gpt-oss-120b_together_ai",
    0.09362500000000118,
-   7.096787151327165,
+   3.1205,
    true
   ],
   [
    "mini-swe-agent__openai_gpt-oss-120b_together_ai",
    "terminus-2__grok-code-fast-1_xai",
    0.07491999999999877,
-   6.801406972326265,
+   2.725,
    true
   ],
   [
    "terminus-2__grok-code-fast-1_xai",
    "codex__gpt-5-nano_openai",
    2.9213050000000003,
-   6.804543077865095,
+   3.2079,
    true
   ],
   [
    "codex__gpt-5-nano_openai",
    "openhands__gpt-5-nano_openai",
    1.6853750000000005,
-   6.199521335337757,
+   3.0998,
    true
   ],
   [
    "openhands__gpt-5-nano_openai",
    "terminus-2__gpt-5-nano_openai",
    1.6853999999999996,
-   5.6517453013026815,
+   2.8259,
    true
   ],
   [
    "terminus-2__gpt-5-nano_openai",
    "mini-swe-agent__gpt-5-nano_openai",
    0.8988799999999992,
-   5.362729506582667,
+   2.5411,
    true
   ],
   [
    "mini-swe-agent__gpt-5-nano_openai",
    "mini-swe-agent__openai_gpt-oss-20b_together_ai",
    3.720364444444445,
-   4.687735463536181,
-   true
+   1.9351,
+   false
   ],
   [
    "mini-swe-agent__openai_gpt-oss-20b_together_ai",
    "terminus-2__openai_gpt-oss-20b_together_ai",
    0.32459555555555575,
-   4.096133589229596,
+   1.3263,
    true
   ]
  ]
